@@ -1,0 +1,26 @@
+<!-- navbar -->
+<header class="navbar animate animate--fade-in-down animate--delay-short" id="js-navbar">
+	<a href="/">
+		<span include="../assets/img/logo-tk305.svg" class="opacity-hover"></span>
+	</a>
+	<ul class="navbar__list">
+		{{#each app.navbar}}
+			<li class="navbar__list-item navbar__list-item--{{item}} js-nav js-nav--{{item}} opacity-hover">
+				{{item}}
+			</li>
+		{{/each}}
+	</ul>
+</header>
+
+<div class="lines">
+	<div class="lines__line js-line"><span></span></div>
+	<div class="lines__line js-line"><span></span></div>
+	<div class="lines__line js-line"><span></span></div>
+	<div class="lines__line js-line"><span></span></div>
+	<div class="lines__line js-line"><span></span></div>
+</div>
+
+<!-- pages -->
+{{#each app.pages}}
+	<div id="{{page}}" class="js-page js-page--{{page}}"></div>
+{{/each}}

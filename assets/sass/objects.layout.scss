@@ -1,0 +1,56 @@
+/*-------------------
+      Containers
+--------------------*/
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.full-size-bg {
+	@extend %fixed-full-bg;
+	z-index: 99999;
+	background-color: #666;
+}
+
+
+
+
+/*-------------------
+	    Images
+--------------------*/
+
+.img-container {
+	padding: 0 $double-space;
+	line-height: 0;
+}
+
+// Responsive images (ensure images don't scale beyond their parents)
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+// Perfect circle
+.img-circle {
+  border-radius: 50%;
+}
+
+
+
+
+/*-------------------
+	   Spacers
+--------------------*/
+
+@for $i from 1 through 16 {
+	// margin
+	.spacer-margin-#{$i} {
+		@include spacer($i, false);
+	}
+	
+	//padding
+	.spacer-padding-#{$i} {
+		@include spacer($i, true);
+	}
+}

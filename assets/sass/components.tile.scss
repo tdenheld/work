@@ -1,0 +1,167 @@
+/*-------------------
+     	Tile
+--------------------*/
+
+.work {	
+	display: flex;
+	padding: $navbar-height $double-space 0;
+	@media (min-width: $md) and (min-height: 920px) {
+		height: 100vh;
+		padding: 0 $double-space;
+		align-items: center;		
+	}
+	
+	&__title {
+		visibility: hidden;
+		position: absolute;
+	}
+	
+	&__grid {
+		display: grid;
+		width: 100%;
+		padding: 0 0 $double-space;
+		grid-gap: $double-space;
+		
+		@media (min-width: $sm) {
+			margin: 0 auto;
+			grid-gap: 0;
+			grid-template-columns: 1fr 1fr;
+		}
+		
+		@media (min-width: $md) {
+			width: 1024px;
+		}
+	}
+}
+
+.tile {
+	//lay-out
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 210px;
+	padding: $space;
+	align-items: center;
+	text-align: center;
+	
+	// styling & animation
+	border: 1px solid $blue;
+	color: $blue;
+	cursor: pointer;
+	transition: $fade-all;
+	
+	@media (min-width: $sm) {
+		margin-bottom: -1px;
+	}
+	
+	&__title {
+		position: relative;
+		top: 10px;
+		width: 100%;
+		@include font-style($txt-l, 800, $line-height-heading);
+	}
+	
+	&__description {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		@include font-style($txt-xxs, 200, $line-height-heading);
+	}
+	
+	&__link {
+		@extend %full-over-img;
+		&:after {
+			display: block;
+			z-index: 2;
+			content: "";
+			background-color: $blue;
+			background-position: center center;
+			background-size: contain;
+			background-repeat: no-repeat;
+			position: absolute;	
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			transition: $fade-all;
+			box-shadow: 0 2px 40px rgba($blue, 0.3);
+		}
+		
+		&:hover {				
+			&:after {
+				opacity: 1;
+			}
+		}
+	}
+	
+	@for $i from 1 through 4 {
+		&:nth-child(#{$i}) {
+			animation-duration: 400ms + ($i * 100);
+			animation-delay: 100ms + ($i * 150);
+		}
+	}
+	
+	// modifiers
+	// --------------------------------------
+	
+	// the right tiles has to put -1px to align with left side
+	&--wn, &--cg {
+		@media (min-width: $sm) {
+			margin-left: -1px;
+		}
+	}
+	
+	&--ns {
+		.tile__link {
+			&:after {
+				background-image: url("../../media/thumbs/ns.svg");
+			}
+		}
+		
+		@media (min-width: $sm) {
+			height: 320px;
+		}
+	}
+	
+	&--wn {
+		.tile__link {
+			&:after {
+				background-image: url("../../media/thumbs/wn.svg");
+			}
+		}
+		
+		@media (min-width: $sm) {
+			height: 240px;
+			align-self: end;
+		}
+	}
+	
+	&--ar {
+		.tile__link {
+			&:after {
+				background-image: url("../../media/thumbs/ar.svg");
+			}
+		}
+		
+		@media (min-width: $sm) {
+			width: 320px;
+			height: 200px;
+			justify-self: end;
+		}
+	}
+	
+	&--cg {
+		.tile__link {
+			&:after {
+				background-image: url("../../media/thumbs/cg.svg");
+			}
+		}
+		
+		@media (min-width: $sm) {
+			width: 240px;
+			height: 360px;
+		}
+	}	
+}

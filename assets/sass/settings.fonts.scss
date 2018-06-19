@@ -1,0 +1,46 @@
+/*-------------------
+        Fonts
+--------------------*/
+
+@charset "UTF-8";
+
+
+@font-face {
+	font-family: 'tk305';
+	src: url('../fnts/pl.otf');
+	src: local('☺'), url('../fnts/pl.otf') format('opentype'), url('../fnts/pl.svg#webfontvaNBeGVe') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'tk305';
+	src: url('../fnts/pr.otf');
+	src: local('☺'), url('../fnts/pr.otf') format('opentype'), url('../fnts/pr.svg#webfontvaNBeGVe') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'tk305';
+	src: url('../fnts/ps.otf');
+	src: local('☺'), url('../fnts/ps.otf') format('opentype'), url('../fnts/ps.svg#webfontvaNBeGVe') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'tk305';
+	src: url('../fnts/pb.otf');
+	src: local('☺'), url('../fnts/pb.otf') format('opentype'), url('../fnts/pb.svg#webfontvaNBeGVe') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'tk305';
+	src: url('../fnts/px.otf');
+	src: local('☺'), url('../fnts/px.otf') format('opentype'), url('../fnts/px.svg#webfontvaNBeGVe') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}

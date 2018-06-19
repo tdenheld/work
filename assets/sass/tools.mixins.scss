@@ -1,0 +1,47 @@
+/*-------------------
+		Mixins
+--------------------*/
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+// font
+// ------------------------------
+
+// convert px to rem
+@function calculate-rem($size) {
+  $remSize: $size / $font-size-base;
+  @return #{$remSize}rem;
+}
+
+// set font style
+@mixin font-style($size, $weight, $factor) {
+	font-weight: $weight;
+	font-size: calculate-rem($size);
+	line-height: $factor;
+}
+
+
+// spacer
+// ------------------------------
+
+@mixin spacer($factor, $padding) {
+	$spacer-size: $space / 2; // 6 pixels
+	
+	@if $padding == true { 
+        padding-bottom: $spacer-size * $factor;
+    }
+    
+    @else {
+		margin-bottom: $spacer-size * $factor;
+    }
+}

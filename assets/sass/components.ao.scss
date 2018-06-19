@@ -1,0 +1,92 @@
+/*-------------------
+  animated objects
+--------------------*/
+
+$component: ao;
+.#{$component} {
+	@extend %fixed-full-bg;
+	overflow: hidden;
+			
+	// objects	
+	&__particle {	
+		position: absolute;
+		width: 2px;
+		height: 2px;
+		background-color: $pinkish;
+		border-radius: 50%;
+		@media (min-width: $sm) {
+			width: 4px;
+			height: 4px;
+		}
+	}
+	
+	// positions
+	&--v-80 {
+		left: 80%;
+	}
+	&--v-70 {
+		left: 70%;
+	}
+	&--v-50 {
+		left: 50%;
+	}
+	&--v-30 {
+		left: 30%;
+	}	
+	&--v-22 {
+		left: 22%;
+	}
+	&--v-20 {
+		left: 20%;
+	}
+	
+	// animation types
+	@keyframes move-up-down {
+		0%, 10% {
+			transform: translateY(-10px);
+			opacity: 0;
+		}
+		11%, 24% {
+			opacity: 1;
+		}
+		25%, 100% {
+			transform: translateY(100vh);
+			opacity: 0;
+		}			
+	}
+	
+	// animation classes
+	&--move-up-down {
+		opacity: 0;
+		animation: move-up-down 12s infinite;
+		animation-timing-function: cubic-bezier(0.650, 0.000, 1.000, 0.000);
+	}
+	
+	// delays
+	&--delay-2s {
+		animation-delay: 2s;
+	}
+	&--delay-3s {
+		animation-delay: 3s;
+	}
+	&--delay-5s {
+		animation-delay: 5s;
+	}
+	&--delay-6s {
+		animation-delay: 6s;
+	}
+	&--delay-7s {
+		animation-delay: 7s;
+	}
+	
+	// durations
+	&--dur-10s {
+		animation-duration: 10s;
+	}
+	&--dur-11s {
+		animation-duration: 11s;
+	}
+	&--dur-13s {
+		animation-duration: 13s;
+	}
+}

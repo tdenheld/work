@@ -1,0 +1,14 @@
+/*-------------------
+        Links
+--------------------*/
+
+.link {
+	display: inline-block;
+	line-height: $line-height-link;
+	border-bottom: 1px solid $pinkish;
+	cursor: pointer;
+	
+	&--about {
+		font-weight: bold;
+	}
+}

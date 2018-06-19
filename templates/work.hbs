@@ -1,0 +1,12 @@
+<div class="work">
+	<h1 class="work__title">{{title}}</h1>
+	<div class="work__grid">
+		{{#each work}}
+			<div class="tile tile--{{page}} js-case--{{page}} animate animate--fade-in">
+				<div class="tile__link"></div>
+				<h2 class="tile__title">{{title}}</h2>
+				<p class="tile__description">{{description}}</p>
+			</div>
+		{{/each}}
+	</div>
+</div>

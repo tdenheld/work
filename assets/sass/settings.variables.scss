@@ -1,0 +1,109 @@
+/*-------------------
+        Colors
+--------------------*/
+
+$black:							#222120;
+$white:							#fff;
+$blue:							#02f;
+$pinkish:						#f1d3d2;
+$green:							#00a748;
+$light-blue:					#d4fafa;
+$red:							#e20;
+
+// cases
+$ns-blue:						#003082;
+$ns-yellow:						#ffc917;
+$ns-light-grey:					#e6e6e9;
+
+$wn-blue:						#009ddb;
+$wn-light-grey:					#f2f2f2;
+
+$ar-green: 						#6cb125;
+$ar-beige:						#e0dcd4;
+$ar-brown:						#847369;
+$ar-dark:						#464541;
+
+$cg-black:						$black;
+
+// base colors
+$bg-color-base:					$blue;
+$font-color-base: 				$pinkish;
+
+
+
+/*-------------------
+        Fonts
+--------------------*/
+
+$txt-xxxs:						12px;
+$txt-xxs:						14px;
+$txt-xs:						16px;
+$txt-s:							18px;
+$txt-m:							22px;
+$txt-l:							28px;
+$txt-xl:						36px;
+$txt-xxl:						42px;
+$txt-xxxl:						58px;
+$txt-xxxxl:						92px;
+
+$font-family:					tk305, helvetica, sans-serif;
+$font-size-base:				$txt-xs;
+
+$line-height-base:				1.5;
+$line-height-heading:			1;
+$line-height-link:				0.8;
+
+
+/*-------------------
+ 	 Breakpoints
+--------------------*/
+
+$xs:	 						480px;
+$sm:	 						768px;
+$md:	 						912px;
+$lg:	 						1200px;
+
+
+
+/*-------------------
+ 	   Spacing
+--------------------*/
+
+$space:	 						12px;
+$half-space: 					$space / 2;
+$double-space: 					$space * 2;
+$triple-space: 					$space * 3;
+$quadruple-space:				$space * 4;
+
+$text-container-s:				710px;
+$text-container-m:				900px;
+$text-container-l:				1024px;
+
+
+/*-------------------
+      Animation
+--------------------*/
+
+$timing-very-short:				100ms;
+$timing-short: 					200ms;
+$timing-medium: 				300ms;
+$timing-long: 					600ms;
+$timing-very-long:				1s;
+
+$ease:							cubic-bezier(0.700, 0.270, 0.270, 1.000);
+$fade-all: 						all $timing-medium $ease;
+
+
+
+
+/*-------------------
+         Misc
+--------------------*/
+
+$opacity-hover:					0.5;
+$navbar-height: 				123px;
+$line:							1px solid rgba($pinkish, 0.18);
+
+
+
+

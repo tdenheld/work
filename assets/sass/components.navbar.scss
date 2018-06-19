@@ -1,0 +1,125 @@
+/*-------------------
+        Navbar
+--------------------*/
+
+.navbar {
+	z-index: 9;
+	width: 100%;
+	padding: $double-space;
+	position: absolute;
+	
+	@media (min-width: $md) {
+		position: fixed;
+	}
+	
+	.logo {
+		fill: $pinkish;
+		cursor: pointer;
+		transition: all 600ms $ease;
+	}
+	
+	&__list {
+		position: fixed;
+		top: $double-space;
+		right: $double-space;
+		text-align: right;
+		@include font-style($txt-s, 500, $line-height-heading);
+	}
+	
+	&__list-item {
+		display: inline-block;
+		list-style: none;
+		margin-left: $double-space;
+		cursor: pointer;
+		transition: $fade-all;
+		
+		&.is-active:after {
+			content: "";
+			display: block;
+			position: relative;
+			top: 4px;
+			left: 11px;
+			width: 19px;
+			height: 1px;
+			background-color: $blue;
+		}
+	}	
+	
+	// modifiers
+	// --------------------------
+	&--ns {		
+		.navbar__list-item {
+			color: $ns-blue;
+		}
+				
+		.logo {
+			fill: $ns-blue;
+		}
+	}
+	
+	&--wn, &--ar, &--cg {		
+		.navbar__list-item {
+			color: $white;
+		}
+				
+		.logo {
+			fill: $white;
+		}
+	}
+	
+	&--work {
+		.navbar__list {
+			position: absolute;
+		}
+					
+		.navbar__list-item {
+			color: $blue;
+		}
+				
+		.logo {
+			fill: $blue;
+		}
+	}
+	
+	&--about {
+		.navbar__list {
+			position: absolute;
+		}
+					
+		.navbar__list-item {
+			color: $pinkish;
+			&.is-active:after {
+				left: 15px;
+				background-color: $pinkish;
+			}
+		}
+				
+		.logo {
+			fill: $pinkish;
+		}
+	}
+	
+		
+	// classes added on scroll
+	// -------------------------------------
+	&-color--wn {
+		.navbar__list-item {
+			color: $wn-blue;
+		}
+				
+		.logo {
+			fill: $wn-blue;
+		}
+	}
+	
+
+	&-color--ar {
+		.navbar__list-item {
+			color: $ar-dark;
+		}
+				
+		.logo {
+			fill: $ar-dark;
+		}
+	}
+}
