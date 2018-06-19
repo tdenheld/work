@@ -168,6 +168,7 @@ $(document).ready(function(){
 	// router
 	// ----------------------------------
 	function router() {
+		var home = true;				
 		var routes = [
 			"home",
 			"work",
@@ -235,6 +236,7 @@ $(document).ready(function(){
 		
 		// main call to action button on home
 		$(".js-checkout-button").click(function() {
+			home = false;
 			$(".js-line").addClass("is-active");
 			$("#js-navbar").removeClass().addClass("navbar");
 			TweenLite.to("#js-navbar", .55, {
@@ -262,6 +264,7 @@ $(document).ready(function(){
 		
 		// navbar work
 		$(".js-nav--work").click(function() {
+			home = false;
 			$(".js-nav--about").removeClass("is-active");
 			TweenLite.to("#js-navbar", .25, {
 				ease: default_ease,
@@ -295,10 +298,12 @@ $(document).ready(function(){
 		// navbar about
 		$(".js-nav--about").click(function() {
 			$(".js-nav--work").removeClass("is-active");
-			TweenLite.to("#js-navbar", .25, {
-				ease: default_ease,
-				autoAlpha: 0,
-			});		    
+			if (home == false) {
+				TweenLite.to("#js-navbar", .25, {
+					ease: default_ease,
+					autoAlpha: 0,
+				});		
+			};    
 		    // about image
 		    $(".js-about-img").Lazy({
 				threshold: 99999,
@@ -309,10 +314,12 @@ $(document).ready(function(){
 				
 				// navbar
 				$("#js-navbar").removeClass().addClass("navbar navbar--about");
-				TweenLite.to("#js-navbar", .7, {
-					ease: default_ease,
-					autoAlpha: 1,
-				});
+				if (home == false) {
+					TweenLite.to("#js-navbar", .7, {
+						ease: default_ease,
+						autoAlpha: 1,
+					});
+				}
 				
 				// add lines in the background
 				$(".js-line").removeClass("is-active");
