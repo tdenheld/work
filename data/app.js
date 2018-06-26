@@ -60,7 +60,7 @@ work();
 function about() {
 	var about_context = {	
 		"title" : "Hoi.<br>It’s me,<br>Tibor!",
-		"p1" : "I'm an Utrecht based digital designer creating experiences for lovely companies — and humans. Mostly intrigued with visual design, prototyping, UX and branding.",
+		"p1" : "I'm an Utrecht based digital designer creating experiences for humans and companies. Mostly intrigued with visual design, prototyping, UX and branding.",
 		"p2" : "Working with large online platforms as well as tasteful campaign websites. If possible I implement my designs in code.",
 		"p3" : "I moved pixels for brands such as Dutch Railways (NS), KPN, Greenpeace, KLM, Mitsubishi, Capgemini, SnappCar, Adformatie, Endemol and more.",
 		"img" : "portret.jpg",

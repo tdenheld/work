@@ -80,8 +80,9 @@ $(document).ready(function(){
 	
 	// loop trough all case items on all pages
 	function scrollEvents(page) {
+		var case_item = $(".js-case");
 		setTimeout(function(){
-			for (n = 0; n < 20; n++) {
+			for (n = 0; n < case_item.length; n++) {
 				var id = "js-case-item-" + page + "-" + n;
 				caseItemScrollEvent(id);
 			};
