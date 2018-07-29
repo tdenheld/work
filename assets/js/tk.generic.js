@@ -53,8 +53,8 @@ $(document).ready(function(){
 	
 	
 	// scroll magic
-	// -----------------------------------
-	// -----------------------------------
+	// ------------------------------------------------------------------
+	// ------------------------------------------------------------------
 	
 	// init controller
 	var controller = new ScrollMagic.Controller({
@@ -89,8 +89,9 @@ $(document).ready(function(){
 		}, 600);
 	};	
 	
+	
 	// constructor for navbar color change
-	// -----------------------------------
+	// ----------------------------------------------------------------
 	function navColorChange(id) {
 		var selector = "#js-hero-" + id;
 		var scrll = new ScrollMagic.Scene({
@@ -104,6 +105,33 @@ $(document).ready(function(){
 	};
 	navColorChange("wn");
 	navColorChange("ar");
+	
+	
+	// generic scrollmagic constructor
+	// -----------------------------------------------------------------
+	function scroll_trig(i) {
+		var id = document.getElementById("scrll-section-" + i);
+		var el = "#scrll-section-" + i;
+		if (id) {
+			var scrll = new ScrollMagic.Scene({
+				triggerElement:	el,
+			})
+			.triggerHook(0.82)
+			.offset(0)
+			.on("start", function(){
+				$(el + " .tr").toggleClass("is-active");
+				$(el + " .tr-stag").toggleClass("is-active");
+			})
+			//.addIndicators()
+			.addTo(controller);
+		};
+	};
+	// init section scroll events
+	var sections = $(".js-scrll-section");
+	sections.each(function(i){
+		$(this).attr("id", "scrll-section-" + i);
+		scroll_trig(i);
+	});
 	
 	
 	

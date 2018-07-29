@@ -19,7 +19,7 @@
 	}
 	
 	&__list {
-		position: fixed;
+		position: absolute;
 		top: $double-space;
 		right: $double-space;
 		text-align: right;
@@ -47,7 +47,11 @@
 	
 	// modifiers
 	// --------------------------
-	&--ns {		
+	&--ns {
+		.navbar__list {
+			position: fixed;
+		}
+		
 		.navbar__list-item {
 			color: $ns-blue;
 		}
@@ -57,7 +61,11 @@
 		}
 	}
 	
-	&--wn, &--ar, &--cg {		
+	&--wn, &--ar, &--cg {
+		.navbar__list {
+			position: fixed;
+		}
+				
 		.navbar__list-item {
 			color: $white;
 		}
@@ -67,11 +75,7 @@
 		}
 	}
 	
-	&--work {
-		.navbar__list {
-			position: absolute;
-		}
-					
+	&--work {					
 		.navbar__list-item {
 			color: $blue;
 		}
@@ -83,7 +87,7 @@
 	
 	&--about {
 		.navbar__list {
-			position: absolute;
+			position: fixed;
 		}
 					
 		.navbar__list-item {

@@ -7,21 +7,21 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
     + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n			</h1>\n			<p class=\"intro__description ani ani--fade-in ani--delay-short\">\n				"
     + alias4(((helper = (helper = helpers.p1 || (depth0 != null ? depth0.p1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p1","hash":{},"data":data}) : helper)))
-    + "\n			</p>\n			<p class=\"intro__description intro__description--small ani ani--fade-in ani--delay-medium\">\n				"
+    + "\n			</p>\n			<div class=\"js-scrll-section ani ani--fade-in\">\n				<p class=\"intro__description intro__description--small tr-stag\">\n					"
     + alias4(((helper = (helper = helpers.p2 || (depth0 != null ? depth0.p2 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p2","hash":{},"data":data}) : helper)))
-    + "\n			</p>\n			<p class=\"intro__description intro__description--small ani ani--fade-in ani--delay-long\">\n				"
+    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section ani ani--fade-in\">\n				<p class=\"intro__description intro__description--small tr-stag\">\n					"
     + alias4(((helper = (helper = helpers.p3 || (depth0 != null ? depth0.p3 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p3","hash":{},"data":data}) : helper)))
-    + "\n			</p>\n			<img data-src=\"media/"
+    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section ani ani--fade-in\">\n				<img data-src=\"media/"
     + alias4(((helper = (helper = helpers.img || (depth0 != null ? depth0.img : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"img","hash":{},"data":data}) : helper)))
-    + "\" class=\"img-responsive about__img js-about-img ani ani--fade-in ani--delay-very-long\" />\n			<p class=\"intro__description intro__description--small ani ani--fade-in ani--delay-very-long\">\n				"
+    + "\" class=\"img-responsive about__img js-about-img tr tr--scale-in\" />\n			</div>\n			<div class=\"js-scrll-section ani ani--fade-in\">\n				<p class=\"intro__description intro__description--small tr-stag\">\n					"
     + alias4(((helper = (helper = helpers.p4 || (depth0 != null ? depth0.p4 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p4","hash":{},"data":data}) : helper)))
-    + "\n				"
+    + "\n					"
     + alias4(((helper = (helper = helpers.contact || (depth0 != null ? depth0.contact : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contact","hash":{},"data":data}) : helper)))
     + " <a href=\"mailto:"
     + alias4(((helper = (helper = helpers.email || (depth0 != null ? depth0.email : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"email","hash":{},"data":data}) : helper)))
     + "\" target=\"_blank\" class=\"link link--about\">"
     + alias4(((helper = (helper = helpers.email || (depth0 != null ? depth0.email : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"email","hash":{},"data":data}) : helper)))
-    + "</a>\n			</p>\n		</div>\n	</div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi sfi--about ani ani--fade-in-up ani--delay-medium\">\n	<a href=\"https://www.behance.net/tk305\"  target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>	\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>	\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>	\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>	\n</footer>";
+    + "</a>\n				</p>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi sfi--about ani ani--fade-in-up ani--delay-medium\">\n	<a href=\"https://www.behance.net/tk305\"  target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>	\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>	\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>	\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>	\n</footer>";
 },"useData":true});
 templates['app'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;

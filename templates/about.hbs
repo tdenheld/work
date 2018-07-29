@@ -8,17 +8,25 @@
 			<p class="intro__description ani ani--fade-in ani--delay-short">
 				{{p1}}
 			</p>
-			<p class="intro__description intro__description--small ani ani--fade-in ani--delay-medium">
-				{{p2}}
-			</p>
-			<p class="intro__description intro__description--small ani ani--fade-in ani--delay-long">
-				{{p3}}
-			</p>
-			<img data-src="media/{{img}}" class="img-responsive about__img js-about-img ani ani--fade-in ani--delay-very-long" />
-			<p class="intro__description intro__description--small ani ani--fade-in ani--delay-very-long">
-				{{p4}}
-				{{contact}} <a href="mailto:{{email}}" target="_blank" class="link link--about">{{email}}</a>
-			</p>
+			<div class="js-scrll-section ani ani--fade-in">
+				<p class="intro__description intro__description--small tr-stag">
+					{{p2}}
+				</p>
+			</div>
+			<div class="js-scrll-section ani ani--fade-in">
+				<p class="intro__description intro__description--small tr-stag">
+					{{p3}}
+				</p>
+			</div>
+			<div class="js-scrll-section ani ani--fade-in">
+				<img data-src="media/{{img}}" class="img-responsive about__img js-about-img tr tr--scale-in" />
+			</div>
+			<div class="js-scrll-section ani ani--fade-in">
+				<p class="intro__description intro__description--small tr-stag">
+					{{p4}}
+					{{contact}} <a href="mailto:{{email}}" target="_blank" class="link link--about">{{email}}</a>
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
