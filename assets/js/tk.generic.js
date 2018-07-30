@@ -69,8 +69,9 @@ $(document).ready(function(){
 		var selector = "#" + id + " .js-case-item";
 		
 		if (element_id) {
-			var scrll = new ScrollMagic
-			.Scene({triggerElement: "#" + id})
+			var scrll = new ScrollMagic.Scene({
+				triggerElement: "#" + id,
+			})
 			.triggerHook(trigger_hook)
 			.setClassToggle(selector, "is-active")
 			//.addIndicators()
@@ -116,7 +117,7 @@ $(document).ready(function(){
 			var scrll = new ScrollMagic.Scene({
 				triggerElement:	el,
 			})
-			.triggerHook(0.82)
+			.triggerHook(trigger_hook)
 			.offset(0)
 			.on("start", function(){
 				$(el + " .tr").toggleClass("is-active");
@@ -197,7 +198,9 @@ $(document).ready(function(){
 	// router
 	// ----------------------------------
 	function router() {
-		var home = true;				
+		var home = true;
+		var about = false;
+						
 		var routes = [
 			"home",
 			"work",
@@ -294,6 +297,7 @@ $(document).ready(function(){
 		// navbar work
 		$(".js-nav--work").click(function() {
 			home = false;
+			about = false;
 			$(".js-nav--about").removeClass("is-active");
 			TweenLite.to("#js-navbar", .25, {
 				ease: default_ease,
@@ -326,41 +330,54 @@ $(document).ready(function(){
 		
 		// navbar about
 		$(".js-nav--about").click(function() {
-			$(".js-nav--work").removeClass("is-active");
-			if (home == false) {
-				TweenLite.to("#js-navbar", .25, {
-					ease: default_ease,
-					autoAlpha: 0,
-				});		
-			};    
-		    // about image
-		    $(".js-about-img").Lazy({
-				threshold: 99999,
-			});
-			setTimeout(function() {
-				// about
-				$(".js-nav--about").addClass("is-active");
-				
-				// navbar
-				$("#js-navbar").removeClass().addClass("navbar navbar--about");
-				if (home == false) {
-					TweenLite.to("#js-navbar", .7, {
-						ease: default_ease,
-						autoAlpha: 1,
-					});
-				}
-				
-				// add lines in the background
-				$(".js-line").removeClass("is-active");
-				TweenLite.set(".js-line", {
-					autoAlpha: 1,
-					display: "block",
+			// if on same page scroll up
+			if (about) {
+				TweenLite.to(window, 0.6, {
+					ease: Power3.easeInOut,
+					scrollTo: {
+						y: 0,
+						autoKill: false,
+					},
 				});
-				
-				// scroll to top
-				$(window).scrollTop(0);
-			}, 300);
-			page_transition(.25, "about");
+			// execute page transition when not on about page
+			} else {
+				about = true;
+				$(".js-nav--work").removeClass("is-active");
+				if (home == false) {
+					TweenLite.to("#js-navbar", .25, {
+						ease: default_ease,
+						autoAlpha: 0,
+					});		
+				};  
+			    // about image
+			    $(".js-about-img").Lazy({
+					threshold: 99999,
+				});
+				setTimeout(function() {
+					// about
+					$(".js-nav--about").addClass("is-active");
+					
+					// navbar
+					$("#js-navbar").removeClass().addClass("navbar navbar--about");
+					if (home == false) {
+						TweenLite.to("#js-navbar", .7, {
+							ease: default_ease,
+							autoAlpha: 1,
+						});
+					}
+					
+					// add lines in the background
+					$(".js-line").removeClass("is-active");
+					TweenLite.set(".js-line", {
+						autoAlpha: 1,
+						display: "block",
+					});
+					
+					// scroll to top
+					$(window).scrollTop(0);
+				}, 300);
+				page_transition(.25, "about");
+			};
 		});
 	};
 	router();

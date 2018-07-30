@@ -651,7 +651,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js",
 		"oF": 0,
 		"sC": 1,
@@ -2385,7 +2385,7 @@
 		},
 	"\/media\/cg\/cg9.jpg": {
 		"ft": 16384,
-		"iS": 335340,
+		"iS": 444261,
 		"jF": 2,
 		"oA": 0,
 		"oAP": "\/media\/cg\/cg9.jpg",
@@ -2619,7 +2619,7 @@
 		},
 	"\/media\/wn\/wn4.jpg": {
 		"ft": 16384,
-		"iS": 389902,
+		"iS": 1064644,
 		"jF": 2,
 		"oA": 0,
 		"oAP": "\/media\/wn\/wn4.jpg",
@@ -2719,32 +2719,38 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/scroll-magic.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/plugins\/debug.addIndicators.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/scroll-magic.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/handlebars\/handlebars.runtime-v4.0.11.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/plugins\/debug.addIndicators.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/templates.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/handlebars\/handlebars.runtime-v4.0.11.js",
 			"position": 6,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/data\/app.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/templates.js",
 			"position": 7,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/data\/app.js",
+			"position": 8,
 			"type": 1
 			}
 		]
