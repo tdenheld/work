@@ -10,7 +10,7 @@ body {
 	font-weight: 200;
 	line-height: $line-height-base;
 	color: $font-color-base;
-	@extend %smooth-font;
+	@include smooth-font();
 	transition: all 600ms $ease;
 }
 

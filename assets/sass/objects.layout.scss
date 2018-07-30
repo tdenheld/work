@@ -7,13 +7,6 @@
 	margin: 0 auto;
 }
 
-.full-size-bg {
-	@extend %fixed-full-bg;
-	z-index: 99999;
-	background-color: #666;
-}
-
-
 
 
 /*-------------------
@@ -35,7 +28,6 @@
 .img-circle {
   border-radius: 50%;
 }
-
 
 
 

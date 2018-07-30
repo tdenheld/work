@@ -46,7 +46,7 @@
 
 .lines {
 	display: flex;
-	@extend %fixed-full-bg;
+	@include full(fixed);
 }
 
 .lines__line {
@@ -136,6 +136,8 @@
 	}
 }
 
+// modifiers
+// -----------------------------------
 .intro--detail {
 	.intro__container {
 		max-width: $text-container-s;

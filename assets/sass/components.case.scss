@@ -2,241 +2,239 @@
      	 Case
 --------------------*/
 
-.case {	
-	&__intro-container {
-		position: relative;
-		width: 100%;
-		height: 100%;
-		min-height: 100vh;
-		@media (min-width: $md) {
-			position: fixed;
-		}
+.case__intro-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	@media (min-width: $md) {
+		position: fixed;
+	}
+}
+
+.case__logo {
+	height: 37px;
+	margin-top: $triple-space;
+	margin-bottom: $double-space;
+	@media (min-width: $md) {
+		height: 74px;
+		margin-top: 0;
+		margin-bottom: $triple-space;
+	}
+}
+
+.case__content {
+	position: relative;
+	background-color: $white;
+	padding: 0 0 60px;
+	@media (min-width: $md) {
+		padding: 0 0 100px;
+		top: 100vh;
+	}
+}
+
+
+
+// hero image
+// ----------------------------------
+.case__hero-container {
+	position: relative;
+	width: 100%;
+	margin-bottom: 60px;
+	@media (min-width: $sm) {
+		margin-bottom: 120px;
+	}
+}
+
+.case__hero-img {
+	width: 100%;
+	min-height: 62.5vw;
+}
+
+.case__hero-gradient {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 6px;
+	background: linear-gradient(to bottom,
+		rgba(#000, 0) 0%,
+		rgba(#000, 0) 50%,
+		rgba(#000, 0.3) 85%,
+		rgba(#000, 0.6) 100%
+	);
+	@media (min-width: $md) {
+		display: block;	
+	}
+}
+
+// hero specifications	
+.case__specs {
+	display: none;
+	position: absolute;
+	padding: 0 $double-space;
+	width: 100%;
+	bottom: 36px;
+	@media (min-width: $md) {
+		display: block;	
+	}
+	@media (min-width: $lg) {
+		bottom: 48px;
+	}
+}
+
+.case__specs-grid {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.case__specs-item {
+	padding-left: $space;
+	height: 100px;
+	border-left: 1px solid rgba($white, 0.5);
+	
+	&:last-child {
+		border-right: 1px solid rgba($white, 0.5);
+	}
+}
+
+.case__specs-title {
+	@include font-style($txt-xs, 700, $line-height-base);
+	margin: -5px 0 0;
+	color: $white;
+}
+
+.case__specs-description {
+	@include font-style($txt-xxs, 200, $line-height-base);
+	margin: 0;
+	color: $white;
+}
+
+
+
+// item
+// ----------------------
+.case__item {
+	margin-bottom: $double-space;
+	@media (min-width: 1464px) {
+		margin-bottom: $quadruple-space;
 	}
 	
-	&__logo {
-		height: 37px;
-		margin-top: $triple-space;
-		margin-bottom: $double-space;
-		@media (min-width: $md) {
-			height: 74px;
-			margin-top: 0;
-			margin-bottom: $triple-space;
-		}
+	&:last-child() {
+		margin-bottom: 0;
 	}
 	
-	&__content {
-		position: relative;
-		background-color: $white;
-		padding: 0 0 60px;
-		@media (min-width: $md) {
-			padding: 0 0 100px;
-			top: 100vh;
-		}
+	&--no-margin {
+		margin: 0 auto;
 	}
 	
-	
-	
-	// hero image
-	// ----------------------------------
-	&__hero-container {
-		position: relative;
-		width: 100%;
-		margin-bottom: 60px;
+	&--more-margin {
+		margin-bottom: 80px;
 		@media (min-width: $sm) {
 			margin-bottom: 120px;
 		}
 	}
+}
+
+.case__text-container {
+	max-width: $text-container-s;
+	margin-bottom: $double-space;
+	padding: 0 $double-space;
+	@media (min-width: $md) {
+		margin: auto;
+		margin-bottom: $quadruple-space;
+	}
+}
 	
-	&__hero-img {
-		width: 100%;
-		min-height: 62.5vw;
+.case__line {
+	width: 100px;
+	height: 1px;
+	margin-bottom: $space;
+}
+
+.case__description {
+	@include font-style($txt-m, 200, $line-height-base);
+}
+
+
+
+// modifiers
+// ---------------------------
+.case--ns {
+	color: $ns-blue;
+	
+	.case__line {
+		background-color: $ns-blue;
 	}
 	
-	&__hero-gradient {
-		display: none;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 6px;
-		background: linear-gradient(to bottom,
-			rgba(#000, 0) 0%,
-			rgba(#000, 0) 50%,
-			rgba(#000, 0.3) 85%,
-			rgba(#000, 0.6) 100%
-		);
-		@media (min-width: $md) {
-			display: block;	
-		}
+	.scroll-down__icon,
+	.scroll-down__icon-circle {
+		border-color: $ns-blue;
+	}
+}
+
+.case--wn {
+	color: $white;
+	
+	.case__content {
+		background-color: $wn-light-grey;
 	}
 	
-	// hero specifications	
-	&__specs {
-		display: none;
-		position: absolute;
-		padding: 0 $double-space;
-		width: 100%;
-		bottom: 36px;
-		@media (min-width: $md) {
-			display: block;	
-		}
-		@media (min-width: $lg) {
-			bottom: 48px;
-		}
+	.case__text-container {
+		color: $wn-blue;
 	}
 	
-	&__specs-grid {
-		max-width: 1100px;
-		margin: 0 auto;
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+	.case__line {
+		background-color: $wn-blue;
 	}
 	
-	&__specs-item {
-		padding-left: $space;
-		height: 100px;
-		border-left: 1px solid rgba($white, 0.5);
-		
-		&:last-child {
-			border-right: 1px solid rgba($white, 0.5);
-		}
+	.scroll-down__icon,
+	.scroll-down__icon-circle {
+		border-color: $white;
+	}
+}
+
+.case--cg {
+	color: $white;
+	
+	.case__content {
+		background-color: $cg-black;
 	}
 	
-	&__specs-title {
-		@include font-style($txt-xs, 700, $line-height-base);
-		margin: -5px 0 0;
+	.case__text-container {
 		color: $white;
 	}
 	
-	&__specs-description {
-		@include font-style($txt-xxs, 200, $line-height-base);
-		margin: 0;
-		color: $white;
+	.case__line {
+		background-color: $white;
 	}
 	
+	.scroll-down__icon,
+	.scroll-down__icon-circle {
+		border-color: $white;
+	}
+}
+
+.case--ar {
+	color: $white;
 	
-	
-	// item
-	// ----------------------
-	&__item {
-		margin-bottom: $double-space;
-		@media (min-width: 1464px) {
-			margin-bottom: $quadruple-space;
-		}
-		
-		&:last-child() {
-			margin-bottom: 0;
-		}
-		
-		&--no-margin {
-			margin: 0 auto;
-		}
-		
-		&--more-margin {
-			margin-bottom: 80px;
-			@media (min-width: $sm) {
-				margin-bottom: 120px;
-			}
-		}
+	.case__content {
+		background-color: $ar-beige;
 	}
 	
-	&__text-container {
-		max-width: $text-container-s;
-		margin-bottom: $double-space;
-		padding: 0 $double-space;
-		@media (min-width: $md) {
-			margin: auto;
-			margin-bottom: $quadruple-space;
-		}
-	}
-		
-	&__line {
-		width: 100px;
-		height: 1px;
-		margin-bottom: $space;
+	.case__text-container {
+		color: $ar-dark;
 	}
 	
-	&__description {
-		@include font-style($txt-m, 200, $line-height-base);
+	.case__line {
+		background-color: $ar-dark;
 	}
 	
-	
-	
-	// modifiers
-	// ---------------------------
-	&--ns {
-		color: $ns-blue;
-		
-		.case__line {
-			background-color: $ns-blue;
-		}
-		
-		.scroll-down__icon,
-		.scroll-down__icon-circle {
-			border-color: $ns-blue;
-		}
-	}
-	
-	&--wn {
-		color: $white;
-		
-		.case__content {
-			background-color: $wn-light-grey;
-		}
-		
-		.case__text-container {
-			color: $wn-blue;
-		}
-		
-		.case__line {
-			background-color: $wn-blue;
-		}
-		
-		.scroll-down__icon,
-		.scroll-down__icon-circle {
-			border-color: $white;
-		}
-	}
-	
-	&--cg {
-		color: $white;
-		
-		.case__content {
-			background-color: $cg-black;
-		}
-		
-		.case__text-container {
-			color: $white;
-		}
-		
-		.case__line {
-			background-color: $white;
-		}
-		
-		.scroll-down__icon,
-		.scroll-down__icon-circle {
-			border-color: $white;
-		}
-	}
-	
-	&--ar {
-		color: $white;
-		
-		.case__content {
-			background-color: $ar-beige;
-		}
-		
-		.case__text-container {
-			color: $ar-dark;
-		}
-		
-		.case__line {
-			background-color: $ar-dark;
-		}
-		
-		.scroll-down__icon,
-		.scroll-down__icon-circle {
-			border-color: $white;
-		}
+	.scroll-down__icon,
+	.scroll-down__icon-circle {
+		border-color: $white;
 	}
 }

@@ -4,58 +4,58 @@
 
 .scroll-down {
 	text-align: center;
+}
+
+.scroll-down__icon {
+	// size and styling
+	width: 18px;
+	height: 36px;
+	border: 1px solid $blue;
+	border-radius: 18px;
 	
-	&__icon {
-		// size and styling
-		width: 18px;
-		height: 36px;
-		border: 1px solid $blue;
-		border-radius: 18px;
-		
-		// positioning
-		margin: 0 auto;
-		margin-bottom: $space;
-	}
+	// positioning
+	margin: 0 auto;
+	margin-bottom: $space;
+}
+
+.scroll-down__icon-circle {
+	// animation
+	@keyframes fall-down {
+		0% 		{transform: none;}
+		48%		{transform: translate3d(0, 16px, 0);}
+		96%		{transform: translate3d(0, 16px, 0);}
+		100% 	{transform: none;}
+	}	
+	animation: fall-down 3s infinite;
+	animation-timing-function: $ease;	
+	animation-delay: 1.5s;	
 	
-	&__icon-circle {
-		// animation
-		// this one is a potential chrome helper CPU killer on retina screens
-		@keyframes fall-down {
-			0% 		{transform: none;}
-			48%		{transform: translate3d(0, 16px, 0);}
-			96%		{transform: translate3d(0, 16px, 0);}
-			100% 	{transform: none;}
-		}	
-		animation: fall-down 3s infinite;
-		animation-timing-function: $ease;	
-		animation-delay: 1.5s;	
-		
-		// size and styling
-		width: 6px;
-		height: 6px;
-		border: 1px solid $blue;
-		border-radius: 100%;
-		
-		// positioning
-		margin: 0 auto;
-		margin-top: $half-space;
-	}
+	// size and styling
+	width: 6px;
+	height: 6px;
+	border: 1px solid $blue;
+	border-radius: 100%;
 	
-	&__label {				
-		margin: 0;
-		@include font-style($txt-xxs, 500, $line-height-base);
-		letter-spacing: 0.5px;
-	}
+	// positioning
+	margin: 0 auto;
+	margin-top: $half-space;
+}
+
+.scroll-down__label {				
+	margin: 0;
+	@include font-style($txt-xxs, 500, $line-height-base);
+	letter-spacing: 0.5px;
+}
+
+
+// modifiers
+// ----------------------------------
+.scroll-down--bottom {
+	display: none;
+	position: absolute;
+	bottom: $double-space;
 	
-	// modifiers
-	// ----------------------------------
-	&--bottom {
-		display: none;
-		position: absolute;
-		bottom: $double-space;
-		
-		@media (min-width: $md) {
-			display: block;
-		}
+	@media (min-width: $md) {
+		display: block;
 	}
 }

@@ -10,30 +10,33 @@
 		padding: 0 $double-space;
 		align-items: center;		
 	}
+}
+
+.work__title {
+	visibility: hidden;
+	position: absolute;
+}
+
+.work__grid {
+	display: grid;
+	width: 100%;
+	padding: 0 0 $double-space;
+	grid-gap: $double-space;
 	
-	&__title {
-		visibility: hidden;
-		position: absolute;
+	@media (min-width: $sm) {
+		margin: 0 auto;
+		grid-gap: 0;
+		grid-template-columns: 1fr 1fr;
 	}
 	
-	&__grid {
-		display: grid;
-		width: 100%;
-		padding: 0 0 $double-space;
-		grid-gap: $double-space;
-		
-		@media (min-width: $sm) {
-			margin: 0 auto;
-			grid-gap: 0;
-			grid-template-columns: 1fr 1fr;
-		}
-		
-		@media (min-width: $md) {
-			width: 1024px;
-		}
+	@media (min-width: $md) {
+		width: 1024px;
 	}
 }
 
+
+// tile
+// -------------------------------------------
 .tile {
 	//lay-out
 	display: flex;
@@ -54,114 +57,114 @@
 		margin-bottom: -1px;
 	}
 	
-	&__title {
-		position: relative;
-		top: 10px;
-		width: 100%;
-		@include font-style($txt-l, 800, $line-height-heading);
-	}
-	
-	&__description {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		@include font-style($txt-xxs, 200, $line-height-heading);
-	}
-	
-	&__link {
-		@extend %full-over-img;
-		&:after {
-			display: block;
-			z-index: 2;
-			content: "";
-			background-color: $blue;
-			background-position: center center;
-			background-size: contain;
-			background-repeat: no-repeat;
-			position: absolute;	
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			opacity: 0;
-			transition: $fade-all;
-			box-shadow: 0 2px 40px rgba($blue, 0.3);
-		}
-		
-		&:hover {				
-			&:after {
-				opacity: 1;
-			}
-		}
-	}
-	
 	@for $i from 1 through 4 {
 		&:nth-child(#{$i}) {
 			animation-duration: 400ms + ($i * 100);
 			animation-delay: 100ms + ($i * 150);
 		}
 	}
+}
+
+.tile__title {
+	position: relative;
+	top: 10px;
+	width: 100%;
+	@include font-style($txt-l, 800, $line-height-heading);
+}
+
+.tile__description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	@include font-style($txt-xxs, 200, $line-height-heading);
+}
+
+.tile__link {
+	@include full(absolute);
+	&:after {
+		display: block;
+		z-index: 2;
+		content: "";
+		background-color: $blue;
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: absolute;	
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: $fade-all;
+		box-shadow: 0 2px 40px rgba($blue, 0.3);
+	}
 	
-	// modifiers
-	// --------------------------------------
-	
-	// the right tiles has to put -1px to align with left side
-	&--wn, &--cg {
-		@media (min-width: $sm) {
-			margin-left: -1px;
+	&:hover {				
+		&:after {
+			opacity: 1;
+		}
+	}
+}
+
+// modifiers
+// --------------------------------------
+
+// the right tiles has to put -1px to align with left side
+.tile--wn, .tile--cg {
+	@media (min-width: $sm) {
+		margin-left: -1px;
+	}
+}
+
+.tile--ns {
+	.tile__link {
+		&:after {
+			background-image: url("../../media/thumbs/ns.svg");
 		}
 	}
 	
-	&--ns {
-		.tile__link {
-			&:after {
-				background-image: url("../../media/thumbs/ns.svg");
-			}
-		}
-		
-		@media (min-width: $sm) {
-			height: 320px;
+	@media (min-width: $sm) {
+		height: 320px;
+	}
+}
+
+.tile--wn {
+	.tile__link {
+		&:after {
+			background-image: url("../../media/thumbs/wn.svg");
 		}
 	}
 	
-	&--wn {
-		.tile__link {
-			&:after {
-				background-image: url("../../media/thumbs/wn.svg");
-			}
-		}
-		
-		@media (min-width: $sm) {
-			height: 240px;
-			align-self: end;
+	@media (min-width: $sm) {
+		height: 240px;
+		align-self: end;
+	}
+}
+
+.tile--ar {
+	.tile__link {
+		&:after {
+			background-image: url("../../media/thumbs/ar.svg");
 		}
 	}
 	
-	&--ar {
-		.tile__link {
-			&:after {
-				background-image: url("../../media/thumbs/ar.svg");
-			}
-		}
-		
-		@media (min-width: $sm) {
-			width: 320px;
-			height: 200px;
-			justify-self: end;
+	@media (min-width: $sm) {
+		width: 320px;
+		height: 200px;
+		justify-self: end;
+	}
+}
+
+.tile--cg {
+	.tile__link {
+		&:after {
+			background-image: url("../../media/thumbs/cg.svg");
 		}
 	}
 	
-	&--cg {
-		.tile__link {
-			&:after {
-				background-image: url("../../media/thumbs/cg.svg");
-			}
-		}
-		
-		@media (min-width: $sm) {
-			width: 240px;
-			height: 360px;
-		}
-	}	
+	@media (min-width: $sm) {
+		width: 240px;
+		height: 360px;
+	}
 }

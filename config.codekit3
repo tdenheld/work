@@ -386,19 +386,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/tools.placeholders.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/tools.placeholders.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/sass\/utilities.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2323,7 +2310,7 @@
 		},
 	"\/media\/cg\/cg4.jpg": {
 		"ft": 16384,
-		"iS": 1606169,
+		"iS": 1526841,
 		"jF": 2,
 		"oA": 0,
 		"oAP": "\/media\/cg\/cg2b.jpg",
@@ -2378,7 +2365,7 @@
 		},
 	"\/media\/cg\/cg9.jpg": {
 		"ft": 16384,
-		"iS": 335340,
+		"iS": 444261,
 		"jF": 2,
 		"oA": 0,
 		"oAP": "\/media\/cg\/cg9.jpg",
@@ -2612,7 +2599,7 @@
 		},
 	"\/media\/wn\/wn4.jpg": {
 		"ft": 16384,
-		"iS": 1064644,
+		"iS": 389902,
 		"jF": 2,
 		"oA": 0,
 		"oAP": "\/media\/wn\/wn4.jpg",
@@ -2712,39 +2699,39 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/scroll-magic.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/scroll-magic.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/plugins\/debug.addIndicators.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/scroll-magic\/plugins\/debug.addIndicators.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/handlebars\/handlebars.runtime-v4.0.11.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/handlebars\/handlebars.runtime-v4.0.11.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/templates.js",
 			"position": 6,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/templates.js",
+			"linkedFileAbbreviatedPath": "\/data\/app.js",
 			"position": 7,
-			"type": 0
+			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/data\/app.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/greensock-js\/plugins\/ScrollToPlugin.js",
 			"position": 8,
-			"type": 1
+			"type": 0
 			}
 		]
 	},

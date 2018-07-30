@@ -6,51 +6,49 @@
 	position: absolute;
 	left: $double-space;
 	bottom: $double-space;
-	
 	@media (max-height: 550px) and (max-width: $md) {
 		position: static;
 		padding: $double-space;
 	}
+}
 	
-	&__icon {
-		margin-right: $double-space;
-		
-		&:hover {
-			opacity: $opacity-hover;
-		}
+.sfi__icon {
+	margin-right: $double-space;
+	
+	&:hover {
+		opacity: $opacity-hover;
 	}
-	
-	// SVG color
-	.icon {
-		fill: $pinkish;
-	}
-	
-	// custom alignment of icons
-	&__icon:nth-child(1) {
-		position: relative;
-		bottom: 3px;
-	}
-	
-	&__icon:nth-child(3) {
-		position: relative;
-		bottom: 2px;
-	}
-	
-	&__icon:nth-child(4) {
-		position: relative;
-		bottom: 5px;
-	}
-	
-	// modifiers
-	&--about {
-		position: static;
-		padding: $double-space;
-		
-		@media (min-width: $md) {
-			position: fixed;
-			left: $double-space;
-			bottom: $double-space;
-			padding: 0;
-		}
+}
+
+// SVG color
+.icon {
+	fill: $pinkish;
+}
+
+// custom alignment of icons
+.sfi__icon:nth-child(1) {
+	position: relative;
+	bottom: 3px;
+}
+
+.sfi__icon:nth-child(3) {
+	position: relative;
+	bottom: 2px;
+}
+
+.sfi__icon:nth-child(4) {
+	position: relative;
+	bottom: 5px;
+}
+
+// modifiers
+.sfi--about {
+	position: static;
+	padding: $double-space;
+	@media (min-width: $md) {
+		position: fixed;
+		left: $double-space;
+		bottom: $double-space;
+		padding: 0;
 	}
 }
