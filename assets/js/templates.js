@@ -58,7 +58,7 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
 },"3":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "			<div class=\"case__hero-gradient tr tr--fade-in js-hero-gradient\"></div>\n			<div class=\"case__specs\">\n				<div class=\"case__specs-grid\">\n"
+  return "			<div class=\"case__hero-gradient tr-fi tr-650 js-hero-gradient\"></div>\n			<div class=\"case__specs\">\n				<div class=\"case__specs-grid\">\n"
     + ((stack1 = helpers.each.call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.specs : depth0),{"name":"each","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "				</div>\n			</div>\n";
 },"4":function(container,depth0,helpers,partials,data) {
