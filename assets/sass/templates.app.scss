@@ -139,7 +139,8 @@
 	
 	.intro__container {
 		max-width: $text-container-m;
-		@include lg {
+		margin-bottom: $quadruple-space;
+		@include md {
 			max-width: $text-container-l;
 			margin-bottom: 90px;
 		}
