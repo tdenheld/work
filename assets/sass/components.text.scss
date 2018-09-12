@@ -4,10 +4,10 @@
 
 .txt-xxxxl {
 	@include font-style($txt-xxl, 800, $line-height-heading);
-	@media (min-width: $xs) {
+	@include xs {
 		font-size: calculate-rem($txt-xxxl);
 	}
-	@media (min-width: $lg) {
+	@include lg {
 		font-size: calculate-rem($txt-xxxxl);
 		@media (max-height: 700px) {
 			font-size: calculate-rem($txt-xxxl);
@@ -17,28 +17,28 @@
 
 .txt-xxxl {
 	@include font-style($txt-xxl, 800, $line-height-heading);
-	@media (min-width: $md) {
+	@include md {
 		font-size: calculate-rem($txt-xxxl);
 	}
 }
 
 .txt-xxl {
 	@include font-style($txt-xl, 800, $line-height-heading);
-	@media (min-width: $xs) {
+	@include xs {
 		font-size: calculate-rem($txt-xxl);
 	}
 }
 
 .txt-xl {
 	@include font-style($txt-l, 800, $line-height-heading);
-	@media (min-width: $md) {
+	@include md {
 		font-size: calculate-rem($txt-xl);
 	}
 }
 
 .txt-l {
 	@include font-style($txt-m, 200, $line-height-base);
-	@media (min-width: $lg) {
+	@include lg {
 		font-size: calculate-rem($txt-l);
 	}
 }
@@ -46,7 +46,7 @@
 
 .txt-m {
 	@include font-style($txt-s, 200, $line-height-base);
-	@media (min-width: $xs) {
+	@include xs {
 		font-size: calculate-rem($txt-m);
 	}
 }

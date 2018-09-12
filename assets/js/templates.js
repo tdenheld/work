@@ -7,9 +7,9 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
     + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "\n			</h1>\n			<p class=\"intro__description a a-fi a-del-250\">\n				"
     + alias4(((helper = (helper = helpers.p1 || (depth0 != null ? depth0.p1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p1","hash":{},"data":data}) : helper)))
-    + "\n			</p>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-stag\">\n					"
+    + "\n			</p>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
     + alias4(((helper = (helper = helpers.p2 || (depth0 != null ? depth0.p2 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p2","hash":{},"data":data}) : helper)))
-    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-stag\">\n					"
+    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
     + alias4(((helper = (helper = helpers.p3 || (depth0 != null ? depth0.p3 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p3","hash":{},"data":data}) : helper)))
     + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi\">\n				<img data-src=\"media/"
     + alias4(((helper = (helper = helpers.img || (depth0 != null ? depth0.img : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"img","hash":{},"data":data}) : helper)))

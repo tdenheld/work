@@ -33,7 +33,7 @@
 		}
 	}
 	
-	@media (min-width: $xs) {
+	@include xs {
 		padding: 12px 34px 15px 34px;
 	}
 }

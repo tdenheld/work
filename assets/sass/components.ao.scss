@@ -14,7 +14,7 @@
 	height: 2px;
 	background-color: $pinkish;
 	border-radius: 50%;
-	@media (min-width: $sm) {
+	@include sm {
 		width: 4px;
 		height: 4px;
 	}

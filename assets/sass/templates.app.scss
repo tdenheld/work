@@ -10,33 +10,13 @@
 	}
 }
 
-.bg--home {
-	background-color: $blue;
-}
-
-.bg--work {
-	background-color: $pinkish;
-}
-
-.bg--about {
-	background-color: $blue;
-}
-
-.bg--ns {
-	background-color: $ns-yellow;
-}
-
-.bg--wn {
-	background-color: $wn-blue;
-}
-
-.bg--ar {
-	background-color: $ar-brown;
-}
-
-.bg--cg {
-	background-color: $cg-black;
-}
+.bg--home {background-color:$blue;}
+.bg--work {background-color:$pinkish;}
+.bg--about {background-color:$blue;}
+.bg--ns {background-color:$ns-yellow;}
+.bg--wn {background-color:$wn-blue;}
+.bg--ar {background-color:$ar-brown;}
+.bg--cg {background-color:$cg-black;}
 
 
 
@@ -109,7 +89,7 @@
 	width: 100%;
 	height: 100%;
 	
-	@media (min-width: $md) {
+	@include md {
 		display: flex;
 		position: absolute;
 	}
@@ -120,7 +100,7 @@
 	align-self: center;
 	padding: $double-space;
 	padding-top: $double-space + $navbar-height;
-	@media (min-width: $md) {
+	@include md {
 		padding-top: $double-space;
 	}
 }
@@ -131,7 +111,7 @@
 
 .intro__description {
 	margin: 0 0 $double-space 0;
-	@media (min-width: $md) {
+	@include md {
 		margin: 0;
 	}
 }
@@ -141,7 +121,7 @@
 .intro--detail {
 	.intro__container {
 		max-width: $text-container-s;
-		@media (min-width: $lg) {
+		@include lg {
 			max-width: $text-container-m;
 		}
 	}
@@ -153,13 +133,13 @@
 
 .intro--about {
 	position: static;
-	@media (min-width: $md) {
+	@include md {
 		padding-top: 200px;
 	}
 	
 	.intro__container {
 		max-width: $text-container-m;
-		@media (min-width: $lg) {
+		@include lg {
 			max-width: $text-container-l;
 			margin-bottom: 90px;
 		}
@@ -170,7 +150,7 @@
 		font-weight: bold;
 		line-height: 1.3;
 		margin-bottom: $double-space;
-		@media (min-width: $md) {
+		@include md {
 			font-size: calculate-rem($txt-xxxl);
 			margin-bottom: $quadruple-space;
 		}
@@ -179,7 +159,7 @@
 			font-weight: 200;
 			line-height: 1.5;
 			font-size: calculate-rem($txt-m);
-			@media (min-width: $md) {
+			@include md {
 				font-size: calculate-rem($txt-xl);
 			}
 		}
@@ -196,10 +176,10 @@
 .about__heading {
 	margin-bottom: $triple-space;
 	@include font-style(80px, 800, 1);
-	@media (min-width: $sm) {
+	@include sm {
 		font-size: calculate-rem(120px);
 	}
-	@media (min-width: $md) {
+	@include md {
 		margin-bottom: 90px;
 		font-size: calculate-rem(160px);
 	}

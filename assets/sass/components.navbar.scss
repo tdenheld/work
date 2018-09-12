@@ -14,7 +14,7 @@
 	padding: $double-space;
 	position: absolute;
 	
-	@media (min-width: $md) {
+	@include md {
 		position: fixed;
 	}
 }

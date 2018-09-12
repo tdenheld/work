@@ -23,13 +23,13 @@
 	padding: 0 0 $double-space;
 	grid-gap: $double-space;
 	
-	@media (min-width: $sm) {
+	@include sm {
 		margin: 0 auto;
 		grid-gap: 0;
 		grid-template-columns: 1fr 1fr;
 	}
 	
-	@media (min-width: $md) {
+	@include md {
 		width: 1024px;
 	}
 }
@@ -53,7 +53,7 @@
 	cursor: pointer;
 	transition: $fade-all;
 	
-	@media (min-width: $sm) {
+	@include sm {
 		margin-bottom: -1px;
 	}
 	
@@ -112,7 +112,7 @@
 
 // the right tiles has to put -1px to align with left side
 .tile--wn, .tile--cg {
-	@media (min-width: $sm) {
+	@include sm {
 		margin-left: -1px;
 	}
 }
@@ -124,7 +124,7 @@
 		}
 	}
 	
-	@media (min-width: $sm) {
+	@include sm {
 		height: 320px;
 	}
 }
@@ -136,7 +136,7 @@
 		}
 	}
 	
-	@media (min-width: $sm) {
+	@include sm {
 		height: 240px;
 		align-self: end;
 	}
@@ -149,7 +149,7 @@
 		}
 	}
 	
-	@media (min-width: $sm) {
+	@include sm {
 		width: 320px;
 		height: 200px;
 		justify-self: end;
@@ -163,7 +163,7 @@
 		}
 	}
 	
-	@media (min-width: $sm) {
+	@include sm {
 		width: 240px;
 		height: 360px;
 	}

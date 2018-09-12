@@ -28,21 +28,3 @@
 .img-circle {
   border-radius: 50%;
 }
-
-
-
-/*-------------------
-	   Spacers
---------------------*/
-
-@for $i from 1 through 16 {
-	// margin
-	.spacer-margin-#{$i} {
-		@include spacer($i, false);
-	}
-	
-	//padding
-	.spacer-padding-#{$i} {
-		@include spacer($i, true);
-	}
-}

@@ -1,16 +1,18 @@
 /*-------------------
-		Mixins
+				Mixins
 --------------------*/
 
 @mixin clearfix() {
-  &:before,
-  &:after {
-    content: " "; // 1
-    display: table; // 2
-  }
-  &:after {
-    clear: both;
-  }
+
+	&:before,
+	&:after {
+		content: " "; // 1
+		display: table; // 2
+	}
+
+	&:after {
+		clear: both;
+	}
 }
 
 
@@ -20,8 +22,8 @@
 
 // convert px to rem
 @function calculate-rem($size) {
-  $remSize: $size / $font-size-base;
-  @return #{$remSize}rem;
+	$remSize: $size / $font-size-base;
+	@return #{$remSize}rem;
 }
 
 // set font style
@@ -41,18 +43,41 @@
 
 
 
-// lay-out
+// media queries
 // ------------------------------
-@mixin spacer($factor, $padding) {
-	$spacer-size: $space / 2; // 6 pixels
-	@if $padding == true { 
-        padding-bottom: $spacer-size * $factor;
-    }
-    @else {
-		margin-bottom: $spacer-size * $factor;
+@mixin xs { @media (min-width: $xs) { @content; }} 
+@mixin sm { @media (min-width: $sm) { @content; }}
+@mixin md { @media (min-width: $md) { @content; }}
+@mixin lg { @media (min-width: $lg) { @content; }}
+
+// max-width breakpoints
+@mixin xs-max { @media (max-width: $xs) { @content; }}
+@mixin sm-max { @media (max-width: $sm) { @content; }}
+@mixin md-max { @media (max-width: $md) { @content; }}
+@mixin lg-max { @media (max-width: $lg) { @content; }}
+
+// exclusive breakpoints (min-max)
+@mixin sm-ex { @media (min-width: $sm) and (max-width: $md) { @content; }}
+@mixin md-ex { @media (min-width: $md) and (max-width: $lg) { @content; }}
+
+
+
+// spacers
+// ------------------------------
+@mixin spacer($factor, $property) {
+	$size: $space / 2; // 6 pixels 
+    
+    @if $factor == 0 {
+	    #{$property}: $factor;
+    } @else {
+	    #{$property}: $size * $factor;
     }
 }
 
+
+
+// lay-out
+// ------------------------------
 @mixin full($p) {
 	position: $p;
 	top: 0;
