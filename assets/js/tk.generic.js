@@ -93,13 +93,13 @@ $(document).ready(function () {
 	function navColorChange(id) {
 		var selector = "#js-hero-" + id;
 		var scrll = new ScrollMagic.Scene({
-			triggerElement:	selector,
-		})
-		.offset(hero_bottom - 28)
-		.triggerHook(0)
-		.setClassToggle("#js-navbar", "navbar-color--" + id)
-		//.addIndicators()
-		.addTo(controller);
+				triggerElement: selector,
+			})
+			.offset(hero_bottom - 28)
+			.triggerHook(0)
+			.setClassToggle("#js-navbar", "navbar-color--" + id)
+			//.addIndicators()
+			.addTo(controller);
 	};
 	navColorChange("wn");
 	navColorChange("ar");
@@ -171,6 +171,7 @@ $(document).ready(function () {
 	function router() {
 		var home = true;
 		var about = false;
+		var work = false;
 
 		var routes = [
 			"home",
@@ -267,36 +268,46 @@ $(document).ready(function () {
 
 		// navbar work
 		$(".js-nav--work").click(function () {
-			home = false;
-			about = false;
-			$(".js-nav--about").removeClass("is-active");
-			TweenLite.to("#js-navbar", .25, {
-				ease: default_ease,
-				autoAlpha: 0,
-			});
-			setTimeout(function () {
-				// work
-				$(".js-nav--work").addClass("is-active");
+			// if on same page do nothing
+			if (work == false) {
+				// set routing vars
+				home = false;
+				about = false;
+				work = true;
 
-				// navbar
-				$("#js-navbar").removeClass().addClass("navbar navbar--work");
-				TweenLite.to("#js-navbar", .7, {
-					ease: default_ease,
-					autoAlpha: 1,
-				});
+				// remove line under nav item
+				$(".js-nav--about").removeClass("is-active");
 
-				// remove lines in the background
-				$(".js-line").removeClass("is-active");
-				TweenLite.to(".js-line", .6, {
+				// fade out navbar
+				TweenLite.to("#js-navbar", .25, {
 					ease: default_ease,
 					autoAlpha: 0,
-					display: "none",
 				});
 
-				// scroll to top
-				$(window).scrollTop(0);
-			}, 300);
-			page_transition(.25, "work");
+				setTimeout(function () {
+					// add line under nav item
+					$(".js-nav--work").addClass("is-active");
+
+					// fade in navbar
+					$("#js-navbar").removeClass().addClass("navbar navbar--work");
+					TweenLite.to("#js-navbar", .7, {
+						ease: default_ease,
+						autoAlpha: 1,
+					});
+
+					// remove lines in the background
+					$(".js-line").removeClass("is-active");
+					TweenLite.to(".js-line", .6, {
+						ease: default_ease,
+						autoAlpha: 0,
+						display: "none",
+					});
+
+					// scroll to top
+					$(window).scrollTop(0);
+				}, 300);
+				page_transition(.25, "work");
+			};
 		});
 
 		// navbar about
@@ -310,9 +321,10 @@ $(document).ready(function () {
 						autoKill: false,
 					},
 				});
-				// execute page transition when not on about page
+			// execute page transition when not on work page
 			} else {
 				about = true;
+				work = false;
 				$(".js-nav--work").removeClass("is-active");
 				if (home == false) {
 					TweenLite.to("#js-navbar", .25, {

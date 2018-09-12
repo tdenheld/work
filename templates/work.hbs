@@ -2,13 +2,11 @@
 	<h1 class="work__title">{{title}}</h1>
 	<div class="work__grid">
 		{{#each work}}
-		<div class="tile__animation a a-fi js-scrll-section">
-			<div class="tr-si tr-400 js-tr">
-				<div class="tile tile--{{page}} js-case--{{page}}">
-					<div class="tile__link"></div>
-					<h2 class="tile__title">{{title}}</h2>
-					<p class="tile__description">{{description}}</p>
-				</div>
+		<div class="tile tile--animation tile--{{page}} js-case--{{page}} js-scrll-section a a-fi">
+			<div class="tile__container tr-si tr-400 js-tr">
+				<div class="tile__link"></div>
+				<h2 class="tile__title">{{title}}</h2>
+				<p class="tile__description">{{description}}</p>
 			</div>
 		</div>
 		{{/each}}

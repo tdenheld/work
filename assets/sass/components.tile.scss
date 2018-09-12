@@ -2,13 +2,14 @@
      	Tile
 --------------------*/
 
-.work {	
+.work {
 	display: flex;
 	padding: $navbar-height $double-space 0;
+
 	@media (min-width: $md) and (min-height: 920px) {
 		height: 100vh;
 		padding: 0 $double-space;
-		align-items: center;		
+		align-items: center;
 	}
 }
 
@@ -22,13 +23,13 @@
 	width: 100%;
 	padding: 0 0 $double-space;
 	grid-gap: $double-space;
-	
+
 	@include sm {
 		margin: 0 auto;
 		grid-gap: 0;
 		grid-template-columns: 1fr 1fr;
 	}
-	
+
 	@include md {
 		width: 1024px;
 	}
@@ -38,24 +39,29 @@
 // tile
 // -------------------------------------------
 .tile {
-	//lay-out
+	// base height
+	height: 210px;
+
+	@include sm {
+		margin-bottom: -1px;
+	}
+}
+
+.tile__container {
+	// lay-out
 	display: flex;
 	position: relative;
 	width: 100%;
-	height: 210px;
+	height: 100%;
 	padding: $space;
 	align-items: center;
 	text-align: center;
-	
+
 	// styling & animation
 	border: 1px solid $blue;
 	color: $blue;
 	cursor: pointer;
 	transition: $fade-all;
-	
-	@include sm {
-		margin-bottom: -1px;
-	}
 }
 
 .tile__title {
@@ -75,6 +81,7 @@
 
 .tile__link {
 	@include full(absolute);
+
 	&:after {
 		display: block;
 		z-index: 2;
@@ -83,7 +90,7 @@
 		background-position: center center;
 		background-size: contain;
 		background-repeat: no-repeat;
-		position: absolute;	
+		position: absolute;
 		width: 100%;
 		height: 100%;
 		top: 0;
@@ -92,15 +99,18 @@
 		transition: $fade-all;
 		box-shadow: 0 2px 40px rgba($blue, 0.3);
 	}
-	
-	&:hover {				
+
+	&:hover {
 		&:after {
 			opacity: 1;
 		}
 	}
 }
 
-.tile__animation {
+// modifiers
+// --------------------------------------
+
+.tile--animation {
 	@for $i from 1 through 4 {
 		&:nth-child(#{$i}) {
 			animation-duration: 400ms + ($i * 100);
@@ -109,11 +119,10 @@
 	}
 }
 
-// modifiers
-// --------------------------------------
-
+// case items
 // the right tiles has to put -1px to align with left side
-.tile--wn, .tile--cg {
+.tile--wn,
+.tile--cg {
 	@include sm {
 		margin-left: -1px;
 	}
@@ -125,7 +134,7 @@
 			background-image: url("../../media/thumbs/ns.svg");
 		}
 	}
-	
+
 	@include sm {
 		height: 320px;
 	}
@@ -137,7 +146,7 @@
 			background-image: url("../../media/thumbs/wn.svg");
 		}
 	}
-	
+
 	@include sm {
 		height: 240px;
 		align-self: end;
@@ -150,7 +159,7 @@
 			background-image: url("../../media/thumbs/ar.svg");
 		}
 	}
-	
+
 	@include sm {
 		width: 320px;
 		height: 200px;
@@ -164,7 +173,7 @@
 			background-image: url("../../media/thumbs/cg.svg");
 		}
 	}
-	
+
 	@include sm {
 		width: 240px;
 		height: 360px;
