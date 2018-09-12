@@ -426,14 +426,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/bower-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/data\/app.js": {
 		"ft": 64,
 		"ma": 0,
