@@ -2714,37 +2714,37 @@
 	"\/assets\/js\/plugins.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/jquery\/dist\/jquery.min.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/handlebars\/handlebars.runtime-v4.0.11.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/jquery.lazy\/jquery.lazy.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/jquery\/dist\/jquery.min.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/greensock-js\/TimelineMax.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/jquery.lazy\/jquery.lazy.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/greensock-js\/TweenMax.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/greensock-js\/TimelineMax.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/greensock-js\/plugins\/ScrollToPlugin.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/greensock-js\/TweenMax.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/handlebars\/handlebars.runtime-v4.0.11.js",
+			"linkedFileAbbreviatedPath": "\/node_modules\/greensock-js\/plugins\/ScrollToPlugin.js",
 			"position": 5,
 			"type": 0
 			},
