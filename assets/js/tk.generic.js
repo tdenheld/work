@@ -192,6 +192,8 @@ $(document).ready(function () {
 			var page = ".js-page--" + i;
 
 			$(btn).click(function () {
+				work = false;
+
 				TweenLite.set(".js-page", {
 					autoAlpha: 0,
 					display: "none",
@@ -321,7 +323,7 @@ $(document).ready(function () {
 						autoKill: false,
 					},
 				});
-			// execute page transition when not on work page
+				// execute page transition when not on work page
 			} else {
 				about = true;
 				work = false;
