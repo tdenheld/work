@@ -2,13 +2,13 @@
 	<div class="case__intro-container js-parallax">
 		<div class="intro intro--detail">
 			<div class="intro__container">
-				<img src="media/{{page}}/logo.svg" class="case__logo ani ani--fade-in" />
+				<img src="media/{{page}}/logo.svg" class="case__logo a a-fi" />
 				{{#if title}}
-					<h1 class="intro__title txt-xxxl ani ani--fade-in">{{title}}</h1>
+				<h1 class="intro__title txt-xxxl a a-fi">{{title}}</h1>
 				{{/if}}
-				<p class="intro__description txt-l ani ani--fade-in ani--delay-short">{{intro}}</p>
+				<p class="intro__description txt-l a a-fi a-del-250">{{intro}}</p>
 			</div>
-			<div class="scroll-down scroll-down--bottom ani ani--fade-in-up ani--delay-medium">
+			<div class="scroll-down scroll-down--bottom a a-fi-up a-del-500">
 				<div class="scroll-down__icon">
 					<div class="scroll-down__icon-circle"></div>
 				</div>
@@ -16,40 +16,40 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="case__content ani ani--fade-in">
+
+	<div class="case__content a a-fi">
 		<div class="case__hero-container" id="js-hero-{{page}}">
 			<img data-src="media/{{hero}}" src="" class="case__hero-img js-loader-hero-{{page}}" />
 			{{#if specs}}
-				<div class="case__hero-gradient tr tr--fade-in js-hero-gradient"></div>
-				<div class="case__specs">
-					<div class="case__specs-grid">
-						{{#each specs}}
-							<div class="case__specs-item tr-stag tr-stag--delay js-specs">
-								<h3 class="case__specs-title tr-stag tr-stag--delay js-specs">{{{title}}}</h3>
-								<p class="case__specs-description tr-stag tr-stag--delay js-specs">{{{description}}}</p>
-							</div>
-						{{/each}}
+			<div class="case__hero-gradient tr tr--fade-in js-hero-gradient"></div>
+			<div class="case__specs">
+				<div class="case__specs-grid">
+					{{#each specs}}
+					<div class="case__specs-item tr-400 tr-stag tr-stag-del js-specs">
+						<h3 class="case__specs-title tr-400 tr-stag tr-stag-del js-specs">{{{title}}}</h3>
+						<p class="case__specs-description tr-400 tr-stag tr-stag-del js-specs">{{{description}}}</p>
 					</div>
+					{{/each}}
 				</div>
+			</div>
 			{{/if}}
 		</div>
 		<div class="container">
 			{{#each item}}
-				<div class="case__item case__item--{{modifier}} js-case" id="js-case-item-{{../page}}-{{@index}}">
-					{{#if text}}
-						<div class="case__text-container">
-							<div class="case__line tr-stag js-case-item"></div>
-							<h2 class="txt-xl tr-stag js-case-item">{{text.title}}</h2>
-							<p class="case__description tr-stag js-case-item">{{text.description}}</p>
-						</div>
-					{{/if}}
-					{{#if img}}
-					<div class="img-container tr tr--scale-in js-case-item">
-						<img data-src="media/{{img}}" src="" class="img-responsive js-loader-item-{{../page}}" />
-					</div>
-					{{/if}}
+			<div class="case__item case__item--{{modifier}} js-scrll-section">
+				{{#if text}}
+				<div class="case__text-container">
+					<div class="case__line tr-400 tr-stag js-tr"></div>
+					<h2 class="txt-xl tr-stag tr-400 js-tr">{{text.title}}</h2>
+					<p class="case__description tr-400 tr-stag js-tr">{{text.description}}</p>
 				</div>
+				{{/if}}
+				{{#if img}}
+				<div class="img-container tr-si tr-400 js-tr">
+					<img data-src="media/{{img}}" src="" class="img-responsive js-loader-item-{{../page}}" />
+				</div>
+				{{/if}}
+			</div>
 			{{/each}}
 		</div>
 	</div>

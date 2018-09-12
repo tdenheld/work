@@ -63,32 +63,6 @@ $(document).ready(function () {
 		},
 	});
 
-	// constructor for case items
-	function caseItemScrollEvent(id) {
-		var element_id = document.getElementById(id);
-		var selector = "#" + id + " .js-case-item";
-
-		if (element_id) {
-			var scrll = new ScrollMagic.Scene({
-					triggerElement: "#" + id,
-				})
-				.triggerHook(trigger_hook)
-				.setClassToggle(selector, "is-active")
-				//.addIndicators()
-				.addTo(controller);
-		};
-	};
-	// loop trough all case items on all pages
-	function scrollEvents(page) {
-		var case_item = $(".js-case");
-		setTimeout(function () {
-			for (n = 0; n < case_item.length; n++) {
-				var id = "js-case-item-" + page + "-" + n;
-				caseItemScrollEvent(id);
-			};
-		}, 600);
-	};
-
 	// generic scrollmagic constructor
 	// -----------------------------------------------------------------
 	function scroll_trig(i) {
@@ -101,8 +75,7 @@ $(document).ready(function () {
 				.triggerHook(trigger_hook)
 				.offset(0)
 				.on("start", function () {
-					$(el + " .tr").toggleClass("is-active");
-					$(el + " .tr-stag").toggleClass("is-active");
+					$(el + " .js-tr").toggleClass("is-active");
 				})
 				//.addIndicators()
 				.addTo(controller);
@@ -152,7 +125,7 @@ $(document).ready(function () {
 		});
 	};
 
-	
+
 
 
 	// functionality that"s on linked on scroll
