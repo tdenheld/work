@@ -56,13 +56,6 @@
 	@include sm {
 		margin-bottom: -1px;
 	}
-	
-	@for $i from 1 through 4 {
-		&:nth-child(#{$i}) {
-			animation-duration: 400ms + ($i * 100);
-			animation-delay: 100ms + ($i * 150);
-		}
-	}
 }
 
 .tile__title {
@@ -103,6 +96,15 @@
 	&:hover {				
 		&:after {
 			opacity: 1;
+		}
+	}
+}
+
+.tile__animation {
+	@for $i from 1 through 4 {
+		&:nth-child(#{$i}) {
+			animation-duration: 400ms + ($i * 100);
+			animation-delay: 100ms + ($i * 150);
 		}
 	}
 }
