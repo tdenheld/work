@@ -192,3 +192,16 @@
 .about__img {
 	margin-bottom: $double-space;
 }
+
+
+
+/*-------------------
+	    Misc
+--------------------*/
+
+.opacity-hover {
+	transition: opacity 250ms $ease;
+	&:hover {
+		opacity: 0.5;
+	}
+}

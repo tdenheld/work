@@ -169,10 +169,8 @@ $(document).ready(function () {
 	// router
 	// ----------------------------------
 	function router() {
-		var home = true;
-		var about = false;
-		var work = false;
 
+		// put all pages in array
 		var routes = [
 			"home",
 			"work",
@@ -183,38 +181,46 @@ $(document).ready(function () {
 			"cg",
 		];
 
-		// default state
+		// put current page in var
+		var currentPage = routes[0];
+
+		// hide all pages by default
 		$(".js-page").hide();
-		$(".js-page--home").show();
+
+		// show current page
+		$(".js-page--" + currentPage).show();
 
 		function toggle_cases(i) {
 			var btn = ".js-case--" + i;
 			var page = ".js-page--" + i;
 
+			// make work tiles clickable
 			$(btn).click(function () {
-				work = false;
 
+				// hide all pages
 				TweenLite.set(".js-page", {
 					autoAlpha: 0,
 					display: "none",
 				});
+				// show current new page
 				TweenLite.set(page, {
 					autoAlpha: 1,
 					display: "block"
 				});
 
+				// reset navbar and page scroll position
 				$(".js-nav--work").removeClass("is-active");
 				$(".js-nav--about").removeClass("is-active");
 				$(window).scrollTop(0);
 
+				// loop through pages on click to match the current page
 				for (n = 0; n < routes.length; n++) {
 					var r = routes[n];
-					if (page !== ".js-page--" + r) {
-						$("#js-navbar").removeClass("navbar--" + r);
-					} else if (page == ".js-page--" + r) {
-						$("#js-navbar").addClass("navbar--" + r);
+					if (i === r) {
+						$("#js-navbar").removeClass().addClass("navbar navbar--" + r);
 						$("body").removeClass().addClass("bg--" + r);
 						img_loader(r);
+						currentPage = r;
 					};
 				};
 			});
@@ -227,14 +233,20 @@ $(document).ready(function () {
 
 		// base function to trigger page transition
 		function page_transition(s, page) {
+			// set current page
+			currentPage = page;
+
+			// fade out page
 			TweenLite.to(".js-page", s, {
 				autoAlpha: 0,
 				display: "none",
 				onComplete: function () {
+					// fade in page
 					TweenLite.set(".js-page--" + page, {
 						autoAlpha: 1,
 						display: "block",
 					});
+					// set body background color to page color properties
 					$("body").removeClass().addClass("bg--" + page);
 				},
 			});
@@ -242,7 +254,6 @@ $(document).ready(function () {
 
 		// main call to action button on home
 		$(".js-checkout-button").click(function () {
-			home = false;
 			$(".js-line").addClass("is-active");
 			$("#js-navbar").removeClass().addClass("navbar");
 			TweenLite.to("#js-navbar", .55, {
@@ -271,12 +282,7 @@ $(document).ready(function () {
 		// navbar work
 		$(".js-nav--work").click(function () {
 			// if on same page do nothing
-			if (work == false) {
-				// set routing vars
-				home = false;
-				about = false;
-				work = true;
-
+			if (currentPage !== "work") {
 				// remove line under nav item
 				$(".js-nav--about").removeClass("is-active");
 
@@ -315,7 +321,7 @@ $(document).ready(function () {
 		// navbar about
 		$(".js-nav--about").click(function () {
 			// if on same page scroll up
-			if (about) {
+			if (currentPage === "about") {
 				TweenLite.to(window, 0.6, {
 					ease: Power3.easeInOut,
 					scrollTo: {
@@ -323,12 +329,11 @@ $(document).ready(function () {
 						autoKill: false,
 					},
 				});
+
 				// execute page transition when not on work page
 			} else {
-				about = true;
-				work = false;
 				$(".js-nav--work").removeClass("is-active");
-				if (home == false) {
+				if (currentPage !== "home") {
 					TweenLite.to("#js-navbar", .25, {
 						ease: default_ease,
 						autoAlpha: 0,
@@ -344,7 +349,7 @@ $(document).ready(function () {
 
 					// navbar
 					$("#js-navbar").removeClass().addClass("navbar navbar--about");
-					if (home == false) {
+					if (currentPage !== "home") {
 						TweenLite.to("#js-navbar", .7, {
 							ease: default_ease,
 							autoAlpha: 1,
