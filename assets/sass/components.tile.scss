@@ -11,6 +11,13 @@
 		padding: 0 $double-space;
 		align-items: center;
 	}
+
+	&--case {
+		position: relative;
+		z-index: 2;
+		margin-top: 100vh;
+		background-color: $pinkish;
+	}
 }
 
 .work__title {
