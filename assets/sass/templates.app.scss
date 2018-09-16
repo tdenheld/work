@@ -201,7 +201,9 @@
 
 .opacity-hover {
 	transition: opacity 250ms $ease;
-	&:hover {
-		opacity: 0.5;
+	@include sm {
+		&:hover {
+			opacity: 0.5;
+		}
 	}
 }

@@ -1,26 +1,26 @@
 (function() {
   var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
 templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
   return "<!-- about -->\n<div class=\"about\">\n	<div class=\"intro intro--about\">\n		<div class=\"intro__container\">\n			<h1 class=\"about__heading a a-fi\">\n				"
-    + ((stack1 = ((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper))) != null ? stack1 : "")
+    + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
     + "\n			</h1>\n			<p class=\"intro__description a a-fi a-del-250\">\n				"
-    + alias4(((helper = (helper = helpers.p1 || (depth0 != null ? depth0.p1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p1","hash":{},"data":data}) : helper)))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p1 : stack1), depth0))
     + "\n			</p>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
-    + alias4(((helper = (helper = helpers.p2 || (depth0 != null ? depth0.p2 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p2","hash":{},"data":data}) : helper)))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p2 : stack1), depth0))
     + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
-    + alias4(((helper = (helper = helpers.p3 || (depth0 != null ? depth0.p3 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p3","hash":{},"data":data}) : helper)))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p3 : stack1), depth0))
     + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi\">\n				<img data-src=\"media/"
-    + alias4(((helper = (helper = helpers.img || (depth0 != null ? depth0.img : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"img","hash":{},"data":data}) : helper)))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.img : stack1), depth0))
     + "\" class=\"img-responsive about__img js-about-img tr-si tr-400 js-tr\" />\n			</div>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-400 tr-stag js-tr\">\n					"
-    + alias4(((helper = (helper = helpers.p4 || (depth0 != null ? depth0.p4 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"p4","hash":{},"data":data}) : helper)))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p4 : stack1), depth0))
     + "\n					"
-    + alias4(((helper = (helper = helpers.contact || (depth0 != null ? depth0.contact : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contact","hash":{},"data":data}) : helper)))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.contact : stack1), depth0))
     + " <a href=\"mailto:"
-    + alias4(((helper = (helper = helpers.email || (depth0 != null ? depth0.email : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"email","hash":{},"data":data}) : helper)))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.email : stack1), depth0))
     + "\" target=\"_blank\" class=\"link link--about\"><b>"
-    + alias4(((helper = (helper = helpers.email || (depth0 != null ? depth0.email : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"email","hash":{},"data":data}) : helper)))
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.email : stack1), depth0))
     + "</b></a>\n				</p>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi sfi--about a a-fi-up a-del-500\">\n	<a href=\"https://www.behance.net/tk305\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>\n</footer>";
 },"useData":true});
 templates['app'] = template({"1":function(container,depth0,helpers,partials,data) {
@@ -45,9 +45,9 @@ templates['app'] = template({"1":function(container,depth0,helpers,partials,data
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
 
   return "<!-- navbar -->\n<header class=\"navbar a a-fi-down a-del-250\" id=\"js-navbar\">\n	<a href=\"/\">\n		<span include=\"../assets/img/logo-tk305.svg\" class=\"opacity-hover\"></span>\n	</a>\n	<ul class=\"navbar__list\">\n"
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.app : depth0)) != null ? stack1.navbar : stack1),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.navbar : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "	</ul>\n</header>\n\n<div class=\"lines\">\n	<div class=\"lines__line js-line\"><span></span></div>\n	<div class=\"lines__line js-line\"><span></span></div>\n	<div class=\"lines__line js-line\"><span></span></div>\n	<div class=\"lines__line js-line\"><span></span></div>\n	<div class=\"lines__line js-line\"><span></span></div>\n</div>\n\n<!-- pages -->\n"
-    + ((stack1 = helpers.each.call(alias1,((stack1 = (depth0 != null ? depth0.app : depth0)) != null ? stack1.pages : stack1),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.pages : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
 },"useData":true});
 templates['case'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper;
@@ -118,7 +118,13 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
     + "		</div>\n	</div>\n</div>";
 },"useData":true,"useDepths":true});
 templates['home'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "<!-- animation of little objects -->\n<div class=\"ao\">\n	<div class=\"ao__particle ao--move-up-down ao--v-70\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-20 ao--delay-2s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-22 ao--delay-3s ao--dur-11s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-30 ao--delay-5s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-50 ao--delay-7s ao--dur-10s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-80 ao--delay-6s ao--dur-13s\"></div>	\n</div>\n\n<!-- intro -->\n<div class=\"intro a a-fi\">\n	<div class=\"intro__container\">\n		<h1 class=\"intro__title txt-xxxxl\">\n			Creating digital experiences to engage people.\n		</h1>\n		<button class=\"button txt-m js-checkout-button\">check out latest work</button>\n	</div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi a a-fi-up a-del-500\">\n	<a href=\"https://www.behance.net/tk305\"  target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>	\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>	\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>	\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>	\n</footer>";
+    var stack1, alias1=container.lambda;
+
+  return "<!-- animation of little objects -->\n<div class=\"ao\">\n	<div class=\"ao__particle ao--move-up-down ao--v-70\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-20 ao--delay-2s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-22 ao--delay-3s ao--dur-11s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-30 ao--delay-5s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-50 ao--delay-7s ao--dur-10s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-80 ao--delay-6s ao--dur-13s\"></div>	\n</div>\n\n<!-- intro -->\n<div class=\"intro a a-fi\">\n	<div class=\"intro__container\">\n		<h1 class=\"intro__title txt-xxxxl\">\n			"
+    + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.intro : stack1), depth0)) != null ? stack1 : "")
+    + "\n		</h1>\n		<button class=\"button txt-m js-checkout-button\">"
+    + container.escapeExpression(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.button : stack1), depth0))
+    + "</button>\n	</div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi a a-fi-up a-del-500\">\n	<a href=\"https://www.behance.net/tk305\"  target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>	\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>	\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>	\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>	\n</footer>";
 },"useData":true});
 templates['work'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
@@ -133,12 +139,12 @@ templates['work'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
     + "</p>\n			</div>\n		</div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {});
+    var stack1;
 
   return "<div class=\"work\">\n	<h1 class=\"work__title\">"
-    + container.escapeExpression(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
+    + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.work : depth0)) != null ? stack1.title : stack1), depth0))
     + "</h1>\n	<div class=\"work__grid\">\n"
-    + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.work : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers.each.call(depth0 != null ? depth0 : (container.nullContext || {}),((stack1 = (depth0 != null ? depth0.work : depth0)) != null ? stack1.items : stack1),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "	</div>\n</div>";
 },"useData":true});
 })();

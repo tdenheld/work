@@ -1,36 +1,41 @@
-// TK305 data template
+// tibor.work data template
 
-function app() {
-	var app_context = {		
-		"app" : {
-			"navbar" : [
-				{"item" : "work"},
-				{"item" : "about"},
-			],
-			
-			"pages" : [
-				{"page" : "home"},
-				{"page" : "work"},
-				{"page" : "about"},
-				{"page" : "ns"},
-				{"page" : "wn"},
-				{"page" : "ar"},
-				{"page" : "cg"},	
-			],
-		},
-	}
-	var template_script = Handlebars.templates.app(app_context);	
-	$("#app").append(template_script);
-	$("#home").append(Handlebars.templates.home());
-}
-app();
+var context = {	
+
+	// navbar
+	// --------------------------------
+	"navbar" : [
+		{"item" : "work"},
+		{"item" : "about"},
+	],
+	
+
+	// pages
+	// --------------------------------
+	"pages" : [
+		{"page" : "home"},
+		{"page" : "work"},
+		{"page" : "about"},
+		{"page" : "ns"},
+		{"page" : "wn"},
+		{"page" : "ar"},
+		{"page" : "cg"},	
+	],
 
 
+	// home
+	// --------------------------------
+	"home": {
+		"intro": "Creating digital experiences to engage people.",
+		"button": "checkout lastest work"
+	},
 
-function work() {
-	var work_context = {	
-		"title" : "Selected work of TK305",	
-		"work" : [
+
+	// work
+	// --------------------------------
+	"work": {
+		"title": "Selected work of TK305",
+		"items": [
 			{
 				"page" : "ns",
 				"title" : "Dutch Railways",
@@ -49,16 +54,12 @@ function work() {
 				"description" : "Visual Design / UX",
 			},
 		],
-	}
-	var template_script = Handlebars.templates.work(work_context);	
-	$("#work").append(template_script);
-}
-work();
+	},
 
 
-
-function about() {
-	var about_context = {	
+	// about
+	// --------------------------------
+	"about" : {
 		"title" : "Hoi.<br>It’s me,<br>Tibor!",
 		"p1" : "I'm an Utrecht based digital designer creating experiences for humans and companies. Mostly intrigued with visual design, prototyping, UX and branding.",
 		"p2" : "Working with large online platforms as well as tasteful campaign websites. If possible I implement my designs in code.",
@@ -67,13 +68,8 @@ function about() {
 		"p4" : "In any case, I also love to play with cameras and synthesizers.",
 		"contact" : "Mail me at",
 		"email" : "hoi@tk305.com",
-	}
-	var template_script = Handlebars.templates.about(about_context);	
-	$("#about").append(template_script);
-}
-about();
-
-
+	},
+};
 
 var ns_context = {	
 	"page" : "ns",
@@ -129,7 +125,7 @@ var ns_context = {
 			"modifier" : "more-margin",
 		},
 	],
-}	
+};
 
 var wn_context = {
 	"page" : "wn",	
@@ -275,6 +271,17 @@ var ar_context = {
 		},
 	],
 };
+
+
+
+// put data into html
+// ------------------------------------------------------------------
+
+$("#app").append(Handlebars.templates.app(context));
+$("#home").append(Handlebars.templates.home(context));
+$("#work").append(Handlebars.templates.work(context));
+$("#work-case").append(Handlebars.templates.work(context));
+$("#about").append(Handlebars.templates.about(context));
 
 $("#ns").append(Handlebars.templates.case(ns_context));
 $("#wn").append(Handlebars.templates.case(wn_context));

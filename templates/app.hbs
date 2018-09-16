@@ -4,7 +4,7 @@
 		<span include="../assets/img/logo-tk305.svg" class="opacity-hover"></span>
 	</a>
 	<ul class="navbar__list">
-		{{#each app.navbar}}
+		{{#each navbar}}
 			<li class="navbar__list-item navbar__list-item--{{item}} js-nav js-nav--{{item}} opacity-hover">
 				{{item}}
 			</li>
@@ -21,6 +21,6 @@
 </div>
 
 <!-- pages -->
-{{#each app.pages}}
+{{#each pages}}
 	<div id="{{page}}" class="js-page js-page--{{page}}"></div>
 {{/each}}
