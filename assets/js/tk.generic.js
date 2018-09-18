@@ -110,20 +110,24 @@ $(document).ready(function () {
 
 	// image loader
 	// ------------------------------------------------------------
-	function img_loader(page) {
-		var hero = ".js-loader-hero-" + page;
-		var item = ".js-loader-item-" + page;
-
-		$(hero).Lazy();
+	function img_loader(page) {		
 		TweenLite.delayedCall(.05, function () {
-			$(item).Lazy({
+			$(".js-loader-item-" + page).Lazy({
 				threshold: 99999,
-				afterLoad: function () {
-					scrollEvents(page);
-				},
 			});
 		});
 	};
+	
+	// load hero images sequentially to preload them after initial load
+	function heroLoad(page) {
+		var hero = ".js-loader-hero-" + page;
+		$(hero).Lazy();
+	};
+	setTimeout(heroLoad("ns"), 1500);
+	setTimeout(heroLoad("wn"), 2000);
+	setTimeout(heroLoad("ar"), 2250);
+	setTimeout(heroLoad("cg"), 2500);
+
 
 
 

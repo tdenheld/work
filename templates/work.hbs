@@ -4,9 +4,9 @@
 		{{#each work.items}}
 		<div class="tile tile--animation tile--{{page}} js-case--{{page}} js-scrll-section a a-fi">
 			<div class="tile__container tr-si tr-400 js-tr">
-				<div class="tile__link"></div>
-				<h2 class="tile__title">{{title}}</h2>
-				<p class="tile__description">{{description}}</p>
+				<h2 class="tile__title tr-stag tr-400 js-tr">{{title}}</h2>
+				<p class="tile__description tr-stag tr-400 js-tr">{{description}}</p>
+				<div class="tile__hover" include="../media/thumbs/{{page}}.svg"></div>
 			</div>
 		</div>
 		{{/each}}

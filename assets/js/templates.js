@@ -115,7 +115,9 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.specs : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "		</div>\n		<div class=\"container\">\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.item : depth0),{"name":"each","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "		</div>\n	</div>\n</div>";
+    + "		</div>\n	</div>\n</div>\n<div class=\"hbs-case__work-tiles work--case work--"
+    + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
+    + "\">\n	<div class=\"container\">\n		<div class=\"work-cf js-scrll-section\">\n			<h2 class=\"work-cf__title txt-xl tr-si tr-400 js-tr\">View more cases</h2>\n		</div>\n	</div>\n</div>";
 },"useData":true,"useDepths":true});
 templates['home'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda;
@@ -133,11 +135,13 @@ templates['work'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
     + " js-case--"
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
-    + " js-scrll-section a a-fi\">\n			<div class=\"tile__container tr-si tr-400 js-tr\">\n				<div class=\"tile__link\"></div>\n				<h2 class=\"tile__title\">"
+    + " js-scrll-section a a-fi\">\n			<div class=\"tile__container tr-si tr-400 js-tr\">\n				<h2 class=\"tile__title tr-stag tr-400 js-tr\">"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
-    + "</h2>\n				<p class=\"tile__description\">"
+    + "</h2>\n				<p class=\"tile__description tr-stag tr-400 js-tr\">"
     + alias4(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description","hash":{},"data":data}) : helper)))
-    + "</p>\n			</div>\n		</div>\n";
+    + "</p>\n				<div class=\"tile__hover\" include=\"../media/thumbs/"
+    + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
+    + ".svg\"></div>\n			</div>\n		</div>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 

@@ -19,9 +19,8 @@ var context = {
 		{"page" : "ns"},
 		{"page" : "wn"},
 		{"page" : "ar"},
-		{"page" : "cg"},	
+		{"page" : "cg"},
 	],
-
 
 	// home
 	// --------------------------------
@@ -280,10 +279,12 @@ var ar_context = {
 $("#app").append(Handlebars.templates.app(context));
 $("#home").append(Handlebars.templates.home(context));
 $("#work").append(Handlebars.templates.work(context));
-$("#work-case").append(Handlebars.templates.work(context));
 $("#about").append(Handlebars.templates.about(context));
 
 $("#ns").append(Handlebars.templates.case(ns_context));
 $("#wn").append(Handlebars.templates.case(wn_context));
 $("#cg").append(Handlebars.templates.case(cg_context));
 $("#ar").append(Handlebars.templates.case(ar_context));
+
+// add project tiles in foorer of case
+$(".hbs-case__work-tiles").append(Handlebars.templates.work(context));

@@ -28,7 +28,7 @@
 .case__content {
 	position: relative;
 	background-color: $white;
-	padding: 0 0 60px;
+	padding: 0 0 $double-space;
 
 	@include md {
 		padding: 0 0 100px;

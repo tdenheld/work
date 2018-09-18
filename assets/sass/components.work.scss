@@ -1,0 +1,293 @@
+/*-------------------
+     	Work
+--------------------*/
+
+.work {
+	display: flex;
+	padding: $navbar-height $double-space 0;
+
+	@media (min-width: $md) and (min-height: 920px) {
+		height: 100vh;
+		padding: 0 $double-space;
+		align-items: center;
+	}
+}
+
+.work__title {
+	visibility: hidden;
+	position: absolute;
+}
+
+.work__grid {
+	display: grid;
+	width: 100%;
+	grid-gap: $double-space;
+	padding-bottom: $double-space;
+
+	@include sm {
+		margin: 0 auto;
+		grid-gap: 0;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@include md {
+		width: 1024px;
+	}
+}
+
+
+
+// display tiles of cases below case page
+// -----------------------------------------------------------------------------------
+
+.work-cf {
+	display: flex;
+	justify-content: center;
+	padding: 0 $double-space;
+}
+
+.work-cf__title {
+	margin: $triple-space 0;
+	font-weight: 200;
+
+	@include sm {
+		margin: 60px 0;
+	}
+}
+
+// modifier for tiles in footer of case template
+.work--case {
+	position: relative;
+	z-index: 2;
+
+	@include md {
+		margin-top: 100vh;
+	}
+
+	.work {
+		padding-top: 0;
+		height: auto;
+		@extend .container;
+	}
+
+	.work__grid {
+		grid-gap: $double-space;
+		width: 100%;
+
+		@include sm {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@include lg {
+			padding-bottom: 90px;
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
+
+	.tile {
+		width: 100% !important;
+		height: 210px;
+	}
+
+	.tile__hover {
+		box-shadow: none;
+	}
+}
+
+// modifier per case
+.work--ns {
+	background-color: $ns-yellow;
+
+	.work-cf__title {
+		color: $ns-blue;
+	}
+
+	.tile__container {
+		border: 1px solid $ns-blue;
+		color: $ns-blue;
+	}
+
+	.tile__hover {
+		background-color: $ns-blue;
+	}
+}
+
+.work--wn {
+	background-color: $wn-blue;
+
+	.work-cf__title {
+		color: $white;
+	}
+
+	.tile__container {
+		border: 1px solid $white;
+		color: $white;
+	}
+
+	.tile__hover {
+		background-color: $white;
+
+		svg {
+			fill: $wn-blue;
+		}
+	}
+}
+
+.work--ar {
+	background-color: $ar-brown;
+
+	.work-cf__title {
+		color: $ar-beige;
+	}
+
+	.tile__container {
+		border: 1px solid $ar-beige;
+		color: $ar-beige;
+	}
+
+	.tile__hover {
+		background-color: $ar-beige;
+
+		svg {
+			fill: $ar-brown;
+		}
+	}
+}
+
+.work--cg {
+	background-color: $cg-black;
+
+	.work-cf__title {
+		color: $white;
+	}
+
+	.tile__container {
+		border: 1px solid $white;
+		color: $white;
+	}
+
+	.tile__hover {
+		background-color: $white;
+
+		svg {
+			fill: $cg-black;
+		}
+	}
+}
+
+
+// tile
+// -------------------------------------------
+.tile {
+	// base height
+	height: 210px;
+
+	@include sm {
+		margin-bottom: -1px;
+	}
+}
+
+.tile__container {
+	// lay-out
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: $space;
+	align-items: center;
+	text-align: center;
+
+	// styling & animation
+	border: 1px solid $blue;
+	color: $blue;
+	cursor: pointer;
+	transition: $fade-all;
+}
+
+.tile__title {
+	position: relative;
+	top: 10px;
+	width: 100%;
+	@include font-style($txt-l, 800, $line-height-heading);
+}
+
+.tile__description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	@include font-style($txt-xxs, 200, $line-height-heading);
+}
+
+.tile__hover {
+	@include full(absolute);
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: $fade-all;
+	background-color: $blue;
+	box-shadow: 0 2px 40px rgba($blue, 0.3);
+
+	&:hover {
+		opacity: 1;
+	}
+
+	svg {
+		width: 70%;
+		fill: $white;
+	}
+}
+
+
+
+
+// modifiers
+// --------------------------------------
+
+.tile--animation {
+	@for $i from 1 through 4 {
+		&:nth-child(#{$i}) {
+			animation-duration: 400ms + ($i * 100);
+			animation-delay: 100ms + ($i * 150);
+		}
+	}
+}
+
+// case items
+// the right tiles has to put -1px to align with left side
+.tile--wn,
+.tile--cg {
+	@include sm {
+		margin-left: -1px;
+	}
+}
+
+.tile--ns {
+	@include sm {
+		height: 320px;
+	}
+}
+
+.tile--wn {
+	@include sm {
+		height: 240px;
+		align-self: end;
+	}
+}
+
+.tile--ar {
+	@include sm {
+		width: 320px;
+		height: 200px;
+		justify-self: end;
+	}
+}
+
+.tile--cg {
+	@include sm {
+		width: 240px;
+		height: 360px;
+	}
+}
