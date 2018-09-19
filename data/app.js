@@ -287,4 +287,4 @@ $("#cg").append(Handlebars.templates.case(cg_context));
 $("#ar").append(Handlebars.templates.case(ar_context));
 
 // add project tiles in foorer of case
-$(".hbs-case__work-tiles").append(Handlebars.templates.work(context));
+$(".hbs-work-cf").append(Handlebars.templates.work(context));

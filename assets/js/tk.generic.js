@@ -110,14 +110,14 @@ $(document).ready(function () {
 
 	// image loader
 	// ------------------------------------------------------------
-	function img_loader(page) {		
+	function img_loader(page) {
 		TweenLite.delayedCall(.05, function () {
 			$(".js-loader-item-" + page).Lazy({
 				threshold: 99999,
 			});
 		});
 	};
-	
+
 	// load hero images sequentially to preload them after initial load
 	function heroLoad(page) {
 		var hero = ".js-loader-hero-" + page;
