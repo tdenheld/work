@@ -48,11 +48,7 @@
 
 // modifiers
 // --------------------------
-.navbar--ns {
-	.navbar__list {
-		position: fixed;
-	}
-	
+.navbar--ns {	
 	.navbar__list-item {
 		color: $ns-blue;
 	}
@@ -62,11 +58,7 @@
 	}
 }
 
-.navbar--wn, .navbar--ar, .navbar--cg {
-	.navbar__list {
-		position: fixed;
-	}
-			
+.navbar--wn, .navbar--ar, .navbar--cg {			
 	.navbar__list-item {
 		color: $white;
 	}
