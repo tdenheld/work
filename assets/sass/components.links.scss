@@ -1,10 +1,20 @@
 /*-------------------
-        Links
+	Links
 --------------------*/
 
 .link {
-	display: inline-block;
-	line-height: $line-height-link;
-	border-bottom: 1px solid $pinkish;
-	cursor: pointer;
+    display: inline-block;
+    line-height: $line-height-link;
+    border-bottom: 1px solid $pinkish;
+    cursor: pointer;
+}
+
+.link--about {
+transition: all 250ms $ease;
+
+    &:hover {
+        padding: 9px 6px 6px;
+        background-color: $pinkish;
+        color: $blue;
+    }
 }

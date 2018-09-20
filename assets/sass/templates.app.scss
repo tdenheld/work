@@ -150,18 +150,36 @@
 		font-size: calculate-rem($txt-l);
 		font-weight: bold;
 		line-height: 1.3;
-		margin-bottom: $double-space;
+
+		@include sm {
+			font-size: calculate-rem($txt-xxl);
+		}
+
 		@include md {
 			font-size: calculate-rem($txt-xxxl);
-			margin-bottom: $quadruple-space;
 		}
 		
 		&--small {
 			font-weight: 200;
 			line-height: 1.5;
 			font-size: calculate-rem($txt-m);
+
+			@include sm {
+				font-size: calculate-rem($txt-l);
+			}
+
 			@include md {
 				font-size: calculate-rem($txt-xl);
+			}
+		}
+
+		&--smaller {
+			font-weight: 200;
+			line-height: 1.5;
+			font-size: calculate-rem($txt-s);
+
+			@include md {
+				font-size: calculate-rem($txt-m);
 			}
 		}
 	}
@@ -189,8 +207,16 @@
 	}
 }
 
-.about__img {
+.about__margin {
 	margin-bottom: $double-space;
+	
+	@include sm {
+		margin-bottom: $triple-space;
+	}
+
+	@include md {
+		margin-bottom: $quadruple-space;
+	}
 }
 
 

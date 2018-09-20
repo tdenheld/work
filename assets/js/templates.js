@@ -5,15 +5,15 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
 
   return "<!-- about -->\n<div class=\"about\">\n	<div class=\"intro intro--about\">\n		<div class=\"intro__container\">\n			<h1 class=\"about__heading a a-fi\">\n				"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
-    + "\n			</h1>\n			<p class=\"intro__description a a-fi a-del-250\">\n				"
+    + "\n			</h1>\n			<p class=\"intro__description a a-fi a-del-250 about__margin\">\n				"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p1 : stack1), depth0))
-    + "\n			</p>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
+    + "\n			</p>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p2 : stack1), depth0))
-    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
+    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p3 : stack1), depth0))
-    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi\">\n				<img data-src=\"media/"
+    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<img data-src=\"media/"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.img : stack1), depth0))
-    + "\" class=\"img-responsive about__img js-about-img tr-si tr-400 js-tr\" />\n			</div>\n			<div class=\"js-scrll-section a a-fi\">\n				<p class=\"intro__description intro__description--small tr-400 tr-stag js-tr\">\n					"
+    + "\" class=\"img-responsive js-about-img tr-si tr-400 js-tr\" />\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--small tr-400 tr-stag js-tr\">\n					"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p4 : stack1), depth0))
     + "\n					"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.contact : stack1), depth0))
@@ -21,7 +21,9 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.email : stack1), depth0))
     + "\" target=\"_blank\" class=\"link link--about\"><b>"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.email : stack1), depth0))
-    + "</b></a>\n				</p>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi sfi--about a a-fi-up a-del-500\">\n	<a href=\"https://www.behance.net/tk305\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>\n</footer>";
+    + "</b></a>\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--smaller tr-stag js-tr\">\n					"
+    + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p5 : stack1), depth0)) != null ? stack1 : "")
+    + "\n				</p>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi sfi--about a a-fi-up a-del-500\">\n	<a href=\"https://www.behance.net/tk305\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>\n</footer>";
 },"useData":true});
 templates['app'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;

@@ -78,11 +78,7 @@
 	}
 }
 
-.navbar--about {
-	.navbar__list {
-		position: fixed;
-	}
-				
+.navbar--about {				
 	.navbar__list-item {
 		color: $pinkish;
 		&.is-active:after {
