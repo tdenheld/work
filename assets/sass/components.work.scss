@@ -108,7 +108,11 @@
 	}
 
 	.tile__hover {
-		background-color: $ns-blue;
+        background-color: $ns-blue;
+        
+        svg {
+            fill: $white;
+        }
 	}
 }
 

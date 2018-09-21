@@ -28,17 +28,17 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
 templates['app'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "			<li class=\"navbar__list-item navbar__list-item--"
+  return "        <li class=\"navbar__list-item navbar__list-item--"
     + alias4(((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"item","hash":{},"data":data}) : helper)))
     + " js-nav js-nav--"
     + alias4(((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"item","hash":{},"data":data}) : helper)))
-    + " opacity-hover\">\n				"
+    + "\">\n            <span class=\"opacity-hover\">\n                "
     + alias4(((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"item","hash":{},"data":data}) : helper)))
-    + "\n			</li>\n";
+    + "\n            </span>\n        </li>\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "	<div id=\""
+  return "<div id=\""
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
     + "\" class=\"js-page js-page--"
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
@@ -46,9 +46,9 @@ templates['app'] = template({"1":function(container,depth0,helpers,partials,data
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "<!-- navbar -->\n<header class=\"navbar a a-fi-down a-del-250\" id=\"js-navbar\">\n	<a href=\"/\">\n		<span include=\"../assets/img/logo-tk305.svg\" class=\"opacity-hover\"></span>\n	</a>\n	<ul class=\"navbar__list\">\n"
+  return "<!-- navbar -->\n<header class=\"navbar a a-fi-down a-del-250\" id=\"js-navbar\">\n    <a href=\"/\">\n        <span include=\"../assets/img/logo-tk305.svg\" class=\"opacity-hover\"></span>\n    </a>\n    <ul class=\"navbar__list\">\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.navbar : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "	</ul>\n</header>\n\n<div class=\"lines\">\n	<div class=\"lines__line js-line\"><span></span></div>\n	<div class=\"lines__line js-line\"><span></span></div>\n	<div class=\"lines__line js-line\"><span></span></div>\n	<div class=\"lines__line js-line\"><span></span></div>\n	<div class=\"lines__line js-line\"><span></span></div>\n</div>\n\n<!-- animation of little objects -->\n<div class=\"ao js-ao\">\n	<div class=\"ao__particle ao--move-up-down ao--v-70\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-20 ao--delay-2s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-22 ao--delay-3s ao--dur-11s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-30 ao--delay-5s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-50 ao--delay-7s ao--dur-10s\"></div>\n	<div class=\"ao__particle ao--move-up-down ao--v-80 ao--delay-6s ao--dur-13s\"></div>	\n</div>\n\n<!-- pages -->\n"
+    + "    </ul>\n</header>\n\n<div class=\"lines\">\n    <div class=\"lines__line js-line\"><span></span></div>\n    <div class=\"lines__line js-line\"><span></span></div>\n    <div class=\"lines__line js-line\"><span></span></div>\n    <div class=\"lines__line js-line\"><span></span></div>\n    <div class=\"lines__line js-line\"><span></span></div>\n</div>\n\n<!-- animation of little objects -->\n<div class=\"ao js-ao\">\n    <div class=\"ao__particle ao--move-up-down ao--v-70\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-20 ao--delay-2s\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-22 ao--delay-3s ao--dur-11s\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-30 ao--delay-5s\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-50 ao--delay-7s ao--dur-10s\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-80 ao--delay-6s ao--dur-13s\"></div>\n</div>\n\n<!-- pages -->\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.pages : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
 },"useData":true});
 templates['case'] = template({"1":function(container,depth0,helpers,partials,data) {

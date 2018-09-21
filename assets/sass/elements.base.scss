@@ -25,7 +25,8 @@ a:hover,
 a:active,
 a:focus,
 a:visited {
-	text-decoration: none;
+    text-decoration: none;
+    outline: none;
 	transition: all 250ms $ease;
 }
 
