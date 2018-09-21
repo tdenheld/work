@@ -42,7 +42,7 @@
 		left: 11px;
 		width: 19px;
 		height: 1px;
-		background-color: $blue;
+        background-color: $pinkish;
 	}
 }	
 
@@ -70,20 +70,20 @@
 
 .navbar--work {					
 	.navbar__list-item {
-		color: $blue;
+		color: $pinkish;
 	}
 			
 	.logo {
-		fill: $blue;
+		fill: $pinkish;
 	}
 }
 
 .navbar--about {				
 	.navbar__list-item {
-		color: $pinkish;
+        color: $pinkish;
+        
 		&.is-active:after {
 			left: 15px;
-			background-color: $pinkish;
 		}
 	}
 			

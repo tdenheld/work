@@ -202,8 +202,8 @@
 	text-align: center;
 
 	// styling & animation
-	border: 1px solid $blue;
-	color: $blue;
+	border: 1px solid $pinkish;
+	color: $pinkish;
 	cursor: pointer;
 	transition: $fade-all;
 }
@@ -231,8 +231,8 @@
 	align-items: center;
 	opacity: 0;
 	transition: $fade-all;
-	background-color: $blue;
-	box-shadow: 0 2px 40px rgba($blue, 0.3);
+	background-color: $pinkish;
+	//box-shadow: 0 2px 40px rgba($blue, 0.3);
 
 	&:hover {
 		opacity: 1;
@@ -240,7 +240,7 @@
 
 	svg {
 		width: 70%;
-		fill: $white;
+		fill: $blue;
 	}
 }
 

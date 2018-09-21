@@ -10,9 +10,11 @@
 	}
 }
 
-.bg--home {background-color:$blue;}
-.bg--work {background-color:$pinkish;}
-.bg--about {background-color:$blue;}
+.bg--home,
+.bg--work,
+.bg--about {
+    background-color:$blue;
+}
 .bg--ns {background-color:$ns-yellow;}
 .bg--wn {background-color:$wn-blue;}
 .bg--ar {background-color:$ar-brown;}
