@@ -194,6 +194,7 @@ $(document).ready(function () {
         // show current page
         $(".js-page--" + currentPage).show();
 
+
         // case buttons
         // -------------------------------------------------------
         function toggle_cases(i) {
@@ -238,6 +239,7 @@ $(document).ready(function () {
             toggle_cases(routes[i]);
         };
 
+
         // helper functions
         // ------------------------------------------------------------------        
         // base function to trigger page transition
@@ -263,7 +265,7 @@ $(document).ready(function () {
 
         // add FX
         function addFX() {
-            // add lines in the background
+            // add FX in the background
             $(".js-line").removeClass("is-active");
             TweenLite.set(".js-line, .js-ao", {
                 autoAlpha: 1,
@@ -282,6 +284,7 @@ $(document).ready(function () {
                 display: "none",
             });
         };
+
 
         // main navigation
         // ------------------------------------------------------------------   
@@ -308,29 +311,35 @@ $(document).ready(function () {
             page_transition(.6, "ns");
         });
 
-        // navbar work
-        $(".js-nav--work").click(function () {
-            // if on same page do nothing
-            if (currentPage !== "work") {
+        // navbar items constructor
+        function navbarItem(i, r) {
+            $(".js-nav--" + i).click(function () {
+                if (currentPage !== i) {
+                    // remove line under nav item
+                    $(".js-nav").removeClass("is-active");
 
-                // remove line under nav item
-                $(".js-nav").removeClass("is-active");
+                    // fade out navbar
+                    if (currentPage !== "home" && currentPage !== r) {
+                        TweenLite.to("#js-navbar", .25, {
+                            ease: default_ease,
+                            autoAlpha: 0,
+                        });
+                    };
+                };
 
-                // fade out navbar
-                if (currentPage !== "home" && currentPage !== "about") {
-                    TweenLite.to("#js-navbar", .25, {
-                        ease: default_ease,
-                        autoAlpha: 0,
+                if (i === "about") {
+                    $(".js-about-img").Lazy({
+                        threshold: 99999,
                     });
                 };
 
                 setTimeout(function () {
                     // add line under nav item
-                    $(".js-nav--work").addClass("is-active");
+                    $(".js-nav--" + i).addClass("is-active");
 
-                    // fade in navbar
-                    if (currentPage !== "home" && currentPage !== "about") {
-                        $("#js-navbar").removeClass().addClass("navbar navbar--work");
+                    // fade in navbar if on case page
+                    if (currentPage !== "home" && currentPage !== r) {
+                        $("#js-navbar").removeClass().addClass("navbar navbar--" + i);
                         TweenLite.to("#js-navbar", .7, {
                             ease: default_ease,
                             autoAlpha: 1,
@@ -343,60 +352,11 @@ $(document).ready(function () {
                     // scroll to top
                     $(window).scrollTop(0);
                 }, 300);
-                page_transition(.25, "work");
-            };
-        });
-
-        // navbar about
-        $(".js-nav--about").click(function () {
-            // if on same page scroll up
-            if (currentPage === "about") {
-                TweenLite.to(window, 0.6, {
-                    ease: Power3.easeInOut,
-                    scrollTo: {
-                        y: 0,
-                        autoKill: false,
-                    },
-                });
-
-                // execute page transition when not on work page
-            } else {
-                // remove line under nav item
-                $(".js-nav").removeClass("is-active");
-
-                // fade out navbar
-                if (currentPage !== "home" && currentPage !== "work") {
-                    TweenLite.to("#js-navbar", .25, {
-                        ease: default_ease,
-                        autoAlpha: 0,
-                    });
-                };
-                // about image
-                $(".js-about-img").Lazy({
-                    threshold: 99999,
-                });
-                setTimeout(function () {
-                    // about
-                    $(".js-nav--about").addClass("is-active");
-
-                    // navbar
-                    $("#js-navbar").removeClass().addClass("navbar navbar--about");
-                    if (currentPage !== "home" && currentPage !== "work") {
-                        TweenLite.to("#js-navbar", .7, {
-                            ease: default_ease,
-                            autoAlpha: 1,
-                        });
-                    };
-
-                    // add FX in the background
-                    addFX();
-
-                    // scroll to top
-                    $(window).scrollTop(0);
-                }, 300);
-                page_transition(.25, "about");
-            };
-        });
+                page_transition(.25, i);
+            });
+        };
+        navbarItem("work", "about");
+        navbarItem("about", "work");
     };
     router();
 
