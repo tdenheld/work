@@ -101,6 +101,14 @@ var ns_context = {
 			"modifier" : "more-margin",	
 		},{
 			"text" : {
+				"title" : "NS Flex",
+				"description" : "We had to deliver 3 campaign pages within a couple of months. To be able to switch so fast we had to use a different way of working than usual. In a pressure cooker with a marketer, UX designer and me, we delivered a full responsive <a href='https://ns-flex.netlify.com' target='_blank' class='link link--ns'>prototype</a>. Which I designed and built in HTML / CSS / JS.",
+			},
+		},{
+			"img" : "ns/nsflex.jpg",
+			"modifier" : "more-margin",
+		},{
+			"text" : {
 				"title" : "Spoordeelwinkel",
 				"description" : "I participated in modernising the NS railway shop, a platform for the best deals for a day out by train. I was free to introduce a new design direction separate from the regular NS styling. Although it had to remain family of the NS brand. I took a bolder and more active approach to ensuring the feeling of being on offer.",
 			},

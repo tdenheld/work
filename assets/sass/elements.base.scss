@@ -25,9 +25,8 @@ a:hover,
 a:active,
 a:focus,
 a:visited {
-	color: $font-color-base;
 	text-decoration: none;
-	transition: $fade-all;
+	transition: all 250ms $ease;
 }
 
 /*-------------------

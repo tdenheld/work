@@ -81,12 +81,12 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.img : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "			</div>\n";
 },"7":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
+    var stack1, alias1=container.lambda;
 
   return "				<div class=\"case__text-container\">\n					<div class=\"case__line tr-400 tr-stag js-tr\"></div>\n					<h2 class=\"txt-xl tr-stag tr-400 js-tr\">"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.text : depth0)) != null ? stack1.title : stack1), depth0))
+    + container.escapeExpression(alias1(((stack1 = (depth0 != null ? depth0.text : depth0)) != null ? stack1.title : stack1), depth0))
     + "</h2>\n					<p class=\"case__description tr-400 tr-stag js-tr\">"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.text : depth0)) != null ? stack1.description : stack1), depth0))
+    + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.text : depth0)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
     + "</p>\n				</div>\n";
 },"9":function(container,depth0,helpers,partials,data,blockParams,depths) {
     var helper, alias1=container.escapeExpression;

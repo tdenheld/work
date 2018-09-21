@@ -1,20 +1,29 @@
 /*-------------------
-	Links
+        Links
 --------------------*/
 
 .link {
     display: inline-block;
     line-height: $line-height-link;
+    color: $pinkish;
     border-bottom: 1px solid $pinkish;
     cursor: pointer;
 }
 
-.link--about {
-transition: all 250ms $ease;
-
+.link--about {    
     &:hover {
         padding: 9px 6px 6px;
         background-color: $pinkish;
         color: $blue;
+    }
+}
+
+.link--ns {
+    color: $ns-blue;
+    font-weight: 500;
+    border-bottom: 1px dashed $ns-blue;
+
+    &:hover {
+        border-bottom: 1px solid $ns-blue;
     }
 }
