@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,172 +7,172 @@
 		"uuidString": "5C60E87F-5506-4B6F-A088-DDF1D9E4563C"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28795",
 "files": {
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/assets\/css\/style.css": {
+	"/assets/css/style.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/style-min.css",
+		"oAP": "/assets/css/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/assets\/fnts\/pb.otf": {
+	"/assets/fnts/pb.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fnts\/pb.otf",
+		"oAP": "/assets/fnts/pb.otf",
 		"oF": 0
 		},
-	"\/assets\/fnts\/pl.otf": {
+	"/assets/fnts/pl.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fnts\/pl.otf",
+		"oAP": "/assets/fnts/pl.otf",
 		"oF": 0
 		},
-	"\/assets\/fnts\/pr.otf": {
+	"/assets/fnts/pr.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fnts\/pr.otf",
+		"oAP": "/assets/fnts/pr.otf",
 		"oF": 0
 		},
-	"\/assets\/fnts\/ps.otf": {
+	"/assets/fnts/ps.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fnts\/ps.otf",
+		"oAP": "/assets/fnts/ps.otf",
 		"oF": 0
 		},
-	"\/assets\/fnts\/px.otf": {
+	"/assets/fnts/px.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fnts\/px.otf",
+		"oAP": "/assets/fnts/px.otf",
 		"oF": 0
 		},
-	"\/assets\/img\/behance.svg": {
+	"/assets/img/behance.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/behance.svg",
+		"oAP": "/assets/img/behance.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/insta.svg": {
+	"/assets/img/insta.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/insta.svg",
+		"oAP": "/assets/img/insta.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/logo-tk305.svg": {
+	"/assets/img/logo-tk305.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/logo-tk305.svg",
+		"oAP": "/assets/img/logo-tk305.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/og.png": {
+	"/assets/img/og.png": {
 		"ft": 32768,
 		"iS": 13671,
 		"oA": 0,
-		"oAP": "\/assets\/img\/og.png",
+		"oAP": "/assets/img/og.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 75
 		},
-	"\/assets\/img\/soundcloud.svg": {
+	"/assets/img/soundcloud.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/soundcloud.svg",
+		"oAP": "/assets/img/soundcloud.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/twitter.svg": {
+	"/assets/img/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/twitter.svg",
+		"oAP": "/assets/img/twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/js\/plugins.js": {
+	"/assets/js/plugins.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/plugins.min.js",
+		"oAP": "/assets/js/plugins.min.js",
 		"oF": 2,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/plugins.min.js": {
+	"/assets/js/plugins.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/plugins.min-min.js",
+		"oAP": "/assets/js/plugins.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/templates.js": {
+	"/assets/js/templates.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/templates-min.js",
+		"oAP": "/assets/js/templates-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/tk.generic.js": {
+	"/assets/js/tk.generic.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/tk.generic.min.js",
+		"oAP": "/assets/js/tk.generic.min.js",
 		"oF": 2,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/tk.generic.min.js": {
+	"/assets/js/tk.generic.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/tk.generic.min-min.js",
+		"oAP": "/assets/js/tk.generic.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/sass\/_style.scss": {
+	"/assets/sass/_style.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -180,12 +180,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/style.css",
+		"oAP": "/assets/css/style.css",
 		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.animate.scss": {
+	"/assets/sass/components.animate.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -193,12 +193,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.animate.css",
+		"oAP": "/assets/sass/components.animate.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.ao.scss": {
+	"/assets/sass/components.ao.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -206,12 +206,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.ao.css",
+		"oAP": "/assets/sass/components.ao.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.buttons.scss": {
+	"/assets/sass/components.buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -219,12 +219,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.buttons.css",
+		"oAP": "/assets/sass/components.buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.case.scss": {
+	"/assets/sass/components.case.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -232,12 +232,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.case.css",
+		"oAP": "/assets/sass/components.case.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.links.scss": {
+	"/assets/sass/components.links.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -245,12 +245,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.links.css",
+		"oAP": "/assets/sass/components.links.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.navbar.scss": {
+	"/assets/sass/components.navbar.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -258,12 +258,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.navbar.css",
+		"oAP": "/assets/sass/components.navbar.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.scroll-down.scss": {
+	"/assets/sass/components.scroll-down.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -271,12 +271,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.scroll-down.css",
+		"oAP": "/assets/sass/components.scroll-down.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.socials.scss": {
+	"/assets/sass/components.socials.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -284,12 +284,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.socials.css",
+		"oAP": "/assets/sass/components.socials.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.text.scss": {
+	"/assets/sass/components.text.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -297,12 +297,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.text.css",
+		"oAP": "/assets/sass/components.text.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.transitions.scss": {
+	"/assets/sass/components.transitions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -310,12 +310,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.transitions.css",
+		"oAP": "/assets/sass/components.transitions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/components.work.scss": {
+	"/assets/sass/components.work.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -323,12 +323,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/components.work.css",
+		"oAP": "/assets/sass/components.work.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/elements.base.scss": {
+	"/assets/sass/elements.base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -336,12 +336,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/elements.base.css",
+		"oAP": "/assets/sass/elements.base.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/generic.reset.scss": {
+	"/assets/sass/generic.reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -349,12 +349,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/generic.reset.css",
+		"oAP": "/assets/sass/generic.reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/objects.layout.scss": {
+	"/assets/sass/objects.layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -362,12 +362,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/objects.layout.css",
+		"oAP": "/assets/sass/objects.layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/settings.fonts.scss": {
+	"/assets/sass/settings.fonts.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -375,12 +375,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/settings.fonts.css",
+		"oAP": "/assets/sass/settings.fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/settings.variables.scss": {
+	"/assets/sass/settings.variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -388,12 +388,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/settings.variables.css",
+		"oAP": "/assets/sass/settings.variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/templates.app.scss": {
+	"/assets/sass/templates.app.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -401,12 +401,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/templates.app.css",
+		"oAP": "/assets/sass/templates.app.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/tools.mixins.scss": {
+	"/assets/sass/tools.mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -414,12 +414,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/tools.mixins.css",
+		"oAP": "/assets/sass/tools.mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/utilities.scss": {
+	"/assets/sass/utilities.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -427,1021 +427,1021 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/utilities.css",
+		"oAP": "/assets/sass/utilities.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/data\/app.js": {
+	"/data/app.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/data\/app-min.js",
+		"oAP": "/data/app-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/favicon.png": {
+	"/favicon.png": {
 		"ft": 32768,
 		"iS": 2131,
 		"oA": 0,
-		"oAP": "\/favicon.png",
+		"oAP": "/favicon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 75
 		},
-	"\/index.html": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
-	"\/media\/ar\/ar1.jpg": {
+	"/media/ar/ar1.jpg": {
 		"ft": 16384,
 		"iS": 575921,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ar\/ar1.jpg",
+		"oAP": "/media/ar/ar1.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/ar\/ar2.jpg": {
+	"/media/ar/ar2.jpg": {
 		"ft": 16384,
 		"iS": 34890,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ar\/ar2.jpg",
+		"oAP": "/media/ar/ar2.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/ar\/ar3.svg": {
+	"/media/ar/ar3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/ar\/ar3.svg",
+		"oAP": "/media/ar/ar3.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/ar\/ar4.svg": {
+	"/media/ar/ar4.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/ar\/ar4.svg",
+		"oAP": "/media/ar/ar4.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/ar\/ar5.jpg": {
+	"/media/ar/ar5.jpg": {
 		"ft": 16384,
 		"iS": 268817,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ar\/ar5.jpg",
+		"oAP": "/media/ar/ar5.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/ar\/ar6.jpg": {
+	"/media/ar/ar6.jpg": {
 		"ft": 16384,
 		"iS": 468988,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ar\/ar6.jpg",
+		"oAP": "/media/ar/ar6.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/ar\/ar7.jpg": {
+	"/media/ar/ar7.jpg": {
 		"ft": 16384,
 		"iS": 338698,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ar\/ar7.jpg",
+		"oAP": "/media/ar/ar7.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/ar\/ar8.jpg": {
+	"/media/ar/ar8.jpg": {
 		"ft": 16384,
 		"iS": 325519,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ar\/ar8.jpg",
+		"oAP": "/media/ar/ar8.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/ar\/ar9.jpg": {
+	"/media/ar/ar9.jpg": {
 		"ft": 16384,
 		"iS": 293359,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ar\/ar9.jpg",
+		"oAP": "/media/ar/ar9.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/ar\/hero.jpg": {
+	"/media/ar/hero.jpg": {
 		"ft": 16384,
 		"iS": 2690364,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ar\/hero.jpg",
+		"oAP": "/media/ar/hero.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/ar\/logo.svg": {
+	"/media/ar/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/ar\/logo.svg",
+		"oAP": "/media/ar/logo.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/cg\/cg1.jpg": {
+	"/media/cg/cg1.jpg": {
 		"ft": 16384,
 		"iS": 1336882,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg1.jpg",
+		"oAP": "/media/cg/cg1.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/cg\/cg10.jpg": {
+	"/media/cg/cg10.jpg": {
 		"ft": 16384,
 		"iS": 444261,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg10.jpg",
+		"oAP": "/media/cg/cg10.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/cg\/cg2.jpg": {
+	"/media/cg/cg2.jpg": {
 		"ft": 16384,
 		"iS": 512839,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg2.jpg",
+		"oAP": "/media/cg/cg2.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/cg\/cg3.jpg": {
+	"/media/cg/cg3.jpg": {
 		"ft": 16384,
 		"iS": 275337,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg3.jpg",
+		"oAP": "/media/cg/cg3.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/cg\/cg4.jpg": {
+	"/media/cg/cg4.jpg": {
 		"ft": 16384,
 		"iS": 1606169,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg2b.jpg",
+		"oAP": "/media/cg/cg2b.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/cg\/cg5.jpg": {
+	"/media/cg/cg5.jpg": {
 		"ft": 16384,
 		"iS": 624899,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg5.jpg",
+		"oAP": "/media/cg/cg5.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/cg\/cg6.jpg": {
+	"/media/cg/cg6.jpg": {
 		"ft": 16384,
 		"iS": 469130,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg6.jpg",
+		"oAP": "/media/cg/cg6.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/cg\/cg7.jpg": {
+	"/media/cg/cg7.jpg": {
 		"ft": 16384,
 		"iS": 402817,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg7.jpg",
+		"oAP": "/media/cg/cg7.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/cg\/cg8.jpg": {
+	"/media/cg/cg8.jpg": {
 		"ft": 16384,
 		"iS": 946254,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg8.jpg",
+		"oAP": "/media/cg/cg8.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/cg\/cg9.jpg": {
+	"/media/cg/cg9.jpg": {
 		"ft": 16384,
 		"iS": 444261,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/cg9.jpg",
+		"oAP": "/media/cg/cg9.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 75
 		},
-	"\/media\/cg\/hero.jpg": {
+	"/media/cg/hero.jpg": {
 		"ft": 16384,
 		"iS": 2862340,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/cg\/hero.jpg",
+		"oAP": "/media/cg/hero.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/cg\/logo.svg": {
+	"/media/cg/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/cg\/logo.svg",
+		"oAP": "/media/cg/logo.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/ns\/abonnementen.jpg": {
+	"/media/ns/abonnementen.jpg": {
 		"ft": 16384,
 		"iS": 1283417,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ns\/abonnementen.jpg",
+		"oAP": "/media/ns/abonnementen.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
-		"q": 75
+		"q": 79
 		},
-	"\/media\/ns\/hero.jpg": {
+	"/media/ns/hero.jpg": {
 		"ft": 16384,
 		"iS": 691546,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ns\/hero.jpg",
+		"oAP": "/media/ns/hero.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 75
+		"q": 79
 		},
-	"\/media\/ns\/logo.svg": {
+	"/media/ns/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/ns\/logo.svg",
+		"oAP": "/media/ns/logo.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/ns\/mijn-ns.jpg": {
+	"/media/ns/mijn-ns.jpg": {
 		"ft": 16384,
-		"iS": 772506,
+		"iS": 374322,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ns\/mijn-ns.jpg",
+		"oAP": "/media/ns/mijn-ns.jpg",
 		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 75
+		"oIPL": 0,
+		"opt": 0,
+		"q": 79
 		},
-	"\/media\/ns\/nsflex.jpg": {
+	"/media/ns/nsflex.jpg": {
 		"ft": 16384,
 		"iS": 1084896,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ns\/nsflex.jpg",
+		"oAP": "/media/ns/nsflex.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
-		"q": 75
+		"q": 79
 		},
-	"\/media\/ns\/reisplanner1.jpg": {
+	"/media/ns/reisplanner1.jpg": {
 		"ft": 16384,
 		"iS": 1800923,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ns\/reisplanner1.jpg",
+		"oAP": "/media/ns/reisplanner1.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
-		"q": 75
+		"q": 79
 		},
-	"\/media\/ns\/reisplanner2.jpg": {
+	"/media/ns/reisplanner2.jpg": {
 		"ft": 16384,
 		"iS": 3315721,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ns\/reisplanner2.jpg",
+		"oAP": "/media/ns/reisplanner2.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
-		"q": 75
+		"q": 79
 		},
-	"\/media\/ns\/spoordeelwinkel.jpg": {
+	"/media/ns/spoordeelwinkel.jpg": {
 		"ft": 16384,
 		"iS": 3980981,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/ns\/spoordeelwinkel.jpg",
+		"oAP": "/media/ns/spoordeelwinkel.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
-		"q": 75
+		"q": 79
 		},
-	"\/media\/portret-wink.gif": {
+	"/media/portret-wink.gif": {
 		"ft": 4194304,
 		"iS": 230920,
 		"oA": 0,
-		"oAP": "\/media\/portret-wink.gif",
+		"oAP": "/media/portret-wink.gif",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/media\/portret.jpg": {
+	"/media/portret.jpg": {
 		"ft": 16384,
 		"iS": 832699,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/portret.jpg",
+		"oAP": "/media/portret.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/thumbs\/ar.svg": {
+	"/media/thumbs/ar.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/thumbs\/ar.svg",
+		"oAP": "/media/thumbs/ar.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/thumbs\/cg.svg": {
+	"/media/thumbs/cg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/thumbs\/cg.svg",
+		"oAP": "/media/thumbs/cg.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/thumbs\/ns.svg": {
+	"/media/thumbs/ns.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/thumbs\/ns.svg",
+		"oAP": "/media/thumbs/ns.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/thumbs\/wn.svg": {
+	"/media/thumbs/wn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/thumbs\/wn.svg",
+		"oAP": "/media/thumbs/wn.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/tk305__avatar--black--filled.png": {
+	"/media/tk305__avatar--black--filled.png": {
 		"ft": 32768,
 		"iS": 72314,
 		"oA": 1,
-		"oAP": "\/media\/tk305__avatar--black--filled.png",
+		"oAP": "/media/tk305__avatar--black--filled.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 75
 		},
-	"\/media\/wn\/hero.jpg": {
+	"/media/wn/hero.jpg": {
 		"ft": 16384,
 		"iS": 770681,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/wn\/hero.jpg",
+		"oAP": "/media/wn/hero.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/wn\/logo.svg": {
+	"/media/wn/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/wn\/logo.svg",
+		"oAP": "/media/wn/logo.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/wn\/wn1.jpg": {
+	"/media/wn/wn1.jpg": {
 		"ft": 16384,
 		"iS": 323635,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/wn\/wn1.jpg",
+		"oAP": "/media/wn/wn1.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/wn\/wn2.png": {
+	"/media/wn/wn2.png": {
 		"ft": 32768,
 		"iS": 82382,
 		"oA": 1,
-		"oAP": "\/media\/wn\/wn2.png",
+		"oAP": "/media/wn/wn2.png",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 75
 		},
-	"\/media\/wn\/wn2.svg": {
+	"/media/wn/wn2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/media\/wn\/wn2.svg",
+		"oAP": "/media/wn/wn2.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/media\/wn\/wn3.jpg": {
+	"/media/wn/wn3.jpg": {
 		"ft": 16384,
 		"iS": 692619,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/wn\/wn3.jpg",
+		"oAP": "/media/wn/wn3.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/wn\/wn4.jpg": {
+	"/media/wn/wn4.jpg": {
 		"ft": 16384,
 		"iS": 1064644,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/wn\/wn4.jpg",
+		"oAP": "/media/wn/wn4.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/wn\/wn5.jpg": {
+	"/media/wn/wn5.jpg": {
 		"ft": 16384,
 		"iS": 1064644,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/wn\/wn5.jpg",
+		"oAP": "/media/wn/wn5.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/media\/wn\/wn6.jpg": {
+	"/media/wn/wn6.jpg": {
 		"ft": 16384,
 		"iS": 485134,
 		"jF": 2,
 		"oA": 1,
-		"oAP": "\/media\/wn\/wn6.jpg",
+		"oAP": "/media/wn/wn6.jpg",
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 75
 		},
-	"\/node_modules\/greensock-js\/easing\/CustomBounce.js": {
+	"/node_modules/greensock-js/easing/CustomBounce.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/easing\/CustomBounce.js",
+		"oAP": "/node_modules/greensock-js/easing/CustomBounce.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/easing\/CustomEase.js": {
+	"/node_modules/greensock-js/easing/CustomEase.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/easing\/CustomEase.js",
+		"oAP": "/node_modules/greensock-js/easing/CustomEase.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/easing\/CustomWiggle.js": {
+	"/node_modules/greensock-js/easing/CustomWiggle.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/easing\/CustomWiggle.js",
+		"oAP": "/node_modules/greensock-js/easing/CustomWiggle.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/easing\/EasePack.js": {
+	"/node_modules/greensock-js/easing/EasePack.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/easing\/EasePack.js",
+		"oAP": "/node_modules/greensock-js/easing/EasePack.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/jquery.gsap.js": {
+	"/node_modules/greensock-js/jquery.gsap.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/jquery.gsap.js",
+		"oAP": "/node_modules/greensock-js/jquery.gsap.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/AttrPlugin.js": {
+	"/node_modules/greensock-js/plugins/AttrPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/AttrPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/AttrPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/BezierPlugin.js": {
+	"/node_modules/greensock-js/plugins/BezierPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/BezierPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/BezierPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/ColorPropsPlugin.js": {
+	"/node_modules/greensock-js/plugins/ColorPropsPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/ColorPropsPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/ColorPropsPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/CSSPlugin.js": {
+	"/node_modules/greensock-js/plugins/CSSPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/CSSPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/CSSPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/CSSRulePlugin.js": {
+	"/node_modules/greensock-js/plugins/CSSRulePlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/CSSRulePlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/CSSRulePlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/DirectionalRotationPlugin.js": {
+	"/node_modules/greensock-js/plugins/DirectionalRotationPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/DirectionalRotationPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/DirectionalRotationPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/DrawSVGPlugin.js": {
+	"/node_modules/greensock-js/plugins/DrawSVGPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/DrawSVGPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/DrawSVGPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/EaselPlugin.js": {
+	"/node_modules/greensock-js/plugins/EaselPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/EaselPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/EaselPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/EndArrayPlugin.js": {
+	"/node_modules/greensock-js/plugins/EndArrayPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/EndArrayPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/EndArrayPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/ModifiersPlugin.js": {
+	"/node_modules/greensock-js/plugins/ModifiersPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/ModifiersPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/ModifiersPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/MorphSVGPlugin.js": {
+	"/node_modules/greensock-js/plugins/MorphSVGPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/MorphSVGPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/MorphSVGPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/Physics2DPlugin.js": {
+	"/node_modules/greensock-js/plugins/Physics2DPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/Physics2DPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/Physics2DPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/PhysicsPropsPlugin.js": {
+	"/node_modules/greensock-js/plugins/PhysicsPropsPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/PhysicsPropsPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/PhysicsPropsPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/PixiPlugin.js": {
+	"/node_modules/greensock-js/plugins/PixiPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/PixiPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/PixiPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/RaphaelPlugin.js": {
+	"/node_modules/greensock-js/plugins/RaphaelPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/RaphaelPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/RaphaelPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/RoundPropsPlugin.js": {
+	"/node_modules/greensock-js/plugins/RoundPropsPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/RoundPropsPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/RoundPropsPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/ScrambleTextPlugin.js": {
+	"/node_modules/greensock-js/plugins/ScrambleTextPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/ScrambleTextPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/ScrambleTextPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/ScrollToPlugin.js": {
+	"/node_modules/greensock-js/plugins/ScrollToPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/ScrollToPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/ScrollToPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/TEMPLATE_Plugin.js": {
+	"/node_modules/greensock-js/plugins/TEMPLATE_Plugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/TEMPLATE_Plugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/TEMPLATE_Plugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/TextPlugin.js": {
+	"/node_modules/greensock-js/plugins/TextPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/TextPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/TextPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/plugins\/ThrowPropsPlugin.js": {
+	"/node_modules/greensock-js/plugins/ThrowPropsPlugin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/plugins\/ThrowPropsPlugin.js",
+		"oAP": "/node_modules/greensock-js/plugins/ThrowPropsPlugin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/TimelineLite.js": {
+	"/node_modules/greensock-js/TimelineLite.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/TimelineLite.js",
+		"oAP": "/node_modules/greensock-js/TimelineLite.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/TimelineMax.js": {
+	"/node_modules/greensock-js/TimelineMax.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/node_modules\/greensock-js\/TimelineMax.js",
+		"oAP": "/node_modules/greensock-js/TimelineMax.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/TweenLite.js": {
+	"/node_modules/greensock-js/TweenLite.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/TweenLite.js",
+		"oAP": "/node_modules/greensock-js/TweenLite.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/TweenMax.js": {
+	"/node_modules/greensock-js/TweenMax.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/node_modules\/greensock-js\/TweenMax.js",
+		"oAP": "/node_modules/greensock-js/TweenMax.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/utils\/Draggable.js": {
+	"/node_modules/greensock-js/utils/Draggable.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/utils\/Draggable.js",
+		"oAP": "/node_modules/greensock-js/utils/Draggable.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/utils\/GSDevTools.js": {
+	"/node_modules/greensock-js/utils/GSDevTools.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/utils\/GSDevTools.js",
+		"oAP": "/node_modules/greensock-js/utils/GSDevTools.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/greensock-js\/utils\/SplitText.js": {
+	"/node_modules/greensock-js/utils/SplitText.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/greensock-js\/utils\/SplitText.js",
+		"oAP": "/node_modules/greensock-js/utils/SplitText.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/handlebars\/handlebars.runtime-v4.0.11.js": {
+	"/node_modules/handlebars/handlebars.runtime-v4.0.11.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/node_modules\/handlebars\/handlebars.runtime-v4.0.11.js",
+		"oAP": "/node_modules/handlebars/handlebars.runtime-v4.0.11.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery.lazy\/jquery.lazy.js": {
+	"/node_modules/jquery.lazy/jquery.lazy.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/node_modules\/jquery.lazy\/jquery.lazy.js",
+		"oAP": "/node_modules/jquery.lazy/jquery.lazy.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/.bower.json": {
+	"/node_modules/jquery/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/.bower.json",
+		"oAP": "/node_modules/jquery/.bower.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/node_modules\/jquery\/AUTHORS.txt": {
+	"/node_modules/jquery/AUTHORS.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/AUTHORS.txt",
+		"oAP": "/node_modules/jquery/AUTHORS.txt",
 		"oF": 0
 		},
-	"\/node_modules\/jquery\/bower.json": {
+	"/node_modules/jquery/bower.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/bower.json",
+		"oAP": "/node_modules/jquery/bower.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/node_modules\/jquery\/dist\/core.js": {
+	"/node_modules/jquery/dist/core.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/dist\/core.js",
+		"oAP": "/node_modules/jquery/dist/core.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/dist\/jquery.js": {
+	"/node_modules/jquery/dist/jquery.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/dist\/jquery.js",
+		"oAP": "/node_modules/jquery/dist/jquery.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/dist\/jquery.min.js": {
+	"/node_modules/jquery/dist/jquery.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/node_modules\/jquery\/dist\/jquery.min.js",
+		"oAP": "/node_modules/jquery/dist/jquery.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/dist\/jquery.min.map": {
+	"/node_modules/jquery/dist/jquery.min.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/dist\/jquery.min.map",
+		"oAP": "/node_modules/jquery/dist/jquery.min.map",
 		"oF": 0
 		},
-	"\/node_modules\/jquery\/dist\/jquery.slim.js": {
+	"/node_modules/jquery/dist/jquery.slim.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/dist\/jquery.slim.js",
+		"oAP": "/node_modules/jquery/dist/jquery.slim.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/dist\/jquery.slim.min.js": {
+	"/node_modules/jquery/dist/jquery.slim.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/dist\/jquery.slim.min.js",
+		"oAP": "/node_modules/jquery/dist/jquery.slim.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/dist\/jquery.slim.min.map": {
+	"/node_modules/jquery/dist/jquery.slim.min.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/dist\/jquery.slim.min.map",
+		"oAP": "/node_modules/jquery/dist/jquery.slim.min.map",
 		"oF": 0
 		},
-	"\/node_modules\/jquery\/external\/sizzle\/dist\/sizzle.js": {
+	"/node_modules/jquery/external/sizzle/dist/sizzle.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/external\/sizzle\/dist\/sizzle.js",
+		"oAP": "/node_modules/jquery/external/sizzle/dist/sizzle.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/external\/sizzle\/dist\/sizzle.min.js": {
+	"/node_modules/jquery/external/sizzle/dist/sizzle.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/external\/sizzle\/dist\/sizzle.min.js",
+		"oAP": "/node_modules/jquery/external/sizzle/dist/sizzle.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/external\/sizzle\/dist\/sizzle.min.map": {
+	"/node_modules/jquery/external/sizzle/dist/sizzle.min.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
+		"oAP": "/node_modules/jquery/external/sizzle/dist/sizzle.min.map",
 		"oF": 0
 		},
-	"\/node_modules\/jquery\/external\/sizzle\/LICENSE.txt": {
+	"/node_modules/jquery/external/sizzle/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/external\/sizzle\/LICENSE.txt",
+		"oAP": "/node_modules/jquery/external/sizzle/LICENSE.txt",
 		"oF": 0
 		},
-	"\/node_modules\/jquery\/LICENSE.txt": {
+	"/node_modules/jquery/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/LICENSE.txt",
+		"oAP": "/node_modules/jquery/LICENSE.txt",
 		"oF": 0
 		},
-	"\/node_modules\/jquery\/README.md": {
+	"/node_modules/jquery/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -1450,7 +1450,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/README.md",
+		"oAP": "/node_modules/jquery/README.md",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1459,1176 +1459,1176 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/node_modules\/jquery\/src\/.eslintrc.json": {
+	"/node_modules/jquery/src/.eslintrc.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/.eslintrc.json",
+		"oAP": "/node_modules/jquery/src/.eslintrc.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/node_modules\/jquery\/src\/ajax.js": {
+	"/node_modules/jquery/src/ajax.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/ajax.js",
+		"oAP": "/node_modules/jquery/src/ajax.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/ajax\/jsonp.js": {
+	"/node_modules/jquery/src/ajax/jsonp.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/ajax\/jsonp.js",
+		"oAP": "/node_modules/jquery/src/ajax/jsonp.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/ajax\/load.js": {
+	"/node_modules/jquery/src/ajax/load.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/ajax\/load.js",
+		"oAP": "/node_modules/jquery/src/ajax/load.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/ajax\/parseXML.js": {
+	"/node_modules/jquery/src/ajax/parseXML.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/ajax\/parseXML.js",
+		"oAP": "/node_modules/jquery/src/ajax/parseXML.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/ajax\/script.js": {
+	"/node_modules/jquery/src/ajax/script.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/ajax\/script.js",
+		"oAP": "/node_modules/jquery/src/ajax/script.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/ajax\/var\/location.js": {
+	"/node_modules/jquery/src/ajax/var/location.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/ajax\/var\/location.js",
+		"oAP": "/node_modules/jquery/src/ajax/var/location.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/ajax\/var\/nonce.js": {
+	"/node_modules/jquery/src/ajax/var/nonce.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/ajax\/var\/nonce.js",
+		"oAP": "/node_modules/jquery/src/ajax/var/nonce.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/ajax\/var\/rquery.js": {
+	"/node_modules/jquery/src/ajax/var/rquery.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/ajax\/var\/rquery.js",
+		"oAP": "/node_modules/jquery/src/ajax/var/rquery.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/ajax\/xhr.js": {
+	"/node_modules/jquery/src/ajax/xhr.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/ajax\/xhr.js",
+		"oAP": "/node_modules/jquery/src/ajax/xhr.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/attributes.js": {
+	"/node_modules/jquery/src/attributes.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/attributes.js",
+		"oAP": "/node_modules/jquery/src/attributes.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/attributes\/attr.js": {
+	"/node_modules/jquery/src/attributes/attr.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/attributes\/attr.js",
+		"oAP": "/node_modules/jquery/src/attributes/attr.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/attributes\/classes.js": {
+	"/node_modules/jquery/src/attributes/classes.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/attributes\/classes.js",
+		"oAP": "/node_modules/jquery/src/attributes/classes.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/attributes\/prop.js": {
+	"/node_modules/jquery/src/attributes/prop.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/attributes\/prop.js",
+		"oAP": "/node_modules/jquery/src/attributes/prop.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/attributes\/support.js": {
+	"/node_modules/jquery/src/attributes/support.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/attributes\/support.js",
+		"oAP": "/node_modules/jquery/src/attributes/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/attributes\/val.js": {
+	"/node_modules/jquery/src/attributes/val.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/attributes\/val.js",
+		"oAP": "/node_modules/jquery/src/attributes/val.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/callbacks.js": {
+	"/node_modules/jquery/src/callbacks.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/callbacks.js",
+		"oAP": "/node_modules/jquery/src/callbacks.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core.js": {
+	"/node_modules/jquery/src/core.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core.js",
+		"oAP": "/node_modules/jquery/src/core.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/access.js": {
+	"/node_modules/jquery/src/core/access.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/access.js",
+		"oAP": "/node_modules/jquery/src/core/access.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/camelCase.js": {
+	"/node_modules/jquery/src/core/camelCase.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/camelCase.js",
+		"oAP": "/node_modules/jquery/src/core/camelCase.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/DOMEval.js": {
+	"/node_modules/jquery/src/core/DOMEval.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/DOMEval.js",
+		"oAP": "/node_modules/jquery/src/core/DOMEval.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/init.js": {
+	"/node_modules/jquery/src/core/init.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/init.js",
+		"oAP": "/node_modules/jquery/src/core/init.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/nodeName.js": {
+	"/node_modules/jquery/src/core/nodeName.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/nodeName.js",
+		"oAP": "/node_modules/jquery/src/core/nodeName.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/parseHTML.js": {
+	"/node_modules/jquery/src/core/parseHTML.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/parseHTML.js",
+		"oAP": "/node_modules/jquery/src/core/parseHTML.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/ready-no-deferred.js": {
+	"/node_modules/jquery/src/core/ready-no-deferred.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/ready-no-deferred.js",
+		"oAP": "/node_modules/jquery/src/core/ready-no-deferred.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/ready.js": {
+	"/node_modules/jquery/src/core/ready.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/ready.js",
+		"oAP": "/node_modules/jquery/src/core/ready.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/readyException.js": {
+	"/node_modules/jquery/src/core/readyException.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/readyException.js",
+		"oAP": "/node_modules/jquery/src/core/readyException.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/stripAndCollapse.js": {
+	"/node_modules/jquery/src/core/stripAndCollapse.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/stripAndCollapse.js",
+		"oAP": "/node_modules/jquery/src/core/stripAndCollapse.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/support.js": {
+	"/node_modules/jquery/src/core/support.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/support.js",
+		"oAP": "/node_modules/jquery/src/core/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/toType.js": {
+	"/node_modules/jquery/src/core/toType.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/toType.js",
+		"oAP": "/node_modules/jquery/src/core/toType.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/core\/var\/rsingleTag.js": {
+	"/node_modules/jquery/src/core/var/rsingleTag.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/core\/var\/rsingleTag.js",
+		"oAP": "/node_modules/jquery/src/core/var/rsingleTag.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css.js": {
+	"/node_modules/jquery/src/css.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css.js",
+		"oAP": "/node_modules/jquery/src/css.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/addGetHookIf.js": {
+	"/node_modules/jquery/src/css/addGetHookIf.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/addGetHookIf.js",
+		"oAP": "/node_modules/jquery/src/css/addGetHookIf.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/adjustCSS.js": {
+	"/node_modules/jquery/src/css/adjustCSS.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/adjustCSS.js",
+		"oAP": "/node_modules/jquery/src/css/adjustCSS.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/curCSS.js": {
+	"/node_modules/jquery/src/css/curCSS.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/curCSS.js",
+		"oAP": "/node_modules/jquery/src/css/curCSS.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/hiddenVisibleSelectors.js": {
+	"/node_modules/jquery/src/css/hiddenVisibleSelectors.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/hiddenVisibleSelectors.js",
+		"oAP": "/node_modules/jquery/src/css/hiddenVisibleSelectors.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/showHide.js": {
+	"/node_modules/jquery/src/css/showHide.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/showHide.js",
+		"oAP": "/node_modules/jquery/src/css/showHide.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/support.js": {
+	"/node_modules/jquery/src/css/support.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/support.js",
+		"oAP": "/node_modules/jquery/src/css/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/var\/cssExpand.js": {
+	"/node_modules/jquery/src/css/var/cssExpand.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/var\/cssExpand.js",
+		"oAP": "/node_modules/jquery/src/css/var/cssExpand.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/var\/getStyles.js": {
+	"/node_modules/jquery/src/css/var/getStyles.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/var\/getStyles.js",
+		"oAP": "/node_modules/jquery/src/css/var/getStyles.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/var\/isHiddenWithinTree.js": {
+	"/node_modules/jquery/src/css/var/isHiddenWithinTree.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/var\/isHiddenWithinTree.js",
+		"oAP": "/node_modules/jquery/src/css/var/isHiddenWithinTree.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/var\/rboxStyle.js": {
+	"/node_modules/jquery/src/css/var/rboxStyle.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/var\/rboxStyle.js",
+		"oAP": "/node_modules/jquery/src/css/var/rboxStyle.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/var\/rnumnonpx.js": {
+	"/node_modules/jquery/src/css/var/rnumnonpx.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/var\/rnumnonpx.js",
+		"oAP": "/node_modules/jquery/src/css/var/rnumnonpx.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/css\/var\/swap.js": {
+	"/node_modules/jquery/src/css/var/swap.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/css\/var\/swap.js",
+		"oAP": "/node_modules/jquery/src/css/var/swap.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/data.js": {
+	"/node_modules/jquery/src/data.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/data.js",
+		"oAP": "/node_modules/jquery/src/data.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/data\/Data.js": {
+	"/node_modules/jquery/src/data/Data.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/data\/Data.js",
+		"oAP": "/node_modules/jquery/src/data/Data.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/data\/var\/acceptData.js": {
+	"/node_modules/jquery/src/data/var/acceptData.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/data\/var\/acceptData.js",
+		"oAP": "/node_modules/jquery/src/data/var/acceptData.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/data\/var\/dataPriv.js": {
+	"/node_modules/jquery/src/data/var/dataPriv.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/data\/var\/dataPriv.js",
+		"oAP": "/node_modules/jquery/src/data/var/dataPriv.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/data\/var\/dataUser.js": {
+	"/node_modules/jquery/src/data/var/dataUser.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/data\/var\/dataUser.js",
+		"oAP": "/node_modules/jquery/src/data/var/dataUser.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/deferred.js": {
+	"/node_modules/jquery/src/deferred.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/deferred.js",
+		"oAP": "/node_modules/jquery/src/deferred.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/deferred\/exceptionHook.js": {
+	"/node_modules/jquery/src/deferred/exceptionHook.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/deferred\/exceptionHook.js",
+		"oAP": "/node_modules/jquery/src/deferred/exceptionHook.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/deprecated.js": {
+	"/node_modules/jquery/src/deprecated.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/deprecated.js",
+		"oAP": "/node_modules/jquery/src/deprecated.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/dimensions.js": {
+	"/node_modules/jquery/src/dimensions.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/dimensions.js",
+		"oAP": "/node_modules/jquery/src/dimensions.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/effects.js": {
+	"/node_modules/jquery/src/effects.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/effects.js",
+		"oAP": "/node_modules/jquery/src/effects.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/effects\/animatedSelector.js": {
+	"/node_modules/jquery/src/effects/animatedSelector.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/effects\/animatedSelector.js",
+		"oAP": "/node_modules/jquery/src/effects/animatedSelector.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/effects\/Tween.js": {
+	"/node_modules/jquery/src/effects/Tween.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/effects\/Tween.js",
+		"oAP": "/node_modules/jquery/src/effects/Tween.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/event.js": {
+	"/node_modules/jquery/src/event.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/event.js",
+		"oAP": "/node_modules/jquery/src/event.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/event\/ajax.js": {
+	"/node_modules/jquery/src/event/ajax.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/event\/ajax.js",
+		"oAP": "/node_modules/jquery/src/event/ajax.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/event\/alias.js": {
+	"/node_modules/jquery/src/event/alias.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/event\/alias.js",
+		"oAP": "/node_modules/jquery/src/event/alias.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/event\/focusin.js": {
+	"/node_modules/jquery/src/event/focusin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/event\/focusin.js",
+		"oAP": "/node_modules/jquery/src/event/focusin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/event\/support.js": {
+	"/node_modules/jquery/src/event/support.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/event\/support.js",
+		"oAP": "/node_modules/jquery/src/event/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/event\/trigger.js": {
+	"/node_modules/jquery/src/event/trigger.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/event\/trigger.js",
+		"oAP": "/node_modules/jquery/src/event/trigger.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/exports\/amd.js": {
+	"/node_modules/jquery/src/exports/amd.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/exports\/amd.js",
+		"oAP": "/node_modules/jquery/src/exports/amd.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/exports\/global.js": {
+	"/node_modules/jquery/src/exports/global.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/exports\/global.js",
+		"oAP": "/node_modules/jquery/src/exports/global.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/jquery.js": {
+	"/node_modules/jquery/src/jquery.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/jquery.js",
+		"oAP": "/node_modules/jquery/src/jquery.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation.js": {
+	"/node_modules/jquery/src/manipulation.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation.js",
+		"oAP": "/node_modules/jquery/src/manipulation.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation\/_evalUrl.js": {
+	"/node_modules/jquery/src/manipulation/_evalUrl.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation\/_evalUrl.js",
+		"oAP": "/node_modules/jquery/src/manipulation/_evalUrl.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation\/buildFragment.js": {
+	"/node_modules/jquery/src/manipulation/buildFragment.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation\/buildFragment.js",
+		"oAP": "/node_modules/jquery/src/manipulation/buildFragment.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation\/getAll.js": {
+	"/node_modules/jquery/src/manipulation/getAll.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation\/getAll.js",
+		"oAP": "/node_modules/jquery/src/manipulation/getAll.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation\/setGlobalEval.js": {
+	"/node_modules/jquery/src/manipulation/setGlobalEval.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation\/setGlobalEval.js",
+		"oAP": "/node_modules/jquery/src/manipulation/setGlobalEval.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation\/support.js": {
+	"/node_modules/jquery/src/manipulation/support.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation\/support.js",
+		"oAP": "/node_modules/jquery/src/manipulation/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation\/var\/rcheckableType.js": {
+	"/node_modules/jquery/src/manipulation/var/rcheckableType.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation\/var\/rcheckableType.js",
+		"oAP": "/node_modules/jquery/src/manipulation/var/rcheckableType.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation\/var\/rscriptType.js": {
+	"/node_modules/jquery/src/manipulation/var/rscriptType.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation\/var\/rscriptType.js",
+		"oAP": "/node_modules/jquery/src/manipulation/var/rscriptType.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation\/var\/rtagName.js": {
+	"/node_modules/jquery/src/manipulation/var/rtagName.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation\/var\/rtagName.js",
+		"oAP": "/node_modules/jquery/src/manipulation/var/rtagName.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/manipulation\/wrapMap.js": {
+	"/node_modules/jquery/src/manipulation/wrapMap.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/manipulation\/wrapMap.js",
+		"oAP": "/node_modules/jquery/src/manipulation/wrapMap.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/offset.js": {
+	"/node_modules/jquery/src/offset.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/offset.js",
+		"oAP": "/node_modules/jquery/src/offset.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/queue.js": {
+	"/node_modules/jquery/src/queue.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/queue.js",
+		"oAP": "/node_modules/jquery/src/queue.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/queue\/delay.js": {
+	"/node_modules/jquery/src/queue/delay.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/queue\/delay.js",
+		"oAP": "/node_modules/jquery/src/queue/delay.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/selector-native.js": {
+	"/node_modules/jquery/src/selector-native.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/selector-native.js",
+		"oAP": "/node_modules/jquery/src/selector-native.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/selector-sizzle.js": {
+	"/node_modules/jquery/src/selector-sizzle.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/selector-sizzle.js",
+		"oAP": "/node_modules/jquery/src/selector-sizzle.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/selector.js": {
+	"/node_modules/jquery/src/selector.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/selector.js",
+		"oAP": "/node_modules/jquery/src/selector.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/serialize.js": {
+	"/node_modules/jquery/src/serialize.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/serialize.js",
+		"oAP": "/node_modules/jquery/src/serialize.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/traversing.js": {
+	"/node_modules/jquery/src/traversing.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/traversing.js",
+		"oAP": "/node_modules/jquery/src/traversing.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/traversing\/findFilter.js": {
+	"/node_modules/jquery/src/traversing/findFilter.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/traversing\/findFilter.js",
+		"oAP": "/node_modules/jquery/src/traversing/findFilter.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/traversing\/var\/dir.js": {
+	"/node_modules/jquery/src/traversing/var/dir.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/traversing\/var\/dir.js",
+		"oAP": "/node_modules/jquery/src/traversing/var/dir.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/traversing\/var\/rneedsContext.js": {
+	"/node_modules/jquery/src/traversing/var/rneedsContext.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/traversing\/var\/rneedsContext.js",
+		"oAP": "/node_modules/jquery/src/traversing/var/rneedsContext.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/traversing\/var\/siblings.js": {
+	"/node_modules/jquery/src/traversing/var/siblings.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/traversing\/var\/siblings.js",
+		"oAP": "/node_modules/jquery/src/traversing/var/siblings.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/arr.js": {
+	"/node_modules/jquery/src/var/arr.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/arr.js",
+		"oAP": "/node_modules/jquery/src/var/arr.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/class2type.js": {
+	"/node_modules/jquery/src/var/class2type.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/class2type.js",
+		"oAP": "/node_modules/jquery/src/var/class2type.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/concat.js": {
+	"/node_modules/jquery/src/var/concat.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/concat.js",
+		"oAP": "/node_modules/jquery/src/var/concat.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/document.js": {
+	"/node_modules/jquery/src/var/document.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/document.js",
+		"oAP": "/node_modules/jquery/src/var/document.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/documentElement.js": {
+	"/node_modules/jquery/src/var/documentElement.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/documentElement.js",
+		"oAP": "/node_modules/jquery/src/var/documentElement.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/fnToString.js": {
+	"/node_modules/jquery/src/var/fnToString.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/fnToString.js",
+		"oAP": "/node_modules/jquery/src/var/fnToString.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/getProto.js": {
+	"/node_modules/jquery/src/var/getProto.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/getProto.js",
+		"oAP": "/node_modules/jquery/src/var/getProto.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/hasOwn.js": {
+	"/node_modules/jquery/src/var/hasOwn.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/hasOwn.js",
+		"oAP": "/node_modules/jquery/src/var/hasOwn.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/indexOf.js": {
+	"/node_modules/jquery/src/var/indexOf.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/indexOf.js",
+		"oAP": "/node_modules/jquery/src/var/indexOf.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/isFunction.js": {
+	"/node_modules/jquery/src/var/isFunction.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/isFunction.js",
+		"oAP": "/node_modules/jquery/src/var/isFunction.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/isWindow.js": {
+	"/node_modules/jquery/src/var/isWindow.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/isWindow.js",
+		"oAP": "/node_modules/jquery/src/var/isWindow.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/ObjectFunctionString.js": {
+	"/node_modules/jquery/src/var/ObjectFunctionString.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/ObjectFunctionString.js",
+		"oAP": "/node_modules/jquery/src/var/ObjectFunctionString.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/pnum.js": {
+	"/node_modules/jquery/src/var/pnum.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/pnum.js",
+		"oAP": "/node_modules/jquery/src/var/pnum.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/push.js": {
+	"/node_modules/jquery/src/var/push.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/push.js",
+		"oAP": "/node_modules/jquery/src/var/push.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/rcssNum.js": {
+	"/node_modules/jquery/src/var/rcssNum.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/rcssNum.js",
+		"oAP": "/node_modules/jquery/src/var/rcssNum.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/rnothtmlwhite.js": {
+	"/node_modules/jquery/src/var/rnothtmlwhite.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/rnothtmlwhite.js",
+		"oAP": "/node_modules/jquery/src/var/rnothtmlwhite.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/slice.js": {
+	"/node_modules/jquery/src/var/slice.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/slice.js",
+		"oAP": "/node_modules/jquery/src/var/slice.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/support.js": {
+	"/node_modules/jquery/src/var/support.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/support.js",
+		"oAP": "/node_modules/jquery/src/var/support.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/var\/toString.js": {
+	"/node_modules/jquery/src/var/toString.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/var\/toString.js",
+		"oAP": "/node_modules/jquery/src/var/toString.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/jquery\/src\/wrap.js": {
+	"/node_modules/jquery/src/wrap.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/jquery\/src\/wrap.js",
+		"oAP": "/node_modules/jquery/src/wrap.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/scroll-magic\/plugins\/animation.gsap.js": {
+	"/node_modules/scroll-magic/plugins/animation.gsap.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/scroll-magic\/plugins\/animation.gsap.js",
+		"oAP": "/node_modules/scroll-magic/plugins/animation.gsap.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/scroll-magic\/plugins\/animation.velocity.js": {
+	"/node_modules/scroll-magic/plugins/animation.velocity.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/scroll-magic\/plugins\/animation.velocity.js",
+		"oAP": "/node_modules/scroll-magic/plugins/animation.velocity.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/scroll-magic\/plugins\/debug.addIndicators.js": {
+	"/node_modules/scroll-magic/plugins/debug.addIndicators.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/node_modules\/scroll-magic\/plugins\/debug.addIndicators.js",
+		"oAP": "/node_modules/scroll-magic/plugins/debug.addIndicators.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/scroll-magic\/plugins\/jquery.ScrollMagic.js": {
+	"/node_modules/scroll-magic/plugins/jquery.ScrollMagic.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/scroll-magic\/plugins\/jquery.ScrollMagic.js",
+		"oAP": "/node_modules/scroll-magic/plugins/jquery.ScrollMagic.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/scroll-magic\/scroll-magic.js": {
+	"/node_modules/scroll-magic/scroll-magic.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/node_modules\/scroll-magic\/scroll-magic.js",
+		"oAP": "/node_modules/scroll-magic/scroll-magic.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/Tweetie\/.bower.json": {
+	"/node_modules/Tweetie/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/.bower.json",
+		"oAP": "/node_modules/Tweetie/.bower.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/node_modules\/Tweetie\/api\/config.php": {
+	"/node_modules/Tweetie/api/config.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/api\/config.php",
+		"oAP": "/node_modules/Tweetie/api/config.php",
 		"oF": 0
 		},
-	"\/node_modules\/Tweetie\/api\/tweet.php": {
+	"/node_modules/Tweetie/api/tweet.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/api\/tweet.php",
+		"oAP": "/node_modules/Tweetie/api/tweet.php",
 		"oF": 0
 		},
-	"\/node_modules\/Tweetie\/api\/twitteroauth\/OAuth.php": {
+	"/node_modules/Tweetie/api/twitteroauth/OAuth.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/api\/twitteroauth\/OAuth.php",
+		"oAP": "/node_modules/Tweetie/api/twitteroauth/OAuth.php",
 		"oF": 0
 		},
-	"\/node_modules\/Tweetie\/api\/twitteroauth\/twitteroauth.php": {
+	"/node_modules/Tweetie/api/twitteroauth/twitteroauth.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/api\/twitteroauth\/twitteroauth.php",
+		"oAP": "/node_modules/Tweetie/api/twitteroauth/twitteroauth.php",
 		"oF": 0
 		},
-	"\/node_modules\/Tweetie\/bower.json": {
+	"/node_modules/Tweetie/bower.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/bower.json",
+		"oAP": "/node_modules/Tweetie/bower.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/node_modules\/Tweetie\/index.html": {
+	"/node_modules/Tweetie/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/index.html",
+		"oAP": "/node_modules/Tweetie/index.html",
 		"oF": 0
 		},
-	"\/node_modules\/Tweetie\/README.md": {
+	"/node_modules/Tweetie/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -2637,7 +2637,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/README.md",
+		"oAP": "/node_modules/Tweetie/README.md",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -2646,75 +2646,75 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/node_modules\/Tweetie\/tweetie.jquery.json": {
+	"/node_modules/Tweetie/tweetie.jquery.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/tweetie.jquery.json",
+		"oAP": "/node_modules/Tweetie/tweetie.jquery.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/node_modules\/Tweetie\/tweetie.js": {
+	"/node_modules/Tweetie/tweetie.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/tweetie.js",
+		"oAP": "/node_modules/Tweetie/tweetie.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules\/Tweetie\/tweetie.min.js": {
+	"/node_modules/Tweetie/tweetie.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/node_modules\/Tweetie\/tweetie.min.js",
+		"oAP": "/node_modules/Tweetie/tweetie.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/package.json": {
+	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-min.json",
+		"oAP": "/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/templates\/about.hbs": {
+	"/templates/about.hbs": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/about.hbs",
+		"oAP": "/templates/about.hbs",
 		"oF": 0
 		},
-	"\/templates\/app.hbs": {
+	"/templates/app.hbs": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/app.hbs",
+		"oAP": "/templates/app.hbs",
 		"oF": 1
 		},
-	"\/templates\/case.hbs": {
+	"/templates/case.hbs": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/case.hbs",
+		"oAP": "/templates/case.hbs",
 		"oF": 0
 		},
-	"\/templates\/home.hbs": {
+	"/templates/home.hbs": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/home.hbs",
+		"oAP": "/templates/home.hbs",
 		"oF": 0
 		},
-	"\/templates\/work.hbs": {
+	"/templates/work.hbs": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/work.hbs",
+		"oAP": "/templates/work.hbs",
 		"oF": 0
 		}
 	},
@@ -2722,74 +2722,74 @@
 	{
 		"enabled": 1,
 		"name": "Compile Handlebar Files",
-		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGZWZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1ZcYGJVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXWlucHV0RmlsZW5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEFNoYnPSKyxNTl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jTS8w1QtQUVJTVEkjKFVaTlNNb2RpZmllcldOU0ZsYWdzWk5TUG9zaXRpb25eTlNPcGVyYXRvclR5cGWAEhAJ0issV1hfEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9ypFlaWzBfEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9yXxAZTlNTdHJpbmdQcmVkaWNhdGVPcGVyYXRvcl8QE05TUHJlZGljYXRlT3BlcmF0b3LSKyxdXl8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNdXzBbTlNQcmVkaWNhdGXSKyxBYaJBMNIrLGNkXxATTlNDb21wb3VuZFByZWRpY2F0ZaNjXzBfEA9OU0tleWVkQXJjaGl2ZXLRZ2hUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAV0BYgFtAXYBiQGNAZoBowGoAaoBrAGuAbUBvwHBAcMBxQHTAdgB9wH7AgACDwITAhsCIAI2AjsCUgJZAmsCbQJvAnECdQJ6ApYCmgKlArACuALDAtIC1ALWAtsC+gL\/Ax4DOgNQA1UDbQNxA30DggOFA4oDoAOkA7YDuQO+AAAAAAAAAgEAAAAAAAAAaQAAAAAAAAAAAAAAAAAAA8A=",
+		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGZWZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1ZcYGJVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXWlucHV0RmlsZW5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEFNoYnPSKyxNTl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jTS8w1QtQUVJTVEkjKFVaTlNNb2RpZmllcldOU0ZsYWdzWk5TUG9zaXRpb25eTlNPcGVyYXRvclR5cGWAEhAJ0issV1hfEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9ypFlaWzBfEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9yXxAZTlNTdHJpbmdQcmVkaWNhdGVPcGVyYXRvcl8QE05TUHJlZGljYXRlT3BlcmF0b3LSKyxdXl8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNdXzBbTlNQcmVkaWNhdGXSKyxBYaJBMNIrLGNkXxATTlNDb21wb3VuZFByZWRpY2F0ZaNjXzBfEA9OU0tleWVkQXJjaGl2ZXLRZ2hUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAV0BYgFtAXYBiQGNAZoBowGoAaoBrAGuAbUBvwHBAcMBxQHTAdgB9wH7AgACDwITAhsCIAI2AjsCUgJZAmsCbQJvAnECdQJ6ApYCmgKlArACuALDAtIC1ALWAtsC+gL/Ax4DOgNQA1UDbQNxA30DggOFA4oDoAOkA7YDuQO+AAAAAAAAAgEAAAAAAAAAaQAAAAAAAAAAAAAAAAAAA8A=",
 		"runOrder": 0,
-		"scriptSourceString": "handlebars templates\/ -f assets\/js\/templates.js -e hbs",
+		"scriptSourceString": "handlebars templates/ -f assets/js/templates.js -e hbs",
 		"scriptType": 1,
 		"uuidString": "A54D8481-DC65-41A7-B074-498E559079F6"
 		}
 	],
 "manualImportLinks": {
-	"\/assets\/js\/plugins.js": [
+	"/assets/js/plugins.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/handlebars\/handlebars.runtime-v4.0.11.js",
+			"linkedFileAbbreviatedPath": "/node_modules/handlebars/handlebars.runtime-v4.0.11.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/jquery\/dist\/jquery.min.js",
+			"linkedFileAbbreviatedPath": "/node_modules/jquery/dist/jquery.min.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/jquery.lazy\/jquery.lazy.js",
+			"linkedFileAbbreviatedPath": "/node_modules/jquery.lazy/jquery.lazy.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/greensock-js\/TimelineMax.js",
+			"linkedFileAbbreviatedPath": "/node_modules/greensock-js/TimelineMax.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/greensock-js\/TweenMax.js",
+			"linkedFileAbbreviatedPath": "/node_modules/greensock-js/TweenMax.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/greensock-js\/plugins\/ScrollToPlugin.js",
+			"linkedFileAbbreviatedPath": "/node_modules/greensock-js/plugins/ScrollToPlugin.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/scroll-magic\/scroll-magic.js",
+			"linkedFileAbbreviatedPath": "/node_modules/scroll-magic/scroll-magic.js",
 			"position": 6,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/node_modules\/scroll-magic\/plugins\/debug.addIndicators.js",
+			"linkedFileAbbreviatedPath": "/node_modules/scroll-magic/plugins/debug.addIndicators.js",
 			"position": 7,
 			"type": 0
 			}
 		],
-	"\/assets\/js\/tk.generic.js": [
+	"/assets/js/tk.generic.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/templates.js",
+			"linkedFileAbbreviatedPath": "/assets/js/templates.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/data\/app.js",
+			"linkedFileAbbreviatedPath": "/data/app.js",
 			"position": 1,
 			"type": 1
 			}
@@ -2799,7 +2799,7 @@
 	"creationDate": 506199522,
 	"displayValue": "TK305_2018",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/media\/tk305__avatar--black--filled.png",
+	"iconImageName": "/media/tk305__avatar--black--filled.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -2807,141 +2807,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -2953,7 +2906,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -2965,7 +2939,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -3001,53 +2993,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -3056,6 +3041,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -3413,6 +3399,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -3424,6 +3414,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -3469,6 +3463,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -3487,10 +3485,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -3689,9 +3683,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -4045,6 +4043,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -4073,6 +4075,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -4080,6 +4086,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -4135,7 +4145,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -4195,7 +4205,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -4590,7 +4600,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -4609,7 +4618,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -4641,19 +4650,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -4709,7 +4718,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -4738,7 +4747,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -4762,36 +4771,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4799,11 +4842,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4827,6 +4870,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -4843,7 +4890,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4851,20 +4906,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -4879,6 +4946,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -4887,12 +4962,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -4903,11 +4986,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4919,23 +5010,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4947,9 +5066,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
