@@ -88,10 +88,6 @@
 		width: 100% !important;
 		height: 210px;
 	}
-
-	.tile__hover {
-		box-shadow: none;
-	}
 }
 
 // modifier per case
@@ -236,7 +232,6 @@
 	opacity: 0;
 	transition: $fade-all;
 	background-color: $pinkish;
-	//box-shadow: 0 2px 40px rgba($blue, 0.3);
 
 	&:hover {
 		opacity: 1;
