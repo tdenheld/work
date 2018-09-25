@@ -116,14 +116,6 @@ var ns_context = {
 			"img" : "ns/spoordeelwinkel.jpg",
 			"modifier" : "more-margin",
 		},{
-			"text" : {	
-				"title" : "Season tickets",
-				"description" : "The aim was to make NS subscriptions more transparent for all customers. I was involved with the visual design and the final delivery of specs for development.",
-			},
-		},{
-			"img" : "ns/abonnementen.jpg",
-			"modifier" : "more-margin",
-		},{
 			"text" : {
 				"title" : "Mijn NS",
 				"description" : "I took part in redesigning the logged-in passengers environment of NS. This application contains a complicated backend to which numerous systems are linked. For me, the challenge was to present all information as clearly as possible while product owners were constantly scoping down functionality.",
