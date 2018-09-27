@@ -21,7 +21,7 @@
 .link--ns {
     color: $ns-blue;
     font-weight: 500;
-    border-bottom: 1px dashed $ns-blue;
+    border-bottom: 1px solid rgba($ns-blue, 0.4);
 
     &:hover {
         border-bottom: 1px solid $ns-blue;

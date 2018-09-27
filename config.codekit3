@@ -7,7 +7,7 @@
 		"uuidString": "5C60E87F-5506-4B6F-A088-DDF1D9E4563C"
 		}
 	],
-"creatorBuild": "28795",
+"creatorBuild": "28841",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -743,7 +743,7 @@
 		},
 	"/media/ns/mijn-ns.jpg": {
 		"ft": 16384,
-		"iS": 374322,
+		"iS": 772506,
 		"jF": 2,
 		"oA": 1,
 		"oAP": "/media/ns/mijn-ns.jpg",

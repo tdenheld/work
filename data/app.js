@@ -102,7 +102,7 @@ var ns_context = {
 		},{
 			"text" : {
 				"title" : "NS Flex",
-				"description" : "We had to deliver 3 campaign pages from scratch within a couple of months. To be able to switch so fast we had to use a different way of working than usual. In a pressure cooker with a marketer, UX designer and me, we created a full responsive <a href='https://ns-flex.netlify.com' target='_blank' class='link link--ns'>prototype</a>. Which I designed and built in HTML / CSS / JS.",
+				"description" : "We had to deliver 3 campaign pages from scratch within a couple of months. That's lightning speed for a large corporate like NS, so we had to use a different way of working than usual. In a pressure cooker with a marketer, UX designer and me, we created a full responsive <a href='https://ns-flex.netlify.com' target='_blank' class='link link--ns'>prototype</a>. Which I designed and built in HTML / CSS / JS.",
 			},
 		},{
 			"img" : "ns/nsflex.jpg",
