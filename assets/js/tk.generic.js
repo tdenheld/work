@@ -219,6 +219,7 @@ $(document).ready(function () {
                 removeFX(true);
                 $(".js-nav--work").removeClass("is-active");
                 $(".js-nav--about").removeClass("is-active");
+                $(".js-del-500").removeClass("a-del-500");
                 $(window).scrollTop(0);
 
                 // loop through pages on click to match the current page
@@ -241,7 +242,8 @@ $(document).ready(function () {
 
 
         // helper functions
-        // ------------------------------------------------------------------        
+        // ------------------------------------------------------------------
+
         // base function to trigger page transition
         function page_transition(s, page) {
             // set current page
@@ -257,6 +259,8 @@ $(document).ready(function () {
                         autoAlpha: 1,
                         display: "block",
                     });
+                    split_text(".js-split-txt");
+                    $(".js-del-500").addClass("a-del-500");
                     // set body background color to page color properties
                     $("body").removeClass().addClass("bg--" + page);
                 },
@@ -287,7 +291,8 @@ $(document).ready(function () {
 
 
         // main navigation
-        // ------------------------------------------------------------------   
+        // ------------------------------------------------------------------
+
         // main call to action button on home
         $(".js-checkout-button").click(function () {
             $(".js-line").addClass("is-active");
@@ -362,6 +367,23 @@ $(document).ready(function () {
 
 
 
+    // split text
+    // ------------------------------------------------------------
+    function split_text(class_name) {
+        var tl = new TimelineLite,
+            mySplitText = new SplitText(class_name, {
+                type: "words,chars"
+            }),
+            //an array of all the divs that wrap each character
+            chars = mySplitText.chars;
+
+        tl.staggerFrom(chars, 0.7, {
+            opacity: 0,
+            x: 80,
+            ease: Back.easeOut
+        }, 0.01, "+=0");
+    };
+    split_text(".js-split-txt");
 
 
     // include html
