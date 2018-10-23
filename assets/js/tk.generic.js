@@ -219,7 +219,6 @@ $(document).ready(function () {
                 removeFX(true);
                 $(".js-nav--work").removeClass("is-active");
                 $(".js-nav--about").removeClass("is-active");
-                $(".js-del-500").removeClass("a-del-500");
                 $(window).scrollTop(0);
 
                 // loop through pages on click to match the current page
@@ -228,6 +227,7 @@ $(document).ready(function () {
                     if (i === r) {
                         $("#js-navbar").removeClass().addClass("navbar navbar--" + r);
                         $("body").removeClass().addClass("bg--" + r);
+                        split_text(".js-split-txt", 0);
                         img_loader(r);
                         currentPage = r;
                     };
@@ -259,8 +259,7 @@ $(document).ready(function () {
                         autoAlpha: 1,
                         display: "block",
                     });
-                    split_text(".js-split-txt");
-                    $(".js-del-500").addClass("a-del-500");
+                    split_text(".js-split-txt-about", 0.08);
                     // set body background color to page color properties
                     $("body").removeClass().addClass("bg--" + page);
                 },
@@ -369,7 +368,7 @@ $(document).ready(function () {
 
     // split text
     // ------------------------------------------------------------
-    function split_text(class_name) {
+    function split_text(class_name, delay) {
         var tl = new TimelineLite,
             mySplitText = new SplitText(class_name, {
                 type: "words,chars"
@@ -380,10 +379,11 @@ $(document).ready(function () {
         tl.staggerFrom(chars, 0.7, {
             opacity: 0,
             x: 80,
-            ease: Back.easeOut
+            ease: Back.easeOut,
+            delay: delay,
         }, 0.01, "+=0");
     };
-    split_text(".js-split-txt");
+    split_text(".js-split-txt", 0.25);
 
 
     // include html

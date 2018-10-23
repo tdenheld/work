@@ -2,19 +2,6 @@
       	Text
 --------------------*/
 
-.txt-xxxxl {
-	@include font-style($txt-xxl, 800, $line-height-heading);
-	@include xs {
-		font-size: calculate-rem($txt-xxxl);
-	}
-	@include lg {
-		font-size: calculate-rem($txt-xxxxl);
-		@media (max-height: 700px) {
-			font-size: calculate-rem($txt-xxxl);
-		}		
-	}
-}
-
 .txt-xxxl {
 	@include font-style($txt-xxl, 800, $line-height-heading);
 	@include md {

@@ -235,3 +235,16 @@
 		}
 	}
 }
+
+.home__heading {
+    @include font-style($txt-xxl, 800, $line-height-heading);
+    @include xs {
+        font-size: calculate-rem($txt-xxxl);
+    }
+    @include lg {
+        font-size: calculate-rem(120px);
+        @media (max-height: 700px) {
+            font-size: calculate-rem($txt-xxxxl);
+        }		
+    }
+}

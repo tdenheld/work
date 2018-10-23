@@ -3,11 +3,11 @@
 templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
-  return "<!-- about -->\n<div class=\"about\">\n	<div class=\"intro intro--about\">\n		<div class=\"intro__container\">\n			<h1 class=\"about__heading a a-fi\">\n				"
+  return "<!-- about -->\n<div class=\"about\">\n	<div class=\"intro intro--about\">\n		<div class=\"intro__container\">\n			<h1 class=\"about__heading a a-fi js-split-txt-about\">\n				"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
     + "\n			</h1>\n			<p class=\"intro__description a a-fi a-del-250 about__margin\">\n				"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p1 : stack1), depth0))
-    + "\n			</p>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
+    + "\n			</p>\n			<div class=\"js-scrll-section a a-fi a-del-350 about__margin\">\n				<p class=\"intro__description intro__description--small\">\n					"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p2 : stack1), depth0))
     + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--small tr-stag js-tr\">\n					"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p3 : stack1), depth0))
@@ -46,7 +46,7 @@ templates['app'] = template({"1":function(container,depth0,helpers,partials,data
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "<!-- navbar -->\n<header class=\"navbar a a-fi-down a-del-250\" id=\"js-navbar\">\n    <a href=\"/\">\n        <span include=\"../assets/img/logo-tk305.svg\" class=\"opacity-hover\"></span>\n    </a>\n    <ul class=\"navbar__list\">\n"
+  return "<!-- navbar -->\n<header class=\"navbar a a-fi-down a-del-350\" id=\"js-navbar\">\n    <a href=\"/\">\n        <span include=\"../assets/img/logo-tk305.svg\" class=\"opacity-hover\"></span>\n    </a>\n    <ul class=\"navbar__list\">\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.navbar : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "    </ul>\n</header>\n\n<!-- animation of lines -->\n<div class=\"lines\">\n    <div class=\"lines__line js-line\"><span></span></div>\n    <div class=\"lines__line js-line\"><span></span></div>\n    <div class=\"lines__line js-line\"><span></span></div>\n    <div class=\"lines__line js-line\"><span></span></div>\n    <div class=\"lines__line js-line\"><span></span></div>\n</div>\n\n<!-- animation of little objects -->\n<div class=\"ao js-ao\">\n    <div class=\"ao__particle ao--move-up-down ao--v-70\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-20 ao--delay-2s\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-22 ao--delay-3s ao--dur-11s\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-30 ao--delay-5s\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-50 ao--delay-7s ao--dur-10s\"></div>\n    <div class=\"ao__particle ao--move-up-down ao--v-80 ao--delay-6s ao--dur-13s\"></div>\n</div>\n\n<!-- pages -->\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.pages : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
@@ -103,9 +103,9 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
     + "\">\n	<div class=\"case__intro-container js-parallax\">\n		<div class=\"intro intro--detail\">\n			<div class=\"intro__container\">\n				<img src=\"media/"
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
-    + "/logo.svg\" class=\"case__logo a a-fi\" />\n"
+    + "/logo.svg\" class=\"case__logo a a-fi a-del-350\" />\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.title : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "				<p class=\"intro__description txt-l a a-fi a-del-250 js-del-500\">"
+    + "				<p class=\"intro__description txt-l a a-fi a-del-500\">"
     + alias4(((helper = (helper = helpers.intro || (depth0 != null ? depth0.intro : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"intro","hash":{},"data":data}) : helper)))
     + "</p>\n			</div>\n			<div class=\"scroll-down scroll-down--bottom a a-fi-up a-del-500\">\n				<div class=\"scroll-down__icon\">\n					<div class=\"scroll-down__icon-circle\"></div>\n				</div>\n				<p class=\"scroll-down__label\">scroll down to discover</p>\n			</div>\n		</div>\n	</div>\n\n	<div class=\"case__content a a-fi\">\n		<div class=\"case__hero-container\" id=\"js-hero-"
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
@@ -122,12 +122,14 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
     + "\">\n	<div class=\"container\">\n		<div class=\"work-cf js-scrll-section\">\n			<h2 class=\"work-cf__title txt-xl tr-si tr-400 js-tr\">View more cases</h2>\n		</div>\n	</div>\n</div>";
 },"useData":true,"useDepths":true});
 templates['home'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, alias1=container.lambda;
+    var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
-  return "<!-- intro -->\n<div class=\"intro\">\n    <div class=\"intro__container\">\n        <h1 class=\"intro__title txt-xxxxl js-split-txt\">\n            "
-    + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.intro : stack1), depth0)) != null ? stack1 : "")
-    + "\n        </h1>\n        <div class=\"a a-fi a-del-250\">\n            <button class=\"button txt-m js-checkout-button\">"
-    + container.escapeExpression(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.button : stack1), depth0))
+  return "<!-- intro -->\n<div class=\"intro\">\n    <div class=\"intro__container\">\n        <h1 class=\"home__heading mb-3 js-split-txt\">\n            "
+    + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
+    + "\n        </h1>\n        <p class=\"intro__description txt-l a a-fi a-del-300 mb-6\">"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.subtitle : stack1), depth0))
+    + "</p>\n        <div class=\"a a-fi a-del-500\">\n            <button class=\"button txt-m js-checkout-button\">"
+    + alias2(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.button : stack1), depth0))
     + "</button>\n        </div>\n    </div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi a a-fi-up a-del-500\">\n    <a href=\"https://www.behance.net/tk305\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>\n    <a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>\n    <a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>\n    <a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>\n</footer>";
 },"useData":true});
 templates['work'] = template({"1":function(container,depth0,helpers,partials,data) {

@@ -25,7 +25,8 @@ var context = {
 	// home
 	// --------------------------------
 	"home": {
-		"intro": "Creating digital experiences to engage people.",
+        "title": "Hoi. It's me, Tibor!",
+        "subtitle": "I'm an Utrecht based digital designer creating experiences for humans and companies.",
 		"button": "checkout lastest work"
 	},
 
@@ -59,8 +60,8 @@ var context = {
 	// about
 	// --------------------------------
 	"about" : {
-		"title" : "Hoi.<br>It’s me,<br>Tibor!",
-		"p1" : "I'm an Utrecht based digital designer creating experiences for humans and companies. Mostly intrigued with visual design, prototyping, UX and branding.",
+		"title" : "It’s me again!",
+		"p1" : "I'm mostly intrigued with visual design, prototyping, UX and branding.",
 		"p2" : "Working with large online platforms as well as tasteful campaign websites. If possible I implement my designs in code.",
 		"p3" : "I moved pixels for brands such as Dutch Railways (NS), KPN, Greenpeace, KLM, Mitsubishi, Capgemini, SnappCar, Adformatie, Endemol and more.",
 		"img" : "portret-wink.gif",
