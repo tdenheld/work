@@ -227,7 +227,7 @@ $(document).ready(function () {
                     if (i === r) {
                         $("#js-navbar").removeClass().addClass("navbar navbar--" + r);
                         $("body").removeClass().addClass("bg--" + r);
-                        split_text(".js-split-txt", 0);
+                        split_text(".js-split-txt", 0.08);
                         img_loader(r);
                         currentPage = r;
                     };
@@ -259,6 +259,7 @@ $(document).ready(function () {
                         autoAlpha: 1,
                         display: "block",
                     });
+                    split_text(".js-split-txt", 0.08);
                     split_text(".js-split-txt-about", 0.08);
                     // set body background color to page color properties
                     $("body").removeClass().addClass("bg--" + page);
