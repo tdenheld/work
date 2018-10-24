@@ -384,7 +384,7 @@ $(document).ready(function () {
             delay: delay,
         }, 0.01, "+=0");
     };
-    split_text(".js-split-txt", 0.25);
+    split_text(".js-split-txt", 0.35);
 
 
     // include html

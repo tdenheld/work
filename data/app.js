@@ -61,7 +61,7 @@ var context = {
 	// --------------------------------
 	"about" : {
 		"title" : "It’s me again!",
-		"p1" : "I'm Tibor den Held and I am currently working as a Senior Designer at Dutch Railways (NS).",
+		"p1" : "Currently working as a Senior Digital Designer at Dutch Railways (NS).",
 		"p2" : "I'm mostly intrigued with visual design, prototyping, UX and branding. Working with large online platforms as well as tasteful campaign websites. If possible I implement my designs in code.",
 		"p3" : "I developed experiences for brands such as Dutch Railways (NS), KPN, Greenpeace, KLM, Mitsubishi, Capgemini, SnappCar, Adformatie, Endemol and more.",
 		"img" : "portret-wink.gif",
