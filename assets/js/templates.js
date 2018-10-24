@@ -5,7 +5,9 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
 
   return "<!-- about -->\n<div class=\"about\">\n	<div class=\"intro intro--about\">\n		<div class=\"intro__container\">\n			<h1 class=\"about__heading a a-fi js-split-txt-about\">\n				"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
-    + "\n			</h1>\n			<p class=\"intro__description a a-fi a-del-250 about__margin\">\n				"
+    + "\n			</h1>\n            <h2 class=\"intro__description intro__description--smaller a a-fi a-del-150 about__margin mb-4-sm\">\n                "
+    + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.subtitle : stack1), depth0)) != null ? stack1 : "")
+    + "\n            </h2>\n			<p class=\"intro__description a a-fi a-del-250 about__margin\">\n				"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p1 : stack1), depth0))
     + "\n			</p>\n			<div class=\"js-scrll-section a a-fi a-del-350 about__margin\">\n				<p class=\"intro__description intro__description--small\">\n					"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p2 : stack1), depth0))

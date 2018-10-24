@@ -45,7 +45,7 @@
 .sfi--about {
 	position: static;
 	padding: $double-space;
-	@include md {
+	@media (min-width: 1360px) {
 		position: fixed;
 		left: $double-space;
 		bottom: $double-space;

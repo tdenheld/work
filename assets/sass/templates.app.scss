@@ -196,7 +196,7 @@
 
 .about__heading {
 	margin-bottom: $triple-space;
-	@include font-style(80px, 800, 1);
+	@include font-style(80px, 800, 0.9);
 	@include sm {
 		font-size: calculate-rem(120px);
 	}
