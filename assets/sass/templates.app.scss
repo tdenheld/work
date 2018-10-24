@@ -248,3 +248,19 @@
         }		
     }
 }
+
+.home__description {
+    margin: 0 0 32px;
+    @include font-style($txt-m, 200, $line-height-base);
+    @include xs {
+        margin-bottom: $triple-space;
+        font-size: calculate-rem($txt-l);		
+    }
+    @include lg {
+        margin-bottom: 40px;
+        font-size: calculate-rem($txt-xl);
+        @media (max-height: 700px) {
+            font-size: calculate-rem($txt-l);
+        }	
+    }
+}

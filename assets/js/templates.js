@@ -5,7 +5,7 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
 
   return "<!-- about -->\n<div class=\"about\">\n	<div class=\"intro intro--about\">\n		<div class=\"intro__container\">\n			<h1 class=\"about__heading a a-fi js-split-txt-about\">\n				"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
-    + "\n			</h1>\n            <h2 class=\"intro__description intro__description--smaller a a-fi a-del-150 about__margin mb-4-sm\">\n                "
+    + "\n			</h1>\n            <h2 class=\"intro__description intro__description--smaller a a-fi a-del-150 mb-1 mb-2-sm\">\n                "
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.subtitle : stack1), depth0)) != null ? stack1 : "")
     + "\n            </h2>\n			<p class=\"intro__description a a-fi a-del-250 about__margin\">\n				"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p1 : stack1), depth0))
@@ -126,9 +126,9 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
 templates['home'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
-  return "<!-- intro -->\n<div class=\"intro\">\n    <div class=\"intro__container\">\n        <h1 class=\"home__heading mb-3 js-split-txt\">\n            "
+  return "<!-- intro -->\n<div class=\"intro\">\n    <div class=\"intro__container\">\n        <h1 class=\"home__heading js-split-txt\">\n            "
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
-    + "\n        </h1>\n        <p class=\"intro__description txt-l a a-fi a-del-500 mb-4 mb-5-lg\">"
+    + "\n        </h1>\n        <p class=\"home__description a a-fi a-del-500\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.subtitle : stack1), depth0))
     + "</p>\n        <div class=\"a a-fi a-del-700\">\n            <button class=\"button txt-m js-checkout-button\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.button : stack1), depth0))

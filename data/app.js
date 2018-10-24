@@ -26,7 +26,7 @@ var context = {
 	// --------------------------------
 	"home": {
         "title": "Hoi. It's me, Tibor!",
-        "subtitle": "I'm an Utrecht based digital designer creating experiences for humans and companies.",
+        "subtitle": "I'm a Utrecht based digital maker that's fond about designing with code.",
 		"button": "checkout lastest work"
 	},
 
@@ -61,7 +61,7 @@ var context = {
 	// --------------------------------
 	"about" : {
         "title" : "It’s me again!",
-        "subtitle": "Full name: <a href='http://www.google.com/search?q=Tibor+den+Held' target='_blank' class='link link--subtle'><b>Tibor den Held</b></a> – Last update: Oct. 24, 2018",
+        "subtitle": "Last update – October 24, 2018",
 		"p1" : "Currently working as a Senior Digital Designer at Dutch Railways (NS).",
 		"p2" : "I'm mostly intrigued with visual design, prototyping, UX and branding. Working with large online platforms as well as tasteful campaign websites. If possible I implement my designs in code.",
 		"p3" : "I developed experiences for brands such as Dutch Railways (NS), KPN, Greenpeace, KLM, Mitsubishi, Capgemini, SnappCar, Adformatie, Endemol and more.",
