@@ -2,53 +2,6 @@
 	  	Utilities
 --------------------*/
 
-// Floats
-// -------------------------
-
-.clearfix {
-  @include clearfix;
-}
-.pull-right {
-  float: right !important;
-}
-.pull-left {
-  float: left !important;
-}
-
-
-// Toggling content
-// -------------------------
-
-// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
-.hide {
-  display: none !important;
-}
-.show {
-  display: block !important;
-}
-.invisible {
-  visibility: hidden;
-}
-
-
-// Font sizes
-// -------------------------
-
-$f-size-arr: ($txt-xxxxl,$txt-xxxl,$txt-xxl,$txt-xl,$txt-l,$txt-m,$txt-s,$txt-xs,$txt-xxs,$txt-xxxs);
-@for $i from 1 through 10 {
-	.f#{$i} {
-		font-size: calculate-rem(nth($f-size-arr, $i));
-	}
-}
-
-
-// For Affix plugin
-// -------------------------
-
-.affix {
-  position: fixed;
-}
-
 
 // displays
 // ----------------------------------------------------------------------
@@ -78,6 +31,89 @@ $f-size-arr: ($txt-xxxxl,$txt-xxxl,$txt-xxl,$txt-xl,$txt-l,$txt-m,$txt-s,$txt-xs
 .rotate-225 { transform: rotate(225deg); }
 .rotate-270 { transform: rotate(270deg); }
 .rotate-315 { transform: rotate(315deg); }
+
+
+
+/*-------------------
+      Typography
+--------------------*/
+
+// Font sizes
+// -------------------------
+
+$f-size-arr: ($txt-xxxxl,$txt-xxxl,$txt-xxl,$txt-xl,$txt-l,$txt-m,$txt-s,$txt-xs,$txt-xxs,$txt-xxxs);
+@for $i from 1 through 10 {
+	.f#{$i} {
+		font-size: calculate-rem(nth($f-size-arr, $i));
+	}
+}
+
+@include sm {
+    @for $i from 1 through 10 {
+        .f#{$i}-sm {
+            font-size: calculate-rem(nth($f-size-arr, $i));
+        }
+    }
+}
+
+@include md {
+    @for $i from 1 through 10 {
+        .f#{$i}-md {
+            font-size: calculate-rem(nth($f-size-arr, $i));
+        }
+    }
+}
+
+@include lg {
+    @for $i from 1 through 10 {
+        .f#{$i}-lg {
+            font-size: calculate-rem(nth($f-size-arr, $i));
+        }
+    }
+}
+
+// font weights
+// ----------------------------------------------------------------------
+.fw-normal {font-weight: normal;}
+.fw-b {font-weight: bold;}
+@for $i from 1 through 9 {
+	$weight: $i * 100;
+	.fw-#{$weight} {
+		font-weight: $weight;
+	}
+}
+
+// word wraps
+// ----------------------------------------------------------------------
+.no-wrap {white-space: nowrap;}
+.break-word {word-wrap: break-word;}
+
+// line-heights
+// ----------------------------------------------------------------------
+.lh-none  { line-height: 0; }
+.lh-solid { line-height: 1; }
+.lh-title { line-height: 1.25; }
+.lh-copy  { line-height: 1.5; }
+
+@include sm {
+	.lh-none-sm  { line-height: 0; }
+	.lh-solid-sm { line-height: 1; }
+	.lh-title-sm { line-height: 1.25; }
+	.lh-copy-sm  { line-height: 1.5; }
+}
+@include md {
+	.lh-none-md  { line-height: 0; }
+	.lh-solid-md { line-height: 1; }
+	.lh-title-md { line-height: 1.25; }
+	.lh-copy-md  { line-height: 1.5; }
+}
+@include lg {
+	.lh-none-lg  { line-height: 0; }
+	.lh-solid-lg { line-height: 1; }
+	.lh-title-lg { line-height: 1.25; }
+	.lh-copy-lg  { line-height: 1.5; }
+}
+
 
 
 
