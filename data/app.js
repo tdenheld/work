@@ -61,9 +61,9 @@ var context = {
 	// --------------------------------
 	"about" : {
 		"title" : "It’s me again!",
-		"p1" : "I'm mostly intrigued with visual design, prototyping, UX and branding.",
-		"p2" : "Working with large online platforms as well as tasteful campaign websites. If possible I implement my designs in code.",
-		"p3" : "I moved pixels for brands such as Dutch Railways (NS), KPN, Greenpeace, KLM, Mitsubishi, Capgemini, SnappCar, Adformatie, Endemol and more.",
+		"p1" : "I'm Tibor den Held and I am currently working as a Senior Designer at Dutch Railways (NS).",
+		"p2" : "I'm mostly intrigued with visual design, prototyping, UX and branding. Working with large online platforms as well as tasteful campaign websites. If possible I implement my designs in code.",
+		"p3" : "I developed experiences for brands such as Dutch Railways (NS), KPN, Greenpeace, KLM, Mitsubishi, Capgemini, SnappCar, Adformatie, Endemol and more.",
 		"img" : "portret-wink.gif",
 		"p4" : "In any case, I also love to play with cameras and synthesizers.",
 		"p5" : "This portfolio is build from scratch. Without a CMS like Wordpress, Drupal or Joomla. To keep this site as lean as possible I don't use a Javascript or CSS framework either. One of the front-end web techniques I do use are the Handlebars.js templating library. Which I precompile. Together with some GSAP, scrollmagic.js, jQuery and lots of CSS animation which I write in SASS. Next I push my code through a git repository. This is automatic deployed by Netlify.",
