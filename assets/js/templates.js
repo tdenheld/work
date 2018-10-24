@@ -128,7 +128,7 @@ templates['home'] = template({"compiler":[7,">= 4.0.0"],"main":function(containe
 
   return "<!-- intro -->\n<div class=\"intro\">\n    <div class=\"intro__container\">\n        <h1 class=\"home__heading mb-3 js-split-txt\">\n            "
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
-    + "\n        </h1>\n        <p class=\"intro__description txt-l fw-normal a a-fi a-del-500 mb-4 mb-5-lg\">"
+    + "\n        </h1>\n        <p class=\"intro__description txt-l a a-fi a-del-500 mb-4 mb-5-lg\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.subtitle : stack1), depth0))
     + "</p>\n        <div class=\"a a-fi a-del-700\">\n            <button class=\"button txt-m js-checkout-button\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.button : stack1), depth0))
