@@ -9,7 +9,6 @@ var context = {
 		{"item" : "about"},
 	],
 	
-
 	// pages
 	// --------------------------------
 	"pages" : [
@@ -29,7 +28,6 @@ var context = {
         "subtitle": "I'm a Utrecht based digital maker that's fond about designing with code.",
 		"button": "checkout lastest work"
 	},
-
 
 	// work
 	// --------------------------------
@@ -55,7 +53,6 @@ var context = {
 			},
 		],
 	},
-
 
 	// about
 	// --------------------------------
