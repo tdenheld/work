@@ -16,14 +16,8 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
     + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<img data-src=\"media/"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.img : stack1), depth0))
     + "\" class=\"img-responsive js-about-img tr-si tr-400 js-tr\" />\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--small tr-400 tr-stag js-tr\">\n					"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p4 : stack1), depth0))
-    + "\n					"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.contact : stack1), depth0))
-    + " <a href=\"mailto:"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.email : stack1), depth0))
-    + "\" target=\"_blank\" class=\"link link--about\"><b>"
-    + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.email : stack1), depth0))
-    + "</b></a>\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--smaller tr-stag js-tr\">\n					"
+    + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p4 : stack1), depth0)) != null ? stack1 : "")
+    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--smaller tr-stag js-tr\">\n					"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p5 : stack1), depth0)) != null ? stack1 : "")
     + "\n				</p>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi sfi--about a a-fi-up a-del-500\">\n	<a href=\"https://www.behance.net/tk305\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>\n</footer>";
 },"useData":true});

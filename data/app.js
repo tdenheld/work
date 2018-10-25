@@ -64,12 +64,10 @@ var context = {
         "subtitle": "Last update – October 24, 2018",
 		"p1" : "Currently working as a Senior Digital Designer at Dutch Railways (NS).",
 		"p2" : "I'm mostly intrigued with visual design, prototyping, UX and branding. Working with large online platforms as well as tasteful campaign websites. If possible I implement my designs in code.",
-		"p3" : "I developed experiences for brands such as Dutch Railways (NS), KPN, Greenpeace, KLM, Mitsubishi, Capgemini, SnappCar, Adformatie, Endemol and more.",
+		"p3" : "I developed experiences for brands such as, KPN, Greenpeace, Mitsubishi, KLM, Capgemini, NS, SnappCar, Adformatie, Endemol, and more.",
 		"img" : "portret-wink.gif",
-		"p4" : "In any case, I also love to play with cameras and synthesizers.",
+		"p4" : "In any case, I also love to play with cameras and synthesizers. Mail me at <a href='mailto:hoi@tk305.com' target='_blank' class='link link--invert'>hoi@tk305.com</a> or google my <a href='http://www.google.com/search?q=Tibor+den+Held' target='_blank' class='link link--invert'>full name</a>",
 		"p5" : "This portfolio is build from scratch. Without a CMS like Wordpress, Drupal or Joomla. To keep this site as lean as possible I don't use a Javascript or CSS framework either. One of the front-end web techniques I do use are the Handlebars.js templating library. Which I precompile. Together with some GSAP, scrollmagic.js, jQuery and lots of CSS animation which I write in SASS. Next I push my code through a git repository. This is automatic deployed by Netlify.",
-		"contact" : "Mail me at",
-		"email" : "hoi@tk305.com",
 	},
 };
 

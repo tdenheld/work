@@ -10,21 +10,14 @@
     cursor: pointer;
 }
 
-.link--about {    
+.link--invert {
+    font-weight: bold;
+        
     &:hover {
-        padding: 9px 6px 6px;
-        background-color: $pinkish;
-        color: $blue;
-    }
-}
-
-.link--subtle {    
-    &:hover {
-        border-bottom: 1px solid rgba($pinkish, 0);
-        background-color: rgba($pinkish, 1);
-        color: $blue;
         padding-top: 5px;
         padding-bottom: 2px;
+        background-color: rgba($pinkish, 1);
+        color: $blue;
     }
 }
 
