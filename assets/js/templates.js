@@ -3,11 +3,11 @@
 templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
-  return "<!-- about -->\n<div class=\"about\">\n	<div class=\"intro intro--about\">\n		<div class=\"intro__container\">\n			<h1 class=\"about__heading a a-fi js-split-txt-about\">\n				"
+  return "<!-- about -->\n<section class=\"about\">\n	<div class=\"intro intro--about\">\n		<div class=\"intro__container\">\n			<h1 class=\"about__heading a a-fi js-split-txt-about\">\n				"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
-    + "\n			</h1>\n            <h2 class=\"intro__description intro__description--smaller a a-fi a-del-150 mb-1 mb-2-sm\">\n                "
+    + "\n			</h1>\n            <h2 class=\"intro__description intro__description--smaller fw-200 a a-fi a-del-150 mb-1 mb-2-sm\">\n                "
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.subtitle : stack1), depth0)) != null ? stack1 : "")
-    + "\n            </h2>\n			<p class=\"intro__description a a-fi a-del-250 about__margin\">\n				"
+    + "\n            </h2>\n			<p class=\"intro__description fw-700 a a-fi a-del-250 about__margin\">\n				"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p1 : stack1), depth0))
     + "\n			</p>\n			<div class=\"js-scrll-section a a-fi a-del-350 about__margin\">\n				<p class=\"intro__description intro__description--small\">\n					"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p2 : stack1), depth0))
@@ -15,11 +15,13 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p3 : stack1), depth0))
     + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<img data-src=\"media/"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.img : stack1), depth0))
-    + "\" class=\"img-responsive js-about-img tr-si tr-400 js-tr\" />\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--small tr-400 tr-stag js-tr\">\n					"
+    + "\" class=\"img-responsive js-about-img tr-si tr-400 js-tr\" />\n			</div>\n			<div class=\"js-scrll-section a a-fi mb-7\">\n				<p class=\"intro__description intro__description--small tr-400 tr-stag js-tr\">\n					"
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p4 : stack1), depth0)) != null ? stack1 : "")
-    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n				<p class=\"intro__description intro__description--smaller tr-stag js-tr\">\n					"
-    + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p5 : stack1), depth0)) != null ? stack1 : "")
-    + "\n				</p>\n			</div>\n		</div>\n	</div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi sfi--about a a-fi-up a-del-500\">\n	<a href=\"https://www.behance.net/tk305\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>\n</footer>";
+    + "\n				</p>\n			</div>\n			<div class=\"js-scrll-section a a-fi about__margin\">\n                <h3 class=\"intro__description intro__description--smaller fw-800 mb-0 tr-stag js-tr\">\n                    "
+    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p5 : stack1)) != null ? stack1.title : stack1), depth0))
+    + "\n                </h3>\n				<p class=\"intro__description intro__description--smaller tr-stag js-tr\">\n					"
+    + ((stack1 = alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.about : depth0)) != null ? stack1.p5 : stack1)) != null ? stack1.description : stack1), depth0)) != null ? stack1 : "")
+    + "\n				</p>\n			</div>\n		</div>\n	</div>\n</section>\n\n<!-- socials footer -->\n<footer class=\"sfi sfi--about a a-fi-up a-del-500\">\n	<a href=\"https://www.behance.net/tk305\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>\n	<a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>\n	<a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>\n	<a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>\n</footer>";
 },"useData":true});
 templates['app'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;

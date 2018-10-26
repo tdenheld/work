@@ -50,8 +50,8 @@ var context = {
 				"page" : "cg",
 				"title" : "Circle of Gentlemen",
 				"description" : "Visual Design / UX",
-			},
-		],
+			}
+		]
 	},
 
 	// about
@@ -64,8 +64,11 @@ var context = {
 		"p3" : "I developed experiences for brands such as, KPN, Greenpeace, Mitsubishi, KLM, Capgemini, NS, SnappCar, Adformatie, Endemol, and more.",
 		"img" : "portret-wink.gif",
 		"p4" : "In any case, I also love to play with cameras and synthesizers. Mail me at <a href='mailto:hoi@tk305.com' target='_blank' class='link link--fx-1'>hoi@tk305.com</a> or google my <a href='http://www.google.com/search?q=Tibor+den+Held' target='_blank' class='link link--fx-1'>full name</a>",
-		"p5" : "This portfolio is build from scratch. Without a CMS like Wordpress, Drupal or Joomla. To keep this site as lean as possible I don't use a Javascript or CSS framework either. One of the front-end web techniques I do use are the Handlebars.js templating library. Which I precompile. Together with some GSAP, scrollmagic.js, jQuery and lots of CSS animation which I write in SASS. Next I push my code through a git repository. This is automatic deployed by Netlify.",
-	},
+		"p5" : {
+            "title": "Tech talk",
+            "description": "This portfolio is build from scratch. Without a CMS like Wordpress, Drupal or Joomla. To keep this site as lean as possible I don't use a Javascript or CSS framework either. One of the front-end web techniques I do use are the Handlebars.js templating library. Which I precompile. Together with some GSAP, scrollmagic.js, jQuery and lots of CSS animation which I write in SASS. Next I push my code through a git repository. This is automatic deployed by Netlify.",
+        }
+    }
 };
 
 var ns_context = {	
