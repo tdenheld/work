@@ -97,7 +97,7 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"case case--"
+  return "<section class=\"case case--"
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
     + "\">\n	<div class=\"case__intro-container js-parallax\">\n		<div class=\"intro intro--detail\">\n			<div class=\"intro__container\">\n				<img src=\"media/"
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
@@ -115,20 +115,20 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.specs : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "		</div>\n		<div class=\"container\">\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.item : depth0),{"name":"each","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "		</div>\n	</div>\n</div>\n\n<div class=\"hbs-work-cf work--case work--"
+    + "		</div>\n	</div>\n</section>\n\n<section class=\"hbs-work-cf work--case work--"
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
-    + "\">\n	<div class=\"container\">\n		<div class=\"work-cf js-scrll-section\">\n			<h2 class=\"work-cf__title txt-xl tr-si tr-400 js-tr\">View more cases</h2>\n		</div>\n	</div>\n</div>";
+    + "\">\n	<div class=\"container\">\n		<div class=\"work-cf js-scrll-section\">\n			<h2 class=\"work-cf__title txt-xl tr-si tr-400 js-tr\">View more cases</h2>\n		</div>\n	</div>\n</section>";
 },"useData":true,"useDepths":true});
 templates['home'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
-  return "<!-- intro -->\n<div class=\"intro\">\n    <div class=\"intro__container\">\n        <h1 class=\"home__heading js-split-txt\">\n            "
+  return "<!-- intro -->\n<section class=\"intro\">\n    <div class=\"intro__container\">\n        <h1 class=\"home__heading js-split-txt\">\n            "
     + ((stack1 = alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.title : stack1), depth0)) != null ? stack1 : "")
     + "\n        </h1>\n        <p class=\"home__description a a-fi a-del-500\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.subtitle : stack1), depth0))
     + "</p>\n        <div class=\"a a-fi a-del-700\">\n            <button class=\"button txt-m js-checkout-button\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.home : depth0)) != null ? stack1.button : stack1), depth0))
-    + "</button>\n        </div>\n    </div>\n</div>\n\n<!-- socials footer -->\n<footer class=\"sfi a a-fi-up a-del-800\">\n    <a href=\"https://www.behance.net/tk305\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>\n    <a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>\n    <a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>\n    <a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>\n</footer>";
+    + "</button>\n        </div>\n    </div>\n</section>\n\n<!-- socials footer -->\n<footer class=\"sfi a a-fi-up a-del-800\">\n    <a href=\"https://www.behance.net/tk305\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/behance.svg\"></a>\n    <a href=\"https://www.instagram.com/tdenheld/\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/insta.svg\"></a>\n    <a href=\"https://twitter.com/tdenheld\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/twitter.svg\"></a>\n    <a href=\"https://soundcloud.com/tiborkocsis\" target=\"_blank\" class=\"sfi__icon\" include=\"../assets/img/soundcloud.svg\"></a>\n</footer>";
 },"useData":true});
 templates['work'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
