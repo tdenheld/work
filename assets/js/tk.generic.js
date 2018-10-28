@@ -337,6 +337,7 @@ $(document).ready(function () {
                         });
                     };
 
+                    // if page is slightly scrolled down animate logo in (on mobile only)
                     if ($(window).scrollTop() >= 40 && mobile == true) {
                         TweenLite.fromTo(".js-logo", .25, {
                             ease: default_ease,
@@ -367,7 +368,8 @@ $(document).ready(function () {
                         $(window).scrollTop(0);
                     }, 300);
                     page_transition(.25, i);
-
+                
+                // if page is the same as current page scroll up
                 } else {
                     split_text(".js-split-txt-about", 0.3);
                     TweenLite.to(window, 0.5, {
