@@ -275,7 +275,7 @@ $(document).ready(function () {
                 autoAlpha: 1,
                 display: "block",
             });
-        }
+        };
 
         // remove FX
         function removeFX(rA) {
