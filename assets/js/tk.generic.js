@@ -330,34 +330,54 @@ $(document).ready(function () {
                             autoAlpha: 0,
                         });
                     };
-                };
 
-                if (i === "about") {
-                    $(".js-about-img").Lazy({
-                        threshold: 99999,
-                    });
-                };
+                    if (i === "about") {
+                        $(".js-about-img").Lazy({
+                            threshold: 99999,
+                        });
+                    };
 
-                setTimeout(function () {
-                    // add line under nav item
-                    $(".js-nav--" + i).addClass("is-active");
-
-                    // fade in navbar if on case page
-                    if (currentPage !== "home" && currentPage !== r) {
-                        $("#js-navbar").removeClass().addClass("navbar navbar--" + i);
-                        TweenLite.to("#js-navbar", .7, {
+                    if ($(window).scrollTop() >= 40 && mobile == true) {
+                        TweenLite.fromTo(".js-logo", .25, {
                             ease: default_ease,
+                            autoAlpha: 0,
+                        },{
+                            delay: 0.3,
                             autoAlpha: 1,
                         });
                     };
 
-                    // add FX in the background
-                    addFX();
+                    setTimeout(function () {
+                        // add line under nav item
+                        $(".js-nav--" + i).addClass("is-active");
 
-                    // scroll to top
-                    $(window).scrollTop(0);
-                }, 300);
-                page_transition(.25, i);
+                        // fade in navbar if on case page or scrolled down
+                        if (currentPage !== "home" && currentPage !== r) {
+                            $("#js-navbar").removeClass().addClass("navbar navbar--" + i);
+                            TweenLite.to("#js-navbar", .7, {
+                                ease: default_ease,
+                                autoAlpha: 1,
+                            });
+                        };
+
+                        // add FX in the background
+                        addFX();
+
+                        // scroll to top
+                        $(window).scrollTop(0);
+                    }, 300);
+                    page_transition(.25, i);
+
+                } else {
+                    split_text(".js-split-txt-about", 0.3);
+                    TweenLite.to(window, 0.5, {
+                        ease: default_ease,
+                        scrollTo: {
+                            y: 0,
+                            autoKill: false,
+                        },
+                    });
+                };
             });
         };
         navbarItem("work", "about");

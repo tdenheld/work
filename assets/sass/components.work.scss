@@ -113,43 +113,43 @@
 }
 
 .work--wn {
-	background-color: $wn-blue;
+	background-color: $wn-light-grey;
 
 	.work-cf__title {
-		color: $white;
+		color: $wn-blue;
 	}
 
 	.tile__container {
-		border: 1px solid $white;
-		color: $white;
+		border: 1px solid $wn-blue;
+		color: $wn-blue;
 	}
 
 	.tile__hover {
-		background-color: $white;
+		background-color: $wn-blue;
 
 		svg {
-			fill: $wn-blue;
+			fill: $wn-light-grey;
 		}
 	}
 }
 
 .work--ar {
-	background-color: $ar-brown;
+	background-color: $ar-beige;
 
 	.work-cf__title {
-		color: $ar-beige;
+		color: $ar-dark;
 	}
 
 	.tile__container {
-		border: 1px solid $ar-beige;
-		color: $ar-beige;
+		border: 1px solid $ar-dark;
+		color: $ar-dark;
 	}
 
 	.tile__hover {
-		background-color: $ar-beige;
+		background-color: $ar-dark;
 
 		svg {
-			fill: $ar-brown;
+			fill: $ar-beige;
 		}
 	}
 }

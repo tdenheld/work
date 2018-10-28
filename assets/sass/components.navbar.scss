@@ -20,7 +20,7 @@
 }
 
 .navbar__list {
-	position: absolute;
+	position: fixed;
 	top: $double-space;
 	right: $double-space;
 	text-align: right;
@@ -68,7 +68,7 @@
 	}
 }
 
-.navbar--work {					
+.navbar--work {
 	.navbar__list-item {
 		color: $pinkish;
 	}
@@ -78,7 +78,7 @@
 	}
 }
 
-.navbar--about {				
+.navbar--about {
 	.navbar__list-item {
         color: $pinkish;
         
@@ -89,7 +89,7 @@
 			
 	.logo {
 		fill: $pinkish;
-	}
+    }
 }
 
 	
