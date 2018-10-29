@@ -26,13 +26,13 @@ templates['about'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
 templates['app'] = template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "        <span class=\"opacity-hover\">\n        <li class=\"navbar__list-item navbar__list-item--"
+  return "        <span class=\"opacity-hover\">\n            <li class=\"navbar__list-item navbar__list-item--"
     + alias4(((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"item","hash":{},"data":data}) : helper)))
     + " js-nav js-nav--"
     + alias4(((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"item","hash":{},"data":data}) : helper)))
-    + "\">\n            \n                "
+    + "\">\n                "
     + alias4(((helper = (helper = helpers.item || (depth0 != null ? depth0.item : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"item","hash":{},"data":data}) : helper)))
-    + "\n           \n        </li>\n        </span>\n";
+    + "\n            </li>\n        </span>\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
