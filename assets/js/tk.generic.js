@@ -171,7 +171,8 @@ $(document).ready(function () {
 
 
     // router
-    // ----------------------------------
+    // ---------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------
     function router() {
 
         // put all pages in array
@@ -196,7 +197,7 @@ $(document).ready(function () {
 
 
         // case buttons
-        // -------------------------------------------------------
+        // ----------------------
         function toggle_cases(i) {
             var btn = ".js-case--" + i;
             var page = ".js-page--" + i;
@@ -242,7 +243,7 @@ $(document).ready(function () {
 
 
         // helper functions
-        // ------------------------------------------------------------------
+        // ------------------------
 
         // base function to trigger page transition
         function page_transition(s, page) {
@@ -291,7 +292,7 @@ $(document).ready(function () {
 
 
         // main navigation
-        // ------------------------------------------------------------------
+        // ------------------------
 
         // main call to action button on home
         $(".js-checkout-button").click(function () {
@@ -371,7 +372,9 @@ $(document).ready(function () {
                 
                 // if page is the same as current page scroll up
                 } else {
-                    split_text(".js-split-txt-about", 0.3);
+                    if ($(window).scrollTop() >= 480) {
+                        split_text(".js-split-txt-about", 0.3);
+                    };
                     TweenLite.to(window, 0.5, {
                         ease: default_ease,
                         scrollTo: {
@@ -386,6 +389,7 @@ $(document).ready(function () {
         navbarItem("about", "work");
     };
     router();
+
 
 
 
@@ -407,6 +411,8 @@ $(document).ready(function () {
         }, 0.01, "+=0");
     };
     split_text(".js-split-txt", 0.35);
+
+
 
 
     // include html
