@@ -325,8 +325,8 @@ $f-size-arr: ($txt-xxxxl,$txt-xxxl,$txt-xxl,$txt-xl,$txt-l,$txt-m,$txt-s,$txt-xs
 
 // visibility
 // ----------------------------------------------------------------------
-.visible { visibility: visible; }
-.hidden {  visibility: hidden; } 
+.visible { display: block; }
+.hidden {  display: none; } 
 .visible-xs { @include sm     { display: none; }}
 .hidden-xs {  @include sm-max { display: none; }}
 .hidden-sm {  @include sm-ex  { display: none; }}

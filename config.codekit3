@@ -1350,7 +1350,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/node_modules/jquery/dist/jquery.js",
 		"oF": 0,
 		"sC": 1,
@@ -1360,7 +1360,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/node_modules/jquery/dist/jquery.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -2739,7 +2739,7 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/jquery/dist/jquery.min.js",
+			"linkedFileAbbreviatedPath": "/node_modules/jquery/dist/jquery.js",
 			"position": 1,
 			"type": 0
 			},
@@ -2797,7 +2797,7 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "/data/app.js",
 			"position": 1,
-			"type": 1
+			"type": 0
 			}
 		]
 	},

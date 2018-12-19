@@ -261,3 +261,20 @@
         }	
     }
 }
+
+.loader {
+    @include full(fixed);
+    @include flex-center;
+}
+
+@keyframes loader__obj {
+    0% 		{transform: scaleX(0);}
+    100%	{transform: scaleX(1);}
+}
+
+.loader__obj {
+    width: 256px;
+    border-bottom: 1px solid $pinkish;
+    transform-origin: 0 0;
+    animation: loader__obj 1s $ease both infinite;
+}

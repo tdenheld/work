@@ -93,3 +93,9 @@
 	background-repeat: no-repeat;
 	background-size: $s;
 }
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

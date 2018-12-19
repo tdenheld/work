@@ -7,16 +7,30 @@ $(document).ready(function () {
 
     // screen handler vars
     var mobile = false;
-    var window_width = Number;
-    var window_height = Number;
+    var vw = Number;
+    var vh = Number;
 
     // settings on scroll
-    var hero_bottom = Number;
-    var trigger_hook = Number;
+    var heroBottom = Number;
+    var triggerHook = Number;
 
-    // animations
-    var default_ease = Power3.easeInOut;
 
+
+    // preloader
+    // ------------------------------------------------------------	
+    setTimeout(function () {
+        TweenLite.to(".loader", 0.3, {
+            ease: Power3.easeInOut,
+            autoAlpha: 0,
+            display: "none",
+            onComplete: function () {
+                TweenLite.set("#app", {
+                    display: "block",
+                });
+                splitText(".js-split-txt", 0.35);
+            }
+        });
+    }, 500);
 
 
 
@@ -25,25 +39,25 @@ $(document).ready(function () {
     // ------------------------------------------------------------	
 
     // update screen
-    function update_window_size() {
-        window_height = $(window).innerHeight();
-        window_width = $(window).innerWidth();
-        hero_bottom = Math.round(window_width * .625);
+    function updateWindowSize() {
+        vh = $(window).innerHeight();
+        vw = $(window).innerWidth();
+        heroBottom = Math.round(vw * .625);
 
         // set breakpoints
-        if (window_width > 912) {
+        if (vw > 912) {
             mobile = false;
-            trigger_hook = 0.8;
+            triggerHook = 0.8;
         } else {
             mobile = true;
-            trigger_hook = 0.9;
+            triggerHook = 0.9;
         };
     };
-    update_window_size();
+    updateWindowSize();
 
     // update when resizing
     $(window).resize(function () {
-        update_window_size();
+        updateWindowSize();
     });
 
 
@@ -65,14 +79,14 @@ $(document).ready(function () {
 
     // generic scrollmagic constructor
     // -----------------------------------------------------------------
-    function scroll_trig(i) {
+    function scrollTrig(i) {
         var id = document.getElementById("scrll-section-" + i);
         var el = "#scrll-section-" + i;
         if (id) {
             var scrll = new ScrollMagic.Scene({
                     triggerElement: el,
                 })
-                .triggerHook(trigger_hook)
+                .triggerHook(triggerHook)
                 .offset(0)
                 .on("start", function () {
                     $(el + " .js-tr").toggleClass("is-active");
@@ -85,21 +99,23 @@ $(document).ready(function () {
     var sections = $(".js-scrll-section");
     sections.each(function (i) {
         $(this).attr("id", "scrll-section-" + i);
-        scroll_trig(i);
+        scrollTrig(i);
     });
 
     // constructor for navbar color change
     // ----------------------------------------------------------------
     function navColorChange(id) {
-        var selector = "#js-hero-" + id;
-        var scrll = new ScrollMagic.Scene({
-                triggerElement: selector,
-            })
-            .offset(hero_bottom - 28)
-            .triggerHook(0)
-            .setClassToggle("#js-navbar", "navbar-color--" + id)
-            //.addIndicators()
-            .addTo(controller);
+        var selector = document.getElementById("js-hero-" + id);
+        if (selector) {
+            var scrll = new ScrollMagic.Scene({
+                    triggerElement: selector,
+                })
+                .offset(heroBottom - 28)
+                .triggerHook(0)
+                .setClassToggle("#js-navbar", "navbar-color--" + id)
+                //.addIndicators()
+                .addTo(controller);
+        };
     };
     navColorChange("wn");
     navColorChange("ar");
@@ -110,7 +126,7 @@ $(document).ready(function () {
 
     // image loader
     // ------------------------------------------------------------
-    function img_loader(page) {
+    function imgLoader(page) {
         TweenLite.delayedCall(.05, function () {
             $(".js-loader-item-" + page).Lazy({
                 threshold: 99999,
@@ -147,14 +163,14 @@ $(document).ready(function () {
         var pos = $(window).scrollTop();
 
         // parallax
-        if (pos < window_height) {
+        if (pos < vh) {
             $(".js-parallax").css({
                 "transform": "translate3d(0," + Math.round(0 - pos / 5.5) + "px ,0)"
             });
         };
 
         // show hide specs on scroll
-        if (pos > window_height - (window_height - hero_bottom)) {
+        if (pos > vh - (vh - heroBottom)) {
             $(".js-hero-gradient").addClass("is-active");
             $(".js-specs").addClass("is-active");
         } else {
@@ -198,7 +214,7 @@ $(document).ready(function () {
 
         // case buttons
         // ----------------------
-        function toggle_cases(i) {
+        function toggleCases(i) {
             var btn = ".js-case--" + i;
             var page = ".js-page--" + i;
 
@@ -228,8 +244,8 @@ $(document).ready(function () {
                     if (i === r) {
                         $("#js-navbar").removeClass().addClass("navbar navbar--" + r);
                         $("body").removeClass().addClass("bg--" + r);
-                        split_text(".js-split-txt", 0.08);
-                        img_loader(r);
+                        splitText(".js-split-txt", 0.08);
+                        imgLoader(r);
                         currentPage = r;
                     };
                 };
@@ -238,7 +254,7 @@ $(document).ready(function () {
 
         // loop trough all pages
         for (i = 3; i < routes.length; i++) {
-            toggle_cases(routes[i]);
+            toggleCases(routes[i]);
         };
 
 
@@ -246,7 +262,7 @@ $(document).ready(function () {
         // ------------------------
 
         // base function to trigger page transition
-        function page_transition(s, page) {
+        function pageTransition(s, page) {
             // set current page
             currentPage = page;
 
@@ -260,8 +276,8 @@ $(document).ready(function () {
                         autoAlpha: 1,
                         display: "block",
                     });
-                    split_text(".js-split-txt", 0.08);
-                    split_text(".js-split-txt-about", 0.08);
+                    splitText(".js-split-txt", 0.08);
+                    splitText(".js-split-txt-about", 0.08);
                     // set body background color to page color properties
                     $("body").removeClass().addClass("bg--" + page);
                 },
@@ -284,7 +300,7 @@ $(document).ready(function () {
                 $(".js-line").removeClass("is-active");
             };
             TweenLite.to(".js-line, .js-ao", .6, {
-                ease: default_ease,
+                ease: Power3.easeInOut,
                 autoAlpha: 0,
                 display: "none",
             });
@@ -299,10 +315,10 @@ $(document).ready(function () {
             $(".js-line").addClass("is-active");
             $("#js-navbar").removeClass().addClass("navbar");
             TweenLite.to("#js-navbar", .55, {
-                ease: default_ease,
+                ease: Power3.easeInOut,
                 autoAlpha: 0,
             });
-            img_loader("ns");
+            imgLoader("ns");
             setTimeout(function () {
                 removeFX();
                 $(window).scrollTop(0);
@@ -310,11 +326,11 @@ $(document).ready(function () {
             setTimeout(function () {
                 $("#js-navbar").addClass("navbar--ns");
                 TweenLite.to("#js-navbar", .7, {
-                    ease: default_ease,
+                    ease: Power3.easeInOut,
                     autoAlpha: 1,
                 });
             }, 900);
-            page_transition(.6, "ns");
+            pageTransition(.6, "ns");
         });
 
         // navbar items constructor
@@ -327,7 +343,7 @@ $(document).ready(function () {
                     // fade out navbar
                     if (currentPage !== "home" && currentPage !== r) {
                         TweenLite.to("#js-navbar", .25, {
-                            ease: default_ease,
+                            ease: Power3.easeInOut,
                             autoAlpha: 0,
                         });
                     };
@@ -341,9 +357,9 @@ $(document).ready(function () {
                     // if page is slightly scrolled down animate logo in (on mobile only)
                     if ($(window).scrollTop() >= 40 && mobile == true) {
                         TweenLite.fromTo(".js-logo", .25, {
-                            ease: default_ease,
+                            ease: Power3.easeInOut,
                             autoAlpha: 0,
-                        },{
+                        }, {
                             delay: 0.3,
                             autoAlpha: 1,
                         });
@@ -357,7 +373,7 @@ $(document).ready(function () {
                         if (currentPage !== "home" && currentPage !== r) {
                             $("#js-navbar").removeClass().addClass("navbar navbar--" + i);
                             TweenLite.to("#js-navbar", .7, {
-                                ease: default_ease,
+                                ease: Power3.easeInOut,
                                 autoAlpha: 1,
                             });
                         };
@@ -368,15 +384,15 @@ $(document).ready(function () {
                         // scroll to top
                         $(window).scrollTop(0);
                     }, 300);
-                    page_transition(.25, i);
-                
-                // if page is the same as current page scroll up
+                    pageTransition(.25, i);
+
+                    // if page is the same as current page scroll up
                 } else {
                     if ($(window).scrollTop() >= 480) {
-                        split_text(".js-split-txt-about", 0.3);
+                        splitText(".js-split-txt-about", 0.3);
                     };
                     TweenLite.to(window, 0.5, {
-                        ease: default_ease,
+                        ease: Power3.easeInOut,
                         scrollTo: {
                             y: 0,
                             autoKill: false,
@@ -395,22 +411,23 @@ $(document).ready(function () {
 
     // split text
     // ------------------------------------------------------------
-    function split_text(class_name, delay) {
-        var tl = new TimelineLite,
-            mySplitText = new SplitText(class_name, {
-                type: "words,chars"
-            }),
-            //an array of all the divs that wrap each character
-            chars = mySplitText.chars;
+    function splitText(className, delay) {
+        if ($(className)[0]) {
+            var tl = new TimelineLite,
+                mySplitText = new SplitText(className, {
+                    type: "words,chars"
+                }),
+                //an array of all the divs that wrap each character
+                chars = mySplitText.chars;
 
-        tl.staggerFrom(chars, 0.7, {
-            opacity: 0,
-            x: 80,
-            ease: Back.easeOut,
-            delay: delay,
-        }, 0.01, "+=0");
+            tl.staggerFrom(chars, 0.7, {
+                opacity: 0,
+                x: 80,
+                ease: Back.easeOut,
+                delay: delay,
+            }, 0.01, "+=0");
+        };
     };
-    split_text(".js-split-txt", 0.35);
 
 
 
