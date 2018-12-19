@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     // preloader
     // ------------------------------------------------------------	
-    setTimeout(function () {
+    $(window).on("load", function(){
         TweenLite.to(".loader", 0.3, {
             ease: Power3.easeInOut,
             autoAlpha: 0,
@@ -30,7 +30,7 @@ $(document).ready(function () {
                 splitText(".js-split-txt", 0.35);
             }
         });
-    }, 500);
+    });
 
 
 
