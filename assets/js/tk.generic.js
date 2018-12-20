@@ -22,51 +22,30 @@ $(document).ready(function () {
     // ------------------------------------------------------------	
     function loader() {
         // loader animation
-        var bar = ".loader__bar";
-        var time = 0.4;
-
-        var tl = new TimelineMax({
-            repeat: -1
+        var tween = TweenMax.fromTo(".loader__path", 0.7, {
+            drawSVG: "0% 20%"
+        }, {
+            repeat: -1,
+            ease: SlowMo.ease.config(0.1, 0.2, false),
+            drawSVG: "90% 100%"
         });
-        tl.add(function () {
-                $(bar).css({
-                    "transform-origin": "0 0"
-                });
-            }).fromTo(bar, time, {
-                x: "-50%",
-                scaleX: 0,
-                opacity: 0.2,
-            }, {
-                ease: Power1.easeInOut,
-                x: "0%",
-                scaleX: 1,
-                opacity: 1,
-            })
-            .add(function () {
-                $(bar).css({
-                    "transform-origin": "100% 100%"
-                });
-            })
-            .to(bar, time, {
-                ease: Power2.easeInOut,
-                scaleX: 0,
-                opacity: 0
-            });
 
         // load website
-        $(window).on("load", function(){
-            TweenLite.to(".loader", 0.3, {
-                ease: Power3.easeInOut,
-                autoAlpha: 0,
-                display: "none",
-                onComplete: function () {
-                    TweenLite.set("#app", {
-                        display: "block",
-                    });
-                    tl.kill();
-                    splitText(".js-split-txt", 0.35);
-                }
-            });
+        $(window).on("load", function () {
+            setTimeout(function () {
+                TweenLite.to(".loader", 0.3, {
+                    ease: Power3.easeInOut,
+                    autoAlpha: 0,
+                    display: "none",
+                    onComplete: function () {
+                        TweenLite.set("#app", {
+                            display: "block",
+                        });
+                        tween.kill();
+                        splitText(".js-split-txt", 0.35);
+                    }
+                });
+            }, 1000);
         });
     };
     loader();
