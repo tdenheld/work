@@ -20,19 +20,56 @@ $(document).ready(function () {
 
     // preloader
     // ------------------------------------------------------------	
-    $(window).on("load", function(){
-        TweenLite.to(".loader", 0.3, {
-            ease: Power3.easeInOut,
-            autoAlpha: 0,
-            display: "none",
-            onComplete: function () {
-                TweenLite.set("#app", {
-                    display: "block",
-                });
-                splitText(".js-split-txt", 0.35);
-            }
+    function loader() {
+        // loader animation
+        var bar = ".loader__bar";
+        var time = 0.4;
+
+        var tl = new TimelineMax({
+            repeat: -1
         });
-    });
+        tl.add(function () {
+                $(bar).css({
+                    "transform-origin": "0 0"
+                });
+            }).fromTo(bar, time, {
+                x: "-50%",
+                scaleX: 0,
+                opacity: 0.2,
+            }, {
+                ease: Power1.easeInOut,
+                x: "0%",
+                scaleX: 1,
+                opacity: 1,
+            })
+            .add(function () {
+                $(bar).css({
+                    "transform-origin": "100% 100%"
+                });
+            })
+            .to(bar, time, {
+                ease: Power2.easeInOut,
+                scaleX: 0,
+                opacity: 0
+            });
+
+        // load website
+        $(window).on("load", function(){
+            TweenLite.to(".loader", 0.3, {
+                ease: Power3.easeInOut,
+                autoAlpha: 0,
+                display: "none",
+                onComplete: function () {
+                    TweenLite.set("#app", {
+                        display: "block",
+                    });
+                    tl.kill();
+                    splitText(".js-split-txt", 0.35);
+                }
+            });
+        });
+    };
+    loader();
 
 
 
