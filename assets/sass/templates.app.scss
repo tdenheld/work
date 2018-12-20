@@ -22,6 +22,53 @@
 
 
 
+
+/*-------------------
+	  Preloader
+--------------------*/
+
+.loader {
+    @include full(fixed);
+    @include flex-center;
+}
+
+@keyframes loader-scale {
+    0% 		{transform: scaleX(0);}
+    100%	{transform: scaleX(1);}
+}
+
+@keyframes loader-fade {
+    50% 	{opacity: 1;}
+    100%	{opacity: 0;}
+}
+
+.loader__bar {
+    position: relative;
+    width: 100%;
+    animation: loader-fade 1s $ease both infinite;
+
+    &:before {
+        content: '';
+        display: block;
+        @include full(absolute);
+        border-bottom: 1px solid $pinkish;
+        transform-origin: 0 0;
+        animation: loader-scale 1s $ease both infinite;
+    }
+}
+
+.loader__wrapper {
+    width: 256px;
+}
+
+.loader__txt {
+    font-size: calculate-rem($txt-s);
+    font-weight: 300;
+}
+
+
+
+
 /*-------------------
 		Lines
 --------------------*/
@@ -260,21 +307,4 @@
             font-size: calculate-rem($txt-l);
         }	
     }
-}
-
-.loader {
-    @include full(fixed);
-    @include flex-center;
-}
-
-@keyframes loader__obj {
-    0% 		{transform: scaleX(0);}
-    100%	{transform: scaleX(1);}
-}
-
-.loader__obj {
-    width: 256px;
-    border-bottom: 1px solid $pinkish;
-    transform-origin: 0 0;
-    animation: loader__obj 1s $ease both infinite;
 }

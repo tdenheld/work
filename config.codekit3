@@ -1117,7 +1117,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/node_modules/greensock-js/plugins/MorphSVGPlugin.js",
 		"oF": 0,
 		"sC": 1,
@@ -2763,26 +2763,32 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/greensock-js/utils/SplitText.js",
+			"linkedFileAbbreviatedPath": "/node_modules/greensock-js/plugins/MorphSVGPlugin.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/greensock-js/plugins/ScrollToPlugin.js",
+			"linkedFileAbbreviatedPath": "/node_modules/greensock-js/utils/SplitText.js",
 			"position": 6,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/scroll-magic/scroll-magic.js",
+			"linkedFileAbbreviatedPath": "/node_modules/greensock-js/plugins/ScrollToPlugin.js",
 			"position": 7,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/node_modules/scroll-magic/plugins/debug.addIndicators.js",
+			"linkedFileAbbreviatedPath": "/node_modules/scroll-magic/scroll-magic.js",
 			"position": 8,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "/node_modules/scroll-magic/plugins/debug.addIndicators.js",
+			"position": 9,
 			"type": 0
 			}
 		],
