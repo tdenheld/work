@@ -26,7 +26,7 @@ $(document).ready(function () {
             opacity: 1
         });
 
-        // loader animation
+        // loader animation - draw svg
         var tween = TweenMax.fromTo(".loader__path", 0.7, {
             drawSVG: "0% 20%"
         }, {
@@ -37,20 +37,19 @@ $(document).ready(function () {
 
         // load website
         $(window).on("load", function () {
-            setTimeout(function () {
-                TweenLite.to(".loader", 0.3, {
-                    ease: Power3.easeInOut,
-                    autoAlpha: 0,
-                    display: "none",
-                    onComplete: function () {
-                        TweenLite.set("#app", {
-                            display: "block",
-                        });
-                        tween.kill();
-                        splitText(".js-split-txt", 0.35);
-                    }
-                });
-            }, 1000);
+            TweenLite.to(".loader", 0.3, {
+                delay: 1,
+                ease: Power3.easeInOut,
+                autoAlpha: 0,
+                display: "none",
+                onComplete: function () {
+                    TweenLite.set("#app", {
+                        display: "block",
+                    });
+                    tween.kill();
+                    splitText(".js-split-txt", 0.35);
+                }
+            });
         });
     };
     loader();
