@@ -21,6 +21,11 @@ $(document).ready(function () {
     // preloader
     // ------------------------------------------------------------	
     function loader() {
+        // init loader view
+        TweenMax.to(".loader", 0.1, {
+            opacity: 1
+        });
+
         // loader animation
         var tween = TweenMax.fromTo(".loader__path", 0.7, {
             drawSVG: "0% 20%"

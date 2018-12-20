@@ -48,6 +48,7 @@
 --------------------*/
 
 .loader {
+    opacity: 0;
     @include full(fixed);
     @include flex-center;
 }
