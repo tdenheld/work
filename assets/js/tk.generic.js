@@ -1,6 +1,6 @@
 // TK305 - JAVASCRIPT
 
-$(document).ready(function () {
+$(function () {
 
     // global vars
     // ------------------------------------------------------------
@@ -13,46 +13,6 @@ $(document).ready(function () {
     // settings on scroll
     var heroBottom = Number;
     var triggerHook = Number;
-
-
-
-
-
-    // preloader
-    // ------------------------------------------------------------	
-    function loader() {
-        // init loader view
-        TweenMax.to(".loader", 0.1, {
-            opacity: 1
-        });
-
-        // loader animation - draw svg
-        var tween = TweenMax.fromTo(".loader__path", 0.7, {
-            drawSVG: "0% 20%"
-        }, {
-            repeat: -1,
-            ease: SlowMo.ease.config(0.1, 0.2, false),
-            drawSVG: "90% 100%"
-        });
-
-        // load website
-        $(window).on("load", function () {
-            TweenLite.to(".loader", 0.3, {
-                delay: 1,
-                ease: Power3.easeInOut,
-                autoAlpha: 0,
-                display: "none",
-                onComplete: function () {
-                    TweenLite.set("#app", {
-                        display: "block",
-                    });
-                    tween.kill();
-                    splitText(".js-split-txt", 0.35);
-                }
-            });
-        });
-    };
-    loader();
 
 
 
@@ -431,28 +391,6 @@ $(document).ready(function () {
 
 
 
-    // split text
-    // ------------------------------------------------------------
-    function splitText(className, delay) {
-        if ($(className)[0]) {
-            var tl = new TimelineLite,
-                mySplitText = new SplitText(className, {
-                    type: "words,chars"
-                }),
-                //an array of all the divs that wrap each character
-                chars = mySplitText.chars;
-
-            tl.staggerFrom(chars, 0.7, {
-                opacity: 0,
-                x: 80,
-                ease: Back.easeOut,
-                delay: delay,
-            }, 0.01, "+=0");
-        };
-    };
-
-
-
 
     // include html
     // ------------------------------------------------------------
@@ -490,3 +428,59 @@ $(document).ready(function () {
     include_html();
 
 });
+
+// split text
+// ------------------------------------------------------------
+function splitText(className, delay) {
+    if ($(className)[0]) {
+        var tl = new TimelineLite,
+            mySplitText = new SplitText(className, {
+                type: "words,chars"
+            }),
+            //an array of all the divs that wrap each character
+            chars = mySplitText.chars;
+
+        tl.staggerFrom(chars, 0.7, {
+            opacity: 0,
+            x: 80,
+            ease: Back.easeOut,
+            delay: delay,
+        }, 0.01, "+=0");
+    };
+};
+
+// preloader
+// ------------------------------------------------------------	
+function loader() {
+    // init loader view
+    TweenMax.to(".loader", 0.1, {
+        opacity: 1
+    });
+
+    // loader animation - draw svg
+    var tween = TweenMax.fromTo(".loader__path", 0.7, {
+        drawSVG: "0% 20%"
+    }, {
+        repeat: -1,
+        ease: SlowMo.ease.config(0.1, 0.2, false),
+        drawSVG: "90% 100%"
+    });
+
+    // load website
+    window.addEventListener("load", function() {
+        TweenLite.to(".loader", 0.3, {
+            delay: 1,
+            ease: Power3.easeInOut,
+            autoAlpha: 0,
+            display: "none",
+            onComplete: function () {
+                TweenLite.set("#app", {
+                    display: "block",
+                });
+                tween.kill();
+                splitText(".js-split-txt", 0.35);
+            }
+        });
+    });
+};
+loader();
