@@ -21,8 +21,8 @@ var triggerHook = Number;
 
 // update screen
 function updateWindowSize() {
-    vh = $(window).innerHeight();
-    vw = $(window).innerWidth();
+    vh = window.innerHeight;
+    vw = window.innerWidth;
     heroBottom = Math.round(vw * .625);
 
     // set breakpoints
@@ -120,17 +120,6 @@ function imgLoader(page) {
     });
 };
 
-// load hero images sequentially to preload them after initial load
-function heroLoad(page) {
-    var hero = ".js-loader-hero-" + page;
-    $(hero).Lazy();
-};
-$(function () {
-    heroLoad("ns");
-    heroLoad("wn");
-    heroLoad("ar");
-    heroLoad("cg");
-});
 
 
 
@@ -156,13 +145,11 @@ function scroll() {
         });
     };
 
-    // show hide specs on scroll
+    // show hide hero specs on scroll
     if (pos > vh - (vh - heroBottom)) {
-        $(".js-hero-gradient").addClass("is-active");
-        $(".js-specs").addClass("is-active");
+        $(".js-hero-gradient, .js-specs").addClass("is-active");
     } else {
-        $(".js-hero-gradient").removeClass("is-active");
-        $(".js-specs").removeClass("is-active");
+        $(".js-hero-gradient, .js-specs").removeClass("is-active");
     };
 
     scrolled = false;

@@ -107,11 +107,9 @@ templates['case'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = helpers.intro || (depth0 != null ? depth0.intro : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"intro","hash":{},"data":data}) : helper)))
     + "</p>\n			</div>\n			<div class=\"scroll-down scroll-down--bottom a a-fi-up a-del-500\">\n				<div class=\"scroll-down__icon\">\n					<div class=\"scroll-down__icon-circle\"></div>\n				</div>\n				<p class=\"scroll-down__label\">scroll down to discover</p>\n			</div>\n		</div>\n	</div>\n\n	<div class=\"case__content a a-fi\">\n		<div class=\"case__hero-container\" id=\"js-hero-"
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
-    + "\">\n			<img data-src=\"media/"
-    + alias4(((helper = (helper = helpers.hero || (depth0 != null ? depth0.hero : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"hero","hash":{},"data":data}) : helper)))
-    + "\" src=\"\" class=\"case__hero-img js-loader-hero-"
+    + "\">\n			<img src=\"media/"
     + alias4(((helper = (helper = helpers.page || (depth0 != null ? depth0.page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page","hash":{},"data":data}) : helper)))
-    + "\" />\n"
+    + "/hero.jpg\" class=\"case__hero-img\" />\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.specs : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "		</div>\n		<div class=\"container\">\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.item : depth0),{"name":"each","hash":{},"fn":container.program(6, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")

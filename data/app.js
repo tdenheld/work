@@ -75,7 +75,6 @@ var ns_context = {
 	"page" : "ns",
 	"title" : "Dutch Railways",
 	"intro" : "NS is the leading railway company of The Netherlands, transporting over 600.000 people who between them travel over 1.1 million times a day. As their Lead Visual Designer, I continually assist NS in optimizing their online services.",
-	"hero" : "ns/hero.jpg",
 	"specs" : [
 		{
 			"title" : "Client",
@@ -131,7 +130,6 @@ var wn_context = {
 	"page" : "wn",	
 	"title" : false,
 	"intro" : "Uselab asked me to collaborate to produce a web application for everyone who sails, lives, works and party on and around the Amsterdam canals. I visually designed a canal platform where anybody can find practical information and share experiences, photos and videos about the canals.",
-	"hero" : "wn/hero.jpg",
 	"specs" : [
 		{
 			"title" : "Client",
@@ -170,7 +168,6 @@ var cg_context = {
 	"page" : "cg",	
 	"title" : "Circle of Gentlemen",
 	"intro" : "Fashion by Circle of Gentlemen stands for beautiful qualities and sophisticated style brought together in elegant collections. In 2010, I was invited to a website design pitch and won. Untill 2016, we have been working closely together to display a beautiful online collection every six months.",
-	"hero" : "cg/hero.jpg",
 	"specs" : [
 		{
 			"title" : "Clients",
@@ -231,7 +228,6 @@ var ar_context = {
 	"page" : "ar",	
 	"title" : false,
 	"intro" : "Space, silence and impressive nature have been the basis of Askja Reizen for more than twenty years. It is a concept that appeals to more and more people. No wonder, because an active nature holiday is a relief to counterbalance the hustle and bustle of everyday life.",
-	"hero" : "ar/hero.jpg",
 	"specs" : [
 		{
 			"title" : "Client",
