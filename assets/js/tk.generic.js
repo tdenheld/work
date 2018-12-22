@@ -44,36 +44,6 @@ $(window).resize(function () {
 
 
 
-// morph svg
-// ------------------------------------------------------------
-function morphSVG() {
-    var tl = new TimelineMax({
-        repeat: -1
-    });
-    blob = document.getElementById("blob1");
-
-    tl.to(blob, 10, {
-            morphSVG: "#blob2",
-            ease: Power0.easeNone,
-            shapeIndex:6
-        })
-        .to(blob, 10, {
-            morphSVG: "#blob3",
-            ease: Power0.easeNone,
-            shapeIndex:6
-        })
-        .to(blob, 10, {
-            morphSVG: blob,
-            ease: Power0.easeNone,
-            shapeIndex:6
-        });
-};
-morphSVG();
-
-
-
-
-
 
 // scroll magic
 // ------------------------------------------------------------------

@@ -278,31 +278,6 @@
 
 
 
-/*-------------------
-	     Blob
---------------------*/
-.blob {
-    @include full(fixed);
-    @include flex-center;
-    opacity: 0.1;
-
-    svg {
-        position: relative;
-        top: 9%;
-        left: 6%;
-        width: 100vw;
-        fill: $black;
-    }
-}
-
-.blob__path {
-    visibility: hidden;
-    &:first-child {
-        visibility: visible;
-    }
-}
-
-
 
 /*-------------------
 	    Misc
