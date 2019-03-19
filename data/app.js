@@ -32,7 +32,7 @@ var context = {
 	// work
 	// --------------------------------
 	"work": {
-		"title": "Selected work of TK305",
+		"title": "Selected work of Tibor den Held",
 		"items": [
 			{
 				"page" : "ns",

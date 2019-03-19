@@ -7,11 +7,12 @@
 		"uuidString": "5C60E87F-5506-4B6F-A088-DDF1D9E4563C"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.gitignore",
 		"oF": 0
@@ -29,6 +30,7 @@
 	"/assets/fnts/pb.otf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/assets/fnts/pb.otf",
 		"oF": 0
@@ -36,6 +38,7 @@
 	"/assets/fnts/pl.otf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/assets/fnts/pl.otf",
 		"oF": 0
@@ -43,6 +46,7 @@
 	"/assets/fnts/pr.otf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/assets/fnts/pr.otf",
 		"oF": 0
@@ -50,6 +54,7 @@
 	"/assets/fnts/ps.otf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/assets/fnts/ps.otf",
 		"oF": 0
@@ -57,6 +62,7 @@
 	"/assets/fnts/px.otf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/assets/fnts/px.otf",
 		"oF": 0
@@ -133,6 +139,7 @@
 		"prP": 0
 		},
 	"/assets/js/plugins.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -143,6 +150,7 @@
 		"tS": 0
 		},
 	"/assets/js/plugins.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -153,6 +161,7 @@
 		"tS": 0
 		},
 	"/assets/js/templates.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -163,6 +172,7 @@
 		"tS": 0
 		},
 	"/assets/js/tk.generic.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -173,6 +183,7 @@
 		"tS": 0
 		},
 	"/assets/js/tk.generic.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -443,6 +454,7 @@
 		"uL": 1
 		},
 	"/data/app.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -466,6 +478,7 @@
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
 		"oF": 0
@@ -974,6 +987,7 @@
 		"q": 75
 		},
 	"/node_modules/greensock-js/easing/CustomBounce.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -984,6 +998,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/easing/CustomEase.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -994,6 +1009,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/easing/CustomWiggle.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1004,6 +1020,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/easing/EasePack.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1014,6 +1031,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/jquery.gsap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1024,6 +1042,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/AttrPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1034,6 +1053,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/BezierPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1044,6 +1064,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/ColorPropsPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1054,6 +1075,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/CSSPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1064,6 +1086,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/CSSRulePlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1074,6 +1097,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/DirectionalRotationPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1084,6 +1108,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/DrawSVGPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1094,6 +1119,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/EaselPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1104,6 +1130,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/EndArrayPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1114,6 +1141,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/ModifiersPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1124,6 +1152,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/MorphSVGPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1134,6 +1163,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/Physics2DPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1144,6 +1174,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/PhysicsPropsPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1154,6 +1185,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/PixiPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1164,6 +1196,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/RaphaelPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1174,6 +1207,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/RoundPropsPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1184,6 +1218,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/ScrambleTextPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1194,6 +1229,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/ScrollToPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1204,6 +1240,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/TEMPLATE_Plugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1214,6 +1251,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/TextPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1224,6 +1262,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/plugins/ThrowPropsPlugin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1234,6 +1273,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/TimelineLite.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1244,6 +1284,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/TimelineMax.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1254,6 +1295,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/TweenLite.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1264,6 +1306,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/TweenMax.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1274,6 +1317,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/utils/Draggable.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1284,6 +1328,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/utils/GSDevTools.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1294,6 +1339,7 @@
 		"tS": 0
 		},
 	"/node_modules/greensock-js/utils/SplitText.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1304,6 +1350,7 @@
 		"tS": 0
 		},
 	"/node_modules/handlebars/handlebars.runtime-v4.0.11.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1314,6 +1361,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery.lazy/jquery.lazy.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1334,6 +1382,7 @@
 	"/node_modules/jquery/AUTHORS.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/jquery/AUTHORS.txt",
 		"oF": 0
@@ -1347,6 +1396,7 @@
 		"oS": 1
 		},
 	"/node_modules/jquery/dist/core.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1357,6 +1407,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/dist/jquery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1367,6 +1418,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/dist/jquery.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1379,11 +1431,13 @@
 	"/node_modules/jquery/dist/jquery.min.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/jquery/dist/jquery.min.map",
 		"oF": 0
 		},
 	"/node_modules/jquery/dist/jquery.slim.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1394,6 +1448,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/dist/jquery.slim.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1406,11 +1461,13 @@
 	"/node_modules/jquery/dist/jquery.slim.min.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/jquery/dist/jquery.slim.min.map",
 		"oF": 0
 		},
 	"/node_modules/jquery/external/sizzle/dist/sizzle.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1421,6 +1478,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/external/sizzle/dist/sizzle.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1433,6 +1491,7 @@
 	"/node_modules/jquery/external/sizzle/dist/sizzle.min.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/jquery/external/sizzle/dist/sizzle.min.map",
 		"oF": 0
@@ -1440,6 +1499,7 @@
 	"/node_modules/jquery/external/sizzle/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/jquery/external/sizzle/LICENSE.txt",
 		"oF": 0
@@ -1447,6 +1507,7 @@
 	"/node_modules/jquery/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/jquery/LICENSE.txt",
 		"oF": 0
@@ -1459,6 +1520,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/jquery/README.md",
 		"oF": 0,
@@ -1478,6 +1540,7 @@
 		"oS": 1
 		},
 	"/node_modules/jquery/src/ajax.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1488,6 +1551,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/ajax/jsonp.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1498,6 +1562,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/ajax/load.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1508,6 +1573,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/ajax/parseXML.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1518,6 +1584,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/ajax/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1528,6 +1595,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/ajax/var/location.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1538,6 +1606,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/ajax/var/nonce.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1548,6 +1617,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/ajax/var/rquery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1558,6 +1628,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/ajax/xhr.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1568,6 +1639,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/attributes.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1578,6 +1650,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/attributes/attr.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1588,6 +1661,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/attributes/classes.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1598,6 +1672,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/attributes/prop.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1608,6 +1683,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/attributes/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1618,6 +1694,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/attributes/val.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1628,6 +1705,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/callbacks.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1638,6 +1716,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1648,6 +1727,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/access.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1658,6 +1738,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/camelCase.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1668,6 +1749,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/DOMEval.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1678,6 +1760,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/init.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1688,6 +1771,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/nodeName.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1698,6 +1782,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/parseHTML.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1708,6 +1793,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/ready-no-deferred.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1718,6 +1804,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/ready.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1728,6 +1815,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/readyException.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1738,6 +1826,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/stripAndCollapse.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1748,6 +1837,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1758,6 +1848,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/toType.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1768,6 +1859,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/core/var/rsingleTag.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1778,6 +1870,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1788,6 +1881,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/addGetHookIf.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1798,6 +1892,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/adjustCSS.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1808,6 +1903,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/curCSS.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1818,6 +1914,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/hiddenVisibleSelectors.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1828,6 +1925,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/showHide.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1838,6 +1936,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1848,6 +1947,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/var/cssExpand.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1858,6 +1958,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/var/getStyles.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1868,6 +1969,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/var/isHiddenWithinTree.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1878,6 +1980,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/var/rboxStyle.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1888,6 +1991,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/var/rnumnonpx.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1898,6 +2002,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/css/var/swap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1908,6 +2013,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/data.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1918,6 +2024,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/data/Data.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1928,6 +2035,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/data/var/acceptData.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1938,6 +2046,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/data/var/dataPriv.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1948,6 +2057,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/data/var/dataUser.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1958,6 +2068,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/deferred.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1968,6 +2079,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/deferred/exceptionHook.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1978,6 +2090,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/deprecated.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1988,6 +2101,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/dimensions.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1998,6 +2112,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/effects.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2008,6 +2123,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/effects/animatedSelector.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2018,6 +2134,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/effects/Tween.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2028,6 +2145,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/event.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2038,6 +2156,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/event/ajax.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2048,6 +2167,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/event/alias.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2058,6 +2178,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/event/focusin.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2068,6 +2189,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/event/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2078,6 +2200,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/event/trigger.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2088,6 +2211,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/exports/amd.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2098,6 +2222,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/exports/global.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2108,6 +2233,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/jquery.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2118,6 +2244,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2128,6 +2255,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation/_evalUrl.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2138,6 +2266,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation/buildFragment.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2148,6 +2277,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation/getAll.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2158,6 +2288,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation/setGlobalEval.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2168,6 +2299,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2178,6 +2310,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation/var/rcheckableType.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2188,6 +2321,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation/var/rscriptType.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2198,6 +2332,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation/var/rtagName.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2208,6 +2343,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/manipulation/wrapMap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2218,6 +2354,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/offset.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2228,6 +2365,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/queue.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2238,6 +2376,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/queue/delay.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2248,6 +2387,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/selector-native.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2258,6 +2398,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/selector-sizzle.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2268,6 +2409,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/selector.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2278,6 +2420,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/serialize.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2288,6 +2431,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/traversing.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2298,6 +2442,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/traversing/findFilter.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2308,6 +2453,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/traversing/var/dir.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2318,6 +2464,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/traversing/var/rneedsContext.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2328,6 +2475,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/traversing/var/siblings.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2338,6 +2486,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/arr.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2348,6 +2497,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/class2type.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2358,6 +2508,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/concat.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2368,6 +2519,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/document.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2378,6 +2530,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/documentElement.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2388,6 +2541,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/fnToString.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2398,6 +2552,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/getProto.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2408,6 +2563,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/hasOwn.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2418,6 +2574,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/indexOf.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2428,6 +2585,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/isFunction.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2438,6 +2596,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/isWindow.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2448,6 +2607,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/ObjectFunctionString.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2458,6 +2618,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/pnum.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2468,6 +2629,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/push.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2478,6 +2640,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/rcssNum.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2488,6 +2651,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/rnothtmlwhite.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2498,6 +2662,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/slice.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2508,6 +2673,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/support.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2518,6 +2684,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/var/toString.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2528,6 +2695,7 @@
 		"tS": 0
 		},
 	"/node_modules/jquery/src/wrap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2538,6 +2706,7 @@
 		"tS": 0
 		},
 	"/node_modules/scroll-magic/plugins/animation.gsap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2548,6 +2717,7 @@
 		"tS": 0
 		},
 	"/node_modules/scroll-magic/plugins/animation.velocity.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2558,6 +2728,7 @@
 		"tS": 0
 		},
 	"/node_modules/scroll-magic/plugins/debug.addIndicators.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2568,6 +2739,7 @@
 		"tS": 0
 		},
 	"/node_modules/scroll-magic/plugins/jquery.ScrollMagic.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2578,6 +2750,7 @@
 		"tS": 0
 		},
 	"/node_modules/scroll-magic/scroll-magic.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2598,6 +2771,7 @@
 	"/node_modules/Tweetie/api/config.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/Tweetie/api/config.php",
 		"oF": 0
@@ -2605,6 +2779,7 @@
 	"/node_modules/Tweetie/api/tweet.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/Tweetie/api/tweet.php",
 		"oF": 0
@@ -2612,6 +2787,7 @@
 	"/node_modules/Tweetie/api/twitteroauth/OAuth.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/Tweetie/api/twitteroauth/OAuth.php",
 		"oF": 0
@@ -2619,6 +2795,7 @@
 	"/node_modules/Tweetie/api/twitteroauth/twitteroauth.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/Tweetie/api/twitteroauth/twitteroauth.php",
 		"oF": 0
@@ -2634,6 +2811,7 @@
 	"/node_modules/Tweetie/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/Tweetie/index.html",
 		"oF": 0
@@ -2646,6 +2824,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/node_modules/Tweetie/README.md",
 		"oF": 0,
@@ -2665,6 +2844,7 @@
 		"oS": 1
 		},
 	"/node_modules/Tweetie/tweetie.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2675,6 +2855,7 @@
 		"tS": 0
 		},
 	"/node_modules/Tweetie/tweetie.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2695,6 +2876,7 @@
 	"/templates/about.hbs": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/about.hbs",
 		"oF": 0
@@ -2702,6 +2884,7 @@
 	"/templates/app.hbs": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/app.hbs",
 		"oF": 1
@@ -2709,6 +2892,7 @@
 	"/templates/case.hbs": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/case.hbs",
 		"oF": 0
@@ -2716,6 +2900,7 @@
 	"/templates/home.hbs": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/home.hbs",
 		"oF": 0
@@ -2723,6 +2908,7 @@
 	"/templates/work.hbs": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/work.hbs",
 		"oF": 0
@@ -2919,6 +3105,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -2938,6 +3130,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -2988,6 +3210,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -3021,10 +3246,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -3973,6 +4204,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -4635,6 +4870,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -4656,6 +4892,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -4678,7 +4915,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -4717,6 +4955,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -4726,7 +4965,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -4747,7 +4987,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -4776,7 +5017,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -4864,16 +5106,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -4885,14 +5131,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4915,6 +5161,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -4940,10 +5190,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -4952,13 +5198,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -4970,6 +5216,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -4992,13 +5242,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -5007,10 +5257,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -5034,6 +5280,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -5068,6 +5318,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -5077,6 +5331,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5104,15 +5362,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},

@@ -154,6 +154,12 @@ function scroll() {
 };
 
 
+function backButton() {
+    history.pushState(null, null);
+    window.addEventListener("popstate", function (event) {
+        window.location.assign("/");
+    });
+};
 
 
 
@@ -204,10 +210,11 @@ function router() {
                 display: "block"
             });
 
-            // reset navbar, FX and page scroll position
+            // reset navbar, FX, backbutton and page scroll position
             removeFX(true);
             $(".js-nav--work").removeClass("is-active");
             $(".js-nav--about").removeClass("is-active");
+            backButton();
             $(window).scrollTop(0);
 
             // loop through pages on click to match the current page
@@ -252,6 +259,8 @@ function router() {
                 splitText(".js-split-txt-about", 0.08);
                 // set body background color to page color properties
                 $("body").removeClass().addClass("bg--" + page);
+                // set backButton
+                backButton();
             },
         });
     };
