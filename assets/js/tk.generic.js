@@ -438,7 +438,7 @@ function splitText(className, delay) {
             mySplitText = new SplitText(className, {
                 type: "words,chars"
             }),
-            //an array of all the divs that wrap each character
+            // an array of all the divs that wrap each character
             chars = mySplitText.chars;
 
         tl.staggerFrom(chars, 0.7, {

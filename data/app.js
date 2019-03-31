@@ -74,14 +74,14 @@ var context = {
 var ns_context = {	
 	"page" : "ns",
 	"title" : "Dutch Railways",
-	"intro" : "NS is the leading railway company of The Netherlands, transporting over 600.000 people who between them travel over 1.1 million times a day. As their Lead Visual Designer, I continually assist NS in optimizing their online services.",
+	"intro" : "NS is the leading railway company of The Netherlands, transporting over 600.000 people who between them travel over 1.1 million times a day. As their Lead Digital Designer, I continually assist NS in optimizing their online services.",
 	"specs" : [
 		{
 			"title" : "Client",
 			"description" : "Nederlandse Spoorwegen",
 		},{
 			"title" : "Role",
-			"description" : "Lead Visual Design",
+			"description" : "Lead Digital Design",
 		},{
 			"title" : "Technologies",
 			"description" : "Sketch <br>HTML5 / CSS3 / JS <br>Adobe",
@@ -244,7 +244,7 @@ var ar_context = {
 		{
 			"text" : {
 				"title" : "Plentiful visuals",
-				"description" : "TK305 was asked to renew the website from head to toe, in which the richly filled product database of visual material and travel experiences of Askja was an important starting point. An extensive session in which Askja, developing agency Tweede Golf and TK305 have valued the content components has served as the basis of the user experience.",
+				"description" : "Askja asked me to renew their website from head to toe. A huge product database of travel experiences was a welcome starting point. An extensive card sorting session has served as the basis of the user experience.",
 			},
 		},{
 			"img" : "ar/ar1.jpg",
