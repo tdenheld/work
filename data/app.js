@@ -58,7 +58,7 @@ var context = {
 	// --------------------------------
 	"about" : {
         "title" : "It’s me again!",
-        "subtitle": "Last update – October 24, 2018",
+        "subtitle": "Last update – April 2, 2019",
 		"p1" : "Currently working as a Senior Digital Designer at Dutch Railways (NS).",
 		"p2" : "I'm mostly intrigued with visual design, prototyping, UX and branding. Working with large online platforms as well as tasteful campaign websites. If possible I implement my designs in code.",
 		"p3" : "I developed experiences for brands such as, KPN, Greenpeace, Mitsubishi, KLM, Capgemini, NS, SnappCar, Adformatie, Endemol, and more.",
