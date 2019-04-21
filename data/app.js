@@ -74,17 +74,17 @@ var context = {
 var ns_context = {	
 	"page" : "ns",
 	"title" : "Dutch Railways",
-	"intro" : "NS is the leading railway company of The Netherlands, transporting over 600.000 people who between them travel over 1.1 million times a day. As their Lead Digital Designer, I continually assist NS in optimizing their online services.",
+	"intro" : "NS is the leading railway company of The Netherlands, transporting over 600.000 people who between them travel over 1.1 million times a day. As their Lead Designer, I continually assist NS in optimizing their online services.",
 	"specs" : [
 		{
-			"title" : "Client",
+			"title" : "Employer",
 			"description" : "Nederlandse Spoorwegen",
 		},{
 			"title" : "Role",
-			"description" : "Lead Digital Design",
+			"description" : "Design Lead",
 		},{
 			"title" : "Technologies",
-			"description" : "Sketch <br>HTML5 / CSS3 / JS <br>Adobe",
+			"description" : "Sketch / Figma<br>HTML5 / CSS3 / JS <br>Adobe",
 		},
 	],
 	"item" : [
