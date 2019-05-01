@@ -149,6 +149,7 @@
 }
 
 .intro__container {
+    overflow: hidden;
     max-width: $text-container-s;
     align-self: center;
     padding: $double-space;
