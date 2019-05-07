@@ -138,6 +138,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/assets/js/data.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/assets/js/data-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/assets/js/plugins.js": {
 		"bF": 0,
 		"ft": 64,
@@ -452,17 +463,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/data/app.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/data/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/favicon.png": {
 		"ft": 32768,
@@ -3009,7 +3009,7 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/data/app.js",
+			"linkedFileAbbreviatedPath": "/assets/js/data.js",
 			"position": 1,
 			"type": 0
 			}

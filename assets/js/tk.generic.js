@@ -367,8 +367,8 @@ function router() {
                 }, 300);
                 pageTransition(.25, i);
 
-                // if page is the same as current page scroll up
             } else {
+                // if page is the same as current page scroll up
                 if ($(window).scrollTop() >= 480) {
                     splitText(".js-split-txt-about", 0.3);
                 };
