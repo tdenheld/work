@@ -25,7 +25,7 @@ var context = {
 	// --------------------------------
 	"home": {
         "title": "Hoi. It's me, Tibor!",
-        "subtitle": "I'm a Utrecht based digital maker that's fond about designing with code.",
+        "subtitle": "I'm a Utrecht based digital maker who's fond of designing with code.",
 		"button": "checkout latest work"
 	},
 
