@@ -24,7 +24,7 @@ var context = {
 	// home
 	// --------------------------------
 	"home": {
-        "title": "Hoi. It's me, Tibor!",
+        "title": "Hi, it's me Tibor!",
         "subtitle": "I'm a Utrecht based digital maker who's fond of designing with code.",
 		"button": "checkout latest work"
 	},
@@ -84,7 +84,7 @@ var ns_context = {
 			"description" : "Design Lead",
 		},{
 			"title" : "Technologies",
-			"description" : "Sketch / Figma<br>HTML5 / CSS3 / JS <br>Adobe",
+			"description" : "HTML5 / CSS3 / JS <br>Sketch / Figma<br>Adobe",
 		},
 	],
 	"item" : [
