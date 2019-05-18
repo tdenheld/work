@@ -37,7 +37,7 @@ var context = {
 			{
 				"page" : "ns",
 				"title" : "Dutch Railways",
-				"description" : "Lead Visual Design",
+				"description" : "Design Lead",
 			},{
 				"page" : "wn",
 				"title" : "Waternet",
