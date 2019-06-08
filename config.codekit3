@@ -508,9 +508,9 @@
 	"/media/ar/ar3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/media/ar/ar3.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -518,9 +518,9 @@
 	"/media/ar/ar4.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/media/ar/ar4.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -819,6 +819,14 @@
 		"opt": 1,
 		"q": 79
 		},
+	"/media/portret-wink.gif": {
+		"ft": 4194304,
+		"iS": 229681,
+		"oA": 0,
+		"oAP": "/media/portret-wink.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/media/portret.jpg": {
 		"ft": 16384,
 		"iS": 832699,
@@ -904,13 +912,13 @@
 		},
 	"/media/wn/wn1.jpg": {
 		"ft": 16384,
-		"iS": 323635,
+		"iS": 637244,
 		"jF": 2,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/media/wn/wn1.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 75
 		},
 	"/media/wn/wn2.png": {
